@@ -1,0 +1,12 @@
+{
+    "stackgroup.emixx.c:unstripped_logs": "带皮原木",
+    "stackgroup.emixx.c:unstripped_woods": "带皮木",
+    "stackgroup.emixx.c:stripped_logs": "去皮原木",
+    "stackgroup.emixx.c:stripped_woods": "去皮木材",
+
+    
+    "stackgroup.emixx.minecraft:planks": "木板",
+    "stackgroup.emixx.minecraft:wooden_stairs": "木楼梯",
+    "stackgroup.emixx.minecraft:wooden_slabs": "木台阶",
+    "stackgroup.emixx.minecraft:wooden_fences": "木栅栏"
+}

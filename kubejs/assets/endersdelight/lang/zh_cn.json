@@ -1,0 +1,13 @@
+{
+    "block.endersdelight.stuffed_shulker": "填陷潜影贝",
+    "block.endersdelight.chorusflame_bush": "紫颂火花",
+    "block.endersdelight.voidpepper_bush": "虚空椒",
+
+    "item.endersdelight.sight_fragments": "视界碎片",
+
+    "itemGroup.endersdelight": "末影乐事",
+    
+    "tooltip.endersdelight.shulker_mollusk": "用刀击杀潜影贝获取",
+    "tooltip.endersdelight.mite_crust": "用刀击杀末影螨获取",
+    "tooltip.endersdelight.enderman_sight": "用刀击杀末影人获取"
+}

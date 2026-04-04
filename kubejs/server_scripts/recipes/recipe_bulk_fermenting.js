@@ -1,0 +1,20 @@
+ServerEvents.recipes(event => {
+    event.custom({
+        "type": "createdieselgenerators:bulk_fermenting",
+        "ingredients": [
+            {
+                "tag": "createdieselgenerators:fermentable"
+            },
+            {
+                "item": "minecraft:bone_meal"
+            }
+        ],
+        "processing_time": 400,
+        "results": [
+            {
+                "id": "createdieselgenerators:ethanol",
+                "amount": 400
+            }
+        ]
+    });
+})

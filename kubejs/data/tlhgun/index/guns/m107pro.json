@@ -1,0 +1,7 @@
+{
+  "name": "tlhgun.gun.m107pro.name",
+  "display": "tlhgun:m107pro_display",
+  "data": "tlhgun:m107pro_data",
+  "tooltip": "tlhgun.gun.m107pro.desc",
+  "type": "sniper"
+}

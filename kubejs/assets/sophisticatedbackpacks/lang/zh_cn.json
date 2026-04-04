@@ -1,0 +1,10 @@
+{
+    "key.sophisticatedbackpacks.inventory_interaction": "运行升级交互",
+    "key.sophisticatedbackpacks.open_backpack": "打开背包",
+    "key.sophisticatedbackpacks.toggle_upgrade_1": "启用/禁用背包升级1",
+    "key.sophisticatedbackpacks.toggle_upgrade_2": "启用/禁用背包升级2",
+    "key.sophisticatedbackpacks.toggle_upgrade_3": "启用/禁用背包升级3",
+    "key.sophisticatedbackpacks.toggle_upgrade_4": "启用/禁用背包升级4",
+    "key.sophisticatedbackpacks.toggle_upgrade_5": "启用/禁用背包升级5",
+    "key.sophisticatedbackpacks.tool_swap": "整理背包"
+}

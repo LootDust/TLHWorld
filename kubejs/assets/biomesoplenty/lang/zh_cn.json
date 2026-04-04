@@ -1,0 +1,20 @@
+{
+    
+    "block.biomesoplenty.anomaly": "§k未知的末地异象",
+    "block.biomesoplenty.algal_end_stone": "覆藻末地石",
+    "block.biomesoplenty.barnacles": "藤壶",
+    "block.biomesoplenty.brimstone_bricks": "硫磺石砖",
+    "block.biomesoplenty.brimstone_brick_slab": "硫磺石砖台阶",
+    "block.biomesoplenty.brimstone_brick_stairs": "硫磺石砖楼梯",
+    "block.biomesoplenty.brimstone_brick_wall": "硫磺石砖墙",
+    "block.biomesoplenty.chiseled_brimstone_bricks": "雕纹硫磺石砖",
+    "block.biomesoplenty.mossy_black_sand": "覆苔黑沙",
+    "block.biomesoplenty.null_end_stone": "末�土��也��石",
+    "block.biomesoplenty.thermal_calcite": "热方解石",
+    "block.biomesoplenty.thermal_calcite_vent": "热方解石喷口",
+    "block.biomesoplenty.unmapped_end_stone": "§m末地石",
+    "block.biomesoplenty.wispjelly": "丝缕胶质",
+
+    "item.biomesoplenty.liquid_null_bucket": "����桶",
+    "item.biomesoplenty.rose_quartz_chunk": "玫瑰石英块"
+}

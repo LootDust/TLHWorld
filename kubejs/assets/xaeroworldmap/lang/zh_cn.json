@@ -1,0 +1,9 @@
+{
+    "gui.xaero_open_map": "打开世界地图",
+    "gui.xaero_open_settings": "打开设置",
+    "gui.xaero_world_map_server_settings": "打开服务器设置",
+    "gui.xaero_map_zoom_in": "放大世界地图",
+    "gui.xaero_map_zoom_out": "缩小世界地图",
+    "gui.xaero_quick_confirm": "快速确认地图",
+    "gui.xaero_toggle_dimension": "切换维度"
+}

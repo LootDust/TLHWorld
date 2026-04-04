@@ -1,0 +1,10 @@
+{
+    "tag.item.c.logs": "原木",
+    "tag.item.c.woods": "木材",
+    "tag.item.c.unstrippeds": "带皮原木与木材",
+    "tag.item.c.strippeds": "去皮原木与木材",
+    "tag.item.c.unstripped_logs": "带皮原木",
+    "tag.item.c.unstripped_woods": "带皮木材",
+    "tag.item.c.stripped_logs": "去皮原木",
+    "tag.item.c.stripped_woods": "去皮木材"
+}

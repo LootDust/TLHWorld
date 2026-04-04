@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ldlib2-ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Low-Drag-MC/LDLib2/refs/heads/1.21/ldlib2-ui.xsd">
+    <stylesheet location="ldlib2:lss/mc.lss"/>
+    <style>
+        .flex-1 {
+            flex: 1;
+        }
+    </style>
+    <root class="panel_bg" style='padding-all: 7'>
+        <label id='uiLbl' style='font: "minecraft:uniform"; left:21'></label>
+        <element style='align-self:center; flex-direction:row; left:-11'>
+          <element style='flex-direction:column'>
+            <element style='flex-direction:row'>
+              <item-slot id='item0'/>
+              <item-slot id='item1'/>
+              <item-slot id='item2'/>
+            </element>
+            <element style='flex-direction:row'>
+              <item-slot id='item3'/>
+              <item-slot id='item4'/>
+              <item-slot id='item5'/>
+            </element>
+            <element style='flex-direction:row'>
+              <item-slot id='item6'/>
+              <item-slot id='item7'/>
+              <item-slot id='item8'/>
+            </element>
+          </element>
+          <button id='confirmBtn' style='height:17; width:24; top:18; left:6; background: sprite(tlhisland:textures/gui/progress_arrow_empty.png)'/>
+          <item-slot id='item9' style='top:18; left:16; background: sprite(tlhisland:textures/gui/crafting_output.png) scale(1.44);'/>
+        </element>
+        <label id='invLbl' style='font: "minecraft:uniform";'></label>
+        <inventory-slots/>
+    </root>
+</ldlib2-ui>

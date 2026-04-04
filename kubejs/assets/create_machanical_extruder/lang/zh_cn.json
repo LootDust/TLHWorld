@@ -1,0 +1,16 @@
+{
+    "block.create_mechanical_extruder.mechanical_brass_extruder": "黄铜动力造石机",
+    "create_mechanical_extruder.goggles.bonks": "%1$s 次敲击",
+    "create_mechanical_extruder.itemGroup:main": "机械动力：造石机",
+    "create_mechanical_extruder.ponder.extruder.header": "方块生成",
+    "create_mechanical_extruder.ponder.extruder.text_1": "动力造石机通过旋转力生成方块",
+    "create_mechanical_extruder.ponder.extruder.text_2": "生成的方块种类取决于侧面和底面的方块",
+    "create_mechanical_extruder.ponder.extruder.text_3": "完成作业后，产物可以通过右键点击造石机取出",
+    "create_mechanical_extruder.ponder.extruder.text_4": "产物也可以通过自动化方式输出",
+    "create_mechanical_extruder.ponder.extruder.text_5": "当一个原材料组合有多种适用的配方时，可以用过滤器槽位指定配方",
+    "create_mechanical_extruder.ui.recipe.extruding.consumes_block": "消耗方块",
+    "mechanicals.ui.recipe_requirement.advanced_extruder.tooltip.title": "黄铜造石机",
+    "mechanicals.ui.recipe_requirement.advanced_extruder.tooltip.value": "",
+    "mechanicals.ui.recipe_requirement.bonks.tooltip.title": "敲击数：",
+    "mechanicals.ui.recipe_requirement.bonks.tooltip.value": "%s"
+}

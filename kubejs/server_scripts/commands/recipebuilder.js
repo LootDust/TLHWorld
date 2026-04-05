@@ -49,7 +49,7 @@ const add_recipe_craft_shaped = (player) => {
     if (!player.getEntity().isPlayer()) {
         return 0;
     } else {
-        LDLib2UIFactory.openPlayerUI(player.getPlayer(), 'tlhisland:add_recipe_craft_shaped');
+        LDLib2UIFactory.openPlayerUI(player.getPlayer(), 'tlhworld:add_recipe_craft_shaped');
         return 1;
     }
 }

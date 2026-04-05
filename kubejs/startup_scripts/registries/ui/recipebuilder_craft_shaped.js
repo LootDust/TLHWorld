@@ -39,8 +39,8 @@ LDLib2UI.player("tlhisland:add_recipe_craft_shaped", event => {
     ), list), event.player);
 })*/
 
-LDLib2UI.player('tlhisland:recipebuilder_craft_shaped', event => {
-    let ui = UI.of(XmlUtils.loadXml('tlhisland:recipebuilder_craft_shaped.xml'));
+LDLib2UI.player('tlhworld:recipebuilder_craft_shaped', event => {
+    let ui = UI.of(XmlUtils.loadXml('tlhworld:recipebuilder_craft_shaped.xml'));
 
     let uiLabel = ui.selectId('uiLbl').findFirst().orElse(null);
     let invLabel = ui.selectId('invLbl').findFirst().orElse(null);
@@ -58,10 +58,10 @@ LDLib2UI.player('tlhisland:recipebuilder_craft_shaped', event => {
     let item8 = ui.selectId('item8').findFirst().orElse(null);
     let item9 = ui.selectId('item9').findFirst().orElse(null);
 
-    uiLabel.setText(Component.translatable('container.tlhisland.recipebuilder_craft_shaped').color(Color.GRAY));
+    uiLabel.setText(Component.translatable('container.tlhworld.recipebuilder_craft_shaped').color(Color.GRAY));
     invLabel.setText(Component.translatable('container.inventory').color(Color.GRAY));
 
-    confirmButton.setText(Component.translatable('button.tlhisland.recipebuilder_confirm'));
+    confirmButton.setText(Component.translatable('button.tlhworld.recipebuilder_confirm'));
 
     event.modularUI = ModularUI.of(ui);
 })

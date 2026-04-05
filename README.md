@@ -1,5 +1,6 @@
 # 塔罗会：世界
-## 
+## 基本概况
+- 游戏版本：1.21.1 Neoforge  21.1.222
 
 ## 模组列表
 ### 技术性
@@ -12,17 +13,20 @@
 - [x] Lychee 6.4.4
 - [x] ViScriptShop v1.0.9
 ### 玩法
-- [ ] All The Backports ??? - 提供高版本内容
 - [x] Applied Energtistics 2 19.2.17 - 提供存储网络
+- [x] Apotheosis 8.5.2 - 神化
 - [x] Aquaculture 2 1.21.1-2.7.19 - 提供更多钓鱼
+- [x] Ars Nouveau 5.11.3 - 新生魔艺
+- [x] Better Combat 2.3.2+1.21.1 - 提供更好的近战
 - [x] Cooking for Blockhead 1.21.1-21.1.18 - 提供水槽
 - [x] Create 6.0.9 - 提供机械
 - [x] Curios API 9.5.1+1.21.1 - 提供饰品栏
-- [x] Enigmatic Legacy+ 1.21.1-0.6.0 - 提供饰品
+- [x] Dragon Survival v2.0.53-12.03.2026 - 提供变龙
 - [x] Etched 5.0.0 - 提供音乐
 - [x] Etched Extension 0.2.3 - 提供网易云支持
 - [x] Farmer's Delight 1.2.10-1.21.1 - 提供烹饪
 - [x] Gunsmith Lib 1.21.1-5.1.7-neoforge - 提供枪械
+- [x] IceAndFire Community Edition 2.0-beta.15 - 提供驯龙
 - [x] Kaleidoscope Cookery 1.2.0 - 提供烹饪
 - [x] Kaleidoscope Doll 1.3.0 - 提供自定义玩偶/家具
 - [x] Kaleidoscope Tavern 1.0.0 - 提供酿酒
@@ -32,15 +36,21 @@
 - [x] Pufferfish's Skills 0.17.3 - 提供技能树
 - [x] Sophisticated Backpacks 1.21.1-3.5.23.1491 - 提供背包
 - [x] Sophisticated Storage 1.21.1-1.5.28.194 - 提供仓储
-- [x] Supplementaries 1.21-3.5.27
+- [ ] Structure Crafter - 提供简易蓝图
+- [x] Supplementaries 1.21-3.5.27 - 提供杂项物品
 - [x] Time in a bottle 6.5.4 - 提供日活
-- [x] The Twilight Forest 1.21.1-4.8.3345 - 提供魔法内容
 - [x] Open Parties and Claims 0.25.10 - 提供领地管理
+- [x] Parcool! 1.21.1-3.4.3.3 - 跑酷
 - [x] Touhou Little Maid 1.5.0 - 提供女仆
 - [x] Yes Steve Model 2.6.2 - 提供自定义玩家模型（可选）
-### 群系&结构
+### 维度&群系&结构
 - [x] Biomes O' Plenty 21.1.0.13
+- [x] Born in Chaos 1.7.4
+- [x] L_Ender 's Cataclysm 3.26
 - [x] Regions Unexplored v0.5.9
+- [x] The Aether 1.5.10
+- [x] The Twilight Forest 1.21.1-4.8.3345
+- [x] Undergarden 0.9.6
 ### 性能优化
 - [x] 0Pack2Reload 1.21.1 - 禁用无效重载
 - [x] 0World2Create 1.21.1-1.0.0 - 禁用自动创建世界
@@ -56,12 +66,16 @@
 - [x] Carry On 2.2.4 - 抱起来
 - [x] Carry On Extend 1.5.1 - 丢出去
 - [x] Cosmetic Armor Reworked 1.21.1-v1 - 时装盔甲
+- [x] Dragon Survival: IAF Integration 1.2.1 - 变龙驯龙兼容
 - [x] Ecliptic Seasons 0.12.18.1 - 节气
+- [x] Homeostatic 2.11.0.4 - 提供饮水和体温
 - [x] Inventory Profiles Next 2.2.4 - 物品栏整理
+- [x] Lootr 1.11.37.118 - 可重复战利品
 - [x] Mouse Tweaks 2.26.1 - 鼠标手势
 - [x] Let Me Despawn 1.5.0 - 卸载生物
 - [x] Polymorph 1.1.0+1.21.1 - 多态合成
 - [x] Spice of Life Onion 1.5.6 - 生活调味料
+- [x] VanillaBackport 1.1.6.3 - 原版内容向下移植
 ### 信息显示
 - [x] AppleSkin 1.21.1-3.0.9
 - [x] Controlling 1.21.1-19.0.5
@@ -80,7 +94,16 @@
 ### 附属
 #### Applied Energistics 2
 - [x] Applied Energistics 2 Wireless Terminals 19.4.1
+#### Apotheosis
+- [x] Apotheosis Modern Ragnarok Zero 5.0.19 - 诸神黄昏
+- [x] Apothic Compats 0.2.4.1 - 神化兼容
+#### Ars
+- [x] Ars Meteorites 1.1.8
+#### Better Combat
+- [x] Better Combat toggle on/off 1.5.0 - 可选开关更好战斗
+- [x] Ice and Fire Dragons X Better Combat - 冰与火兼容
 #### Create
+- [x] Ars Technica 2.7.6 - 新生魔艺兼容
 - [x] Create Additional Logistics 1.4.5 - 提供物流优化
 - [x] Create Central Kitchen 2.3.0 - 提供农夫乐事自动化
 - [x] Create Compatible Storage 2.10.0 - 多模组容器机动兼容
@@ -117,6 +140,12 @@
 - [x] Mechanical Millstone 1.0.1 - 动力森罗物语：厨房石磨
 - [x] Sophisticated Backpacks Create Integration 1.21.1-0.1.5.29 - 精妙背包机动兼容
 - [x] Sophisticated Storage Create Integration 1.21.1-0.1.3.54 - 精妙存储机动兼容
+#### Curios API
+- [x] Artifacts 13.2.0 - 奇异饰品
+- [x] Enigmatic Legacy+ 1.21.1-0.6.0 - 神秘遗物
+- [x] Terra Curio 1.1.1 - 泰拉饰品
+#### Custom Machinery
+- [x] Custom Machinery Ars Nouveau 1.2.5
 #### Ecliptic Seasons
 - [x] Ecliptic Seasons Biomes O' Plenty 1.0
 - [x] Ecliptic Seasons Regions Unexplored 1.0
@@ -124,6 +153,7 @@
 - [x] EMI++ 1.2.3
 - [x] EMI Enchanting 0.1.2+1.21.1
 #### Farmer's Delight
+- [x] Ars Delight 2.1.9
 - [x] Crate Delight 25.09.22
 - [x] End's Delight 2.5.1+1.21.1
 - [x] Ender's Delight 1.2.0
@@ -132,6 +162,7 @@
 - [x] Miner's Delight 1.4.2
 - [x] My Nether's Delight 1.21.1-1.9
 - [x] Twilight Delight 3.1.1
+- [x] Undergarden Delight 1.2.1
 - [x] Youkai's Homecoming 3.0.8
 #### Kaleidoscope Series
 - [x] Kaleidoscope End 1.0.1-BETA2-1.21.1
@@ -141,11 +172,15 @@
 - [x] FetchJS 1.0.0
 - [x] FilesJS 1.0
 - [x] KeyBindJS 1.0.1
+- [x] KubeJS Ars Nouveau 1.3.2
 - [x] KubeJS Create 2101.3.1-build.18
 - [x] KubeJS Curios 1.21.1-1.0.4
 - [x] KubeJS Delight 1.21.1-1.1.5
 - [x] LycheeJS NeoForge 2.1
 - [x] PonderJS 1.21.1-2.4.0
+#### ParCool!
+- [x] PacCool+ 3.4.3.1-1.1 - 跑酷兼容性修复
+- [x] ParCoolSkill 1.1.5 - 提升跑酷收益
 #### TaCZ
 - [x] Curios For Ammo Box 1.1.0 - 弹药盒饰品槽
 - [x] TaCZ Pack Upgrader 2.0.0 - TaCZ枪包升级器
@@ -154,6 +189,9 @@
 - [x] Spice of Life Maid 1.0.1-1.21.1
 ### 前置库
 - [x] Almanac 1.5.2
+- [x] Apothic Attributes 2.9.1
+- [x] Apothic Enchanting 1.5.2
+- [x] Apothic Spawners 1.3.4
 - [x] Architectury API v13.0.8
 - [x] Bad Packets 0.8.2
 - [x] Balm 1.21.1-21.0.56
@@ -163,22 +201,30 @@
 - [x] CreativeCore 2.13.36
 - [x] FTB Library 2101.1.30
 - [x] FTB Teams 2101.1.9
+- [x] GeckoLib 4.8.4
 - [x] GlitchCore 2.1.0.0
 - [x] GuideME 21.1.15
+- [x] Jupiter 2.3.7
 - [x] Kiwi 15.7.5
 - [x] Kotlin for Forge 5.11.0
 - [x] Konkrete v1.9.9
 - [x] libIPN 6.6.2
 - [x] LibX 1.21.1-6.0.10
+- [x] Lionfish API 2.6
 - [x] Lodestone 1.21.1-1.8.2
 - [x] Machanicals Lib 1.1.0
 - [x] MaFgLib 0.4.3+1.21.1
 - [x] Melody v1.0.10
 - [x] Moonlight Lib 1.21-2.29.20
+- [x] owo-lib 0.12.15.5
+- [x] Placebo 9.9.1
+- [x] Platform 1.3
+- [x] PlayerAnimator 2.0.4
 - [x] Rhino 2101.2.7-build.77
 - [x] Searchables 1.21.1-1.0.2
 - [x] Sophisticated Core 1.21.1-1.4.6.1506
 - [x] TerraBlender 1.21.1-4.1.0.8
+- [x] Uranus 2.4
 ### 调试
 - [x] Advanced Xray 21.0.0
 - [x] Aim Bot 1.3
@@ -241,6 +287,8 @@
 	- ViScriptShop
 - LibX
 	- Skyblock Builder
+- Lionfish API
+	- L_Ender 's Cataclysm
 - Lodestone
 	- Miner's Delight
 - Machanicals Lib
@@ -251,6 +299,14 @@
 	- FancyMenu
 - Moonlight Lib
 	- Supplementaries
+- Placebo
+	- Apothic Spawners
+	- Apothic Attributes
+		- Apothic Enchanting
+- Platform
+	- VanillaBackport
+- owo-lib
+	- The Aether
 - Rhino
 	- KubeJS
 		- KubeJS Create

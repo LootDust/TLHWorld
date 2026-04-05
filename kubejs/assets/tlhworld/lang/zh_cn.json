@@ -1,0 +1,20 @@
+{
+    "container.tlhworld.recipebuilder_craft_shaped": "有序合成配方编辑器",
+    "button.tlhworld.recipebuilder_confirm": "确认",
+
+    "item.createsifter.tin_mesh": "锡筛网",
+    "item.createsifter.copper_mesh": "铜筛网",
+    "item.createsifter.osmium_mesh": "锇筛网",
+
+    "item.tlhworld.mehvahdjukaars_foolish": "锦致装饰那个没妈傻逼作者的愚蠢行径",
+    "item.tlhworld.mehvahdjukaars_foolish.tooltip": "我这辈子头回见把所有物品都变成铜制品的死全家馊主意，",
+    "item.tlhworld.mehvahdjukaars_foolish.tooltip1": "我永远不会原谅这个傻逼在公元2026年4月1日干的操蛋行为。",
+    "item.tlhworld.mehvahdjukaars_foolish.tooltip2": "知道我他妈的当时看到满屏铜绿一点头绪没有是多么绝望吗？",
+    "item.tlhworld.mehvahdjukaars_foolish.tooltip3": "MehVahdJukaars你他妈的就是纯他妈的贱种！！！",
+    "item.tlhworld.mehvahdjukaars_foolish.tooltip4": "——ZNE留",
+    "item.tlhworld.sale_license": "售货许可证",
+    "item.tlhworld.purchase_license": "进货许可证",
+
+    "key.kubejs.fast_hand": "快捷获取物品数据",
+    "key.kubejs.item_delete": "快捷删除主手物品"
+}

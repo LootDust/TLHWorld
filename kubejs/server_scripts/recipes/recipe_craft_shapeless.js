@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('minecraft:yellow_dye'), ['mekanism:dust_gold'])
 
     // TLH Island专属
-    event.shapeless(Item.of('tlhisland:mehvahdjukaars_foolish'), ['minecraft:copper_block', 'minecraft:exposed_copper', 'minecraft:weathered_copper', 'minecraft:oxidized_copper',
+    event.shapeless(Item.of('tlhworld:mehvahdjukaars_foolish'), ['minecraft:copper_block', 'minecraft:exposed_copper', 'minecraft:weathered_copper', 'minecraft:oxidized_copper',
         'minecraft:copper_ingot', 'minecraft:waxed_copper_block', 'minecraft:waxed_exposed_copper', 'minecraft:waxed_weathered_copper', 'minecraft:waxed_oxidized_copper'
     ])
 

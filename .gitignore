@@ -25,6 +25,7 @@ saves/
 schematics/
 screenshots/
 shaderpacks/
+swstructure/
 tacz/
 tacz_backup/
 tacz+1.20.1/
@@ -39,6 +40,7 @@ acceleratedRecoiling.json
 acceleratedRecoilingLib.dll
 command_history.txt
 emi.json
+handbook_data.json
 options.txt
 patchouli_data.json
 usercache.json
@@ -51,8 +53,29 @@ config/CSC/*
 !config/emixx
 !config/inventoryprofilesnext
 config/inventoryprofilesnext/*/
+!config/xaero
+config/xaero/*
+!config/xaero/minimap
+config/xaero/minimap/*
+!config/xaero/minimap/profiles
+config/xaero/minimap/profiles/*
+!config/xaero/minimap/profiles/entity_radar_categories
+config/xaero/minimap/profiles/entity_radar_categories/*
+!config/xaero/minimap/profiles/entity_radar_categories/tlh.cfg.json
+!config/xaero/minimap/profiles/tlh.cfg
+!config/xaero/world-map
+config/xaero/world-map/*
+!config/xaero/world-map/profiles
+config/xaero/world-map/profiles/*
+!config/xaero/world-map/profiles/tlh.cfg
+!config/aether-client.toml
+!config/aether-common.toml
+!config/ae2-client.toml
+!config/dragonsurvival-server.toml
+!config/structure_crafter-common.toml
 !config/sophisticatedstorage-client.toml
 !config/supplementaries-client.toml
+!config/twilightforest-common.toml
 
 exported/*
 !exported/export_config.txt

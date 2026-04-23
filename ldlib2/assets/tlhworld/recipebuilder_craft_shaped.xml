@@ -7,30 +7,27 @@
             flex: 1;
         }
     </style>
-    <root class="panel_bg" style='padding-all: 7'>
+    <root class="panel_bg" style="padding-all: 7">
         <label id='uiLbl' style='font: "minecraft:uniform"; left:21'></label>
         <element style='align-self:center; flex-direction:row; left:-11'>
           <element style='flex-direction:column'>
-            <element style='flex-direction:row'>
-              <item-slot id='item0'/>
-              <item-slot id='item1'/>
-              <item-slot id='item2'/>
+            <element id='input1Ele' style='flex-direction:row'>
             </element>
-            <element style='flex-direction:row'>
-              <item-slot id='item3'/>
-              <item-slot id='item4'/>
-              <item-slot id='item5'/>
+            <element id='input2Ele' style='flex-direction:row'>
             </element>
-            <element style='flex-direction:row'>
-              <item-slot id='item6'/>
-              <item-slot id='item7'/>
-              <item-slot id='item8'/>
+            <element id='input3Ele' style='flex-direction:row'>
             </element>
           </element>
-          <button id='confirmBtn' style='height:17; width:24; top:18; left:6; background: sprite(tlhisland:textures/gui/progress_arrow_empty.png)'/>
-          <item-slot id='item9' style='top:18; left:16; background: sprite(tlhisland:textures/gui/crafting_output.png) scale(1.44);'/>
+          <element style='top:8'>
+            <button id='confirmBtn' style='height:17; width:24; left:6;'/>
+            <button id='cancelBtn' style='height:17; width:24; top: 2; left:6;'/>
+          </element>
+          <element id='outputEle'>
+            <!--<item-slot id='item9' style='top:18; left:16; background: sprite(tlhworld:textures/gui/crafting_output.png) scale(1.44);'/>-->
+          </element>
         </element>
         <label id='invLbl' style='font: "minecraft:uniform";'></label>
-        <inventory-slots/>
+        <element id='invEle'>
+        </element>
     </root>
 </ldlib2-ui>

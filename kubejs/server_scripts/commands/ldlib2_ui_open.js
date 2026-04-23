@@ -1,4 +1,4 @@
-const $InteractionHand = Java.loadClass("net.minecraft.world.InteractionHand");
+/// <reference path="../../startup_scripts/.reference.js"/>
 
 ServerEvents.commandRegistry(event => {
     const { commands: Commands, arguments: Arguments } = event;
@@ -7,14 +7,14 @@ ServerEvents.commandRegistry(event => {
         .then(Commands.literal('player')
             .then(Commands.argument('player', Arguments.PLAYER.create(event))
                 .then(Commands.argument('id', Arguments.RESOURCE_LOCATION.create(event))
-                    .executes(ctx => open_player_ui(Arguments.PLAYER.getResult(ctx, 'player'), Arguments.RESOURCE_LOCATION.getResult(ctx, 'id')))
+                    .executes(ctx => open_player_ui(ctx.getSource(), Arguments.PLAYER.getResult(ctx, 'player'), Arguments.RESOURCE_LOCATION.getResult(ctx, 'id')))
                 )
             )
         )
     )
 })
 
-const open_block_ui = (player, id) => {
+const open_block_ui = (source, player, id) => {
     try {
         LDLib2UIFactory.openBlockUI(player, BlockPos.ZERO, id);
         return 1;
@@ -24,7 +24,7 @@ const open_block_ui = (player, id) => {
     }
 }
 
-const open_helditem_ui = (player, id) => {
+const open_helditem_ui = (source, player, id) => {
     try {
         LDLib2UIFactory.openHeldItemUI(player, $InteractionHand.MAIN_HAND, id);
         return 1;
@@ -34,12 +34,20 @@ const open_helditem_ui = (player, id) => {
     }
 }
 
-const open_player_ui = (player, id) => {
-    try {
-        LDLib2UIFactory.openPlayerUI(player, id);
+/**
+ * 
+ * @param {$CommandSourceStack} source 
+ * @param {$Player} player 
+ * @param {$ResourceLocation} id 
+ * @returns 
+ */
+const open_player_ui = (source, player, id) => {
+    let bool = LDLib2UIFactory.openPlayerUI(player, id);
+    if (bool) {
+        source.sendSystemMessage(Component.literal('已打开UI：' + id.toString()));
         return 1;
-    } catch (err) {
-        console.error(err);
+    } else {
+        source.sendSystemMessage(Component.literal('打开UI时发生错误：' + id.toString()).color(Color.RED));
         return 0;
     }
 }

@@ -3,6 +3,10 @@ ServerEvents.recipes(event => {
     event.remove({ mod: 'createdieselgenerators' });
     event.remove({ mod: 'create_fantasizing' });
     event.remove({ mod: 'createaddition' });
+    // Create: Aeronautics
+    event.remove({ mod: 'simulated' });
+    event.remove({ mod: 'aeronautics'});
+    event.remove({ mod: 'offroad' });
     event.remove({ mod: 'createmetalogistics' });
     event.remove({ mod: 'createnuclear' })
     //event.remove({ mod: 'createnetherindustry' })
@@ -12,11 +16,15 @@ ServerEvents.recipes(event => {
     event.remove({ mod: 'ae2' });
     //event.remove({ mod: 'torchmaster' })
 
+    
     // 普轴配方删除
     event.remove({ id: 'create:crafting/kinetics/shaft' });
     event.remove({ id: 'create:crafting/kinetics/cogwheel' });
     event.remove({ id: 'create:crafting/kinetics/large_cogwheel' });
     event.remove({ id: 'create:cutting/andesite_alloy' });
+
+    // 蓝图物品删除
+    event.remove({ output: '#c:schematics' });
 
     // Mod: Minecraft
     event.remove({ id: 'minecraft:jukebox'});

@@ -1,0 +1,293 @@
+{
+  "hardInclude": "anything",
+  "includeList": [],
+  "includeListInSuperCategory": true,
+  "excludeMode": "ONLY",
+  "excludeList": [
+    "minecraft:glow_item_frame",
+    "minecraft:item_frame"
+  ],
+  "name": "gui.xaero_entity_category_root",
+  "protection": true,
+  "settingOverrides": {
+    "displayed": true,
+    "displayHeight": 0.0,
+    "heightBasedFade": true,
+    "renderOrder": 0.0,
+    "color": 13.0,
+    "displayNameWhenIconFails": true,
+    "entityNumber": 1000.0,
+    "alwaysDisplayNametags": false,
+    "dotSize": 2.0,
+    "startFadingAt": 0.0,
+    "renderOverMinimapFrame": 1.0,
+    "icons": 1.0,
+    "heightLimit": 20.0,
+    "names": 0.0,
+    "iconScale": 1.0
+  },
+  "subCategories": [
+    {
+      "hardInclude": "nothing",
+      "includeList": [
+        "aquaculture:spectral_water_arrow",
+        "aquaculture:water_arrow",
+        "create:potato_projectile",
+        "createdieselgenerators:chemical_sprayer_projectile",
+        "kaleidoscope_nether:blaze_heart_projectile",
+        "minecraft:arrow",
+        "minecraft:breeze_wind_charge",
+        "minecraft:dragon_fireball",
+        "minecraft:egg",
+        "minecraft:fireball",
+        "minecraft:firework_rocket",
+        "minecraft:fishing_bobber",
+        "minecraft:llama_spit",
+        "minecraft:potion",
+        "minecraft:shulker_bullet",
+        "minecraft:small_fireball",
+        "minecraft:snowball",
+        "minecraft:spectral_arrow",
+        "minecraft:trident",
+        "minecraft:wind_charge",
+        "minecraft:wither_skull",
+        "powergrid:zap_projectile",
+        "protection_pixel:hook",
+        "supplementaries:brick_projectile",
+        "supplementaries:cannonball",
+        "supplementaries:rope_arrow",
+        "supplementaries:slimeball_projectile",
+        "supplementaries:slingshot_projectile",
+        "tacz:bullet",
+        "touhou_little_maid:aquaculture_fishing_hook",
+        "touhou_little_maid:fishing_hook",
+        "twilightforest:ice_arrow",
+        "twilightforest:ice_snowball",
+        "twilightforest:seeker_arrow"
+      ],
+      "includeListInSuperCategory": true,
+      "excludeMode": "ONLY",
+      "excludeList": [],
+      "name": "投射物",
+      "protection": true,
+      "settingOverrides": {
+        "color": 14.0
+      },
+      "subCategories": []
+    },
+    {
+      "hardInclude": "living",
+      "includeList": [],
+      "includeListInSuperCategory": true,
+      "excludeMode": "ONLY",
+      "excludeList": [
+        "minecraft:armor_stand"
+      ],
+      "name": "gui.xaero_entity_category_living",
+      "protection": true,
+      "settingOverrides": {
+        "renderOrder": 2.0,
+        "color": 14.0
+      },
+      "subCategories": [
+        {
+          "hardInclude": "players",
+          "includeList": [],
+          "includeListInSuperCategory": true,
+          "excludeMode": "ONLY",
+          "excludeList": [],
+          "name": "gui.xaero_entity_category_players",
+          "protection": true,
+          "settingOverrides": {
+            "renderOrder": 6.0,
+            "color": 15.0,
+            "heightLimit": 2050.0
+          },
+          "subCategories": [
+            {
+              "hardInclude": "nothing",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_friend",
+              "protection": true,
+              "settingOverrides": {},
+              "subCategories": []
+            },
+            {
+              "hardInclude": "tracked",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_tracked",
+              "protection": true,
+              "settingOverrides": {
+                "icons": 2.0
+              },
+              "subCategories": []
+            },
+            {
+              "hardInclude": "same-team",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_same_team",
+              "protection": true,
+              "settingOverrides": {},
+              "subCategories": []
+            },
+            {
+              "hardInclude": "anything",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_other_teams",
+              "protection": true,
+              "settingOverrides": {
+                "renderOrder": 7.0
+              },
+              "subCategories": []
+            }
+          ]
+        },
+        {
+          "hardInclude": "hostile",
+          "includeList": [],
+          "includeListInSuperCategory": true,
+          "excludeMode": "ONLY",
+          "excludeList": [],
+          "name": "gui.xaero_entity_category_hostile",
+          "protection": true,
+          "settingOverrides": {
+            "renderOrder": 3.0,
+            "color": 4.0
+          },
+          "subCategories": [
+            {
+              "hardInclude": "tamed",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_hostile_tamed",
+              "protection": true,
+              "settingOverrides": {
+                "renderOrder": 5.0,
+                "color": 3.0
+              },
+              "subCategories": []
+            }
+          ]
+        },
+        {
+          "hardInclude": "anything",
+          "includeList": [],
+          "includeListInSuperCategory": true,
+          "excludeMode": "ONLY",
+          "excludeList": [],
+          "name": "gui.xaero_entity_category_friendly",
+          "protection": true,
+          "settingOverrides": {
+            "color": 2.0
+          },
+          "subCategories": [
+            {
+              "hardInclude": "tamed",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_friendly_tamed",
+              "protection": true,
+              "settingOverrides": {
+                "renderOrder": 4.0,
+                "color": 3.0
+              },
+              "subCategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hardInclude": "items",
+      "includeList": [],
+      "includeListInSuperCategory": true,
+      "excludeMode": "ONLY",
+      "excludeList": [],
+      "name": "gui.xaero_entity_category_items",
+      "protection": true,
+      "settingOverrides": {
+        "renderOrder": 1.0,
+        "color": 6.0
+      },
+      "subCategories": []
+    },
+    {
+      "hardInclude": "nothing",
+      "includeList": [
+        "biomesoplenty:boat",
+        "biomesoplenty:chest_boat",
+        "etched:jukebox_minecart",
+        "minecraft:boat",
+        "minecraft:chest_boat",
+        "minecraft:chest_minecart",
+        "minecraft:furnace_minecart",
+        "minecraft:hopper_minecart",
+        "minecraft:minecart",
+        "minecraft:spawner_minecart",
+        "minecraft:tnt_minecart",
+        "regions_unexplored:boat",
+        "regions_unexplored:chest_boat",
+        "supplementaries:cannon_boat",
+        "supplementaries:dispenser_minecart",
+        "tacz:target_minecart"
+      ],
+      "includeListInSuperCategory": true,
+      "excludeMode": "ONLY",
+      "excludeList": [],
+      "name": "载具",
+      "protection": true,
+      "settingOverrides": {
+        "color": 7.0
+      },
+      "subCategories": []
+    },
+    {
+      "hardInclude": "nothing",
+      "includeList": [
+        "create:carriage_contraption",
+        "create:contraption",
+        "create:gantry_contraption",
+        "create:stationary_contraption",
+        "create:super_glue"
+      ],
+      "includeListInSuperCategory": true,
+      "excludeMode": "ONLY",
+      "excludeList": [],
+      "name": "动态结构",
+      "protection": true,
+      "settingOverrides": {
+        "color": 8.0
+      },
+      "subCategories": []
+    },
+    {
+      "hardInclude": "anything",
+      "includeList": [],
+      "includeListInSuperCategory": true,
+      "excludeMode": "ONLY",
+      "excludeList": [],
+      "name": "gui.xaero_entity_category_other_entities",
+      "protection": true,
+      "settingOverrides": {
+        "color": 5.0
+      },
+      "subCategories": []
+    }
+  ]
+}

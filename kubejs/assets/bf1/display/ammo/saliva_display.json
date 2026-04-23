@@ -1,0 +1,9 @@
+{
+    "model": "bf1:ammo/saliva_geo",
+    "texture": "tacz:ammo/uv/9mm",
+    "shell": {
+        "model": "tacz:shell/762x39_shell",
+        "texture": "tacz:shell/762x39_shell"
+    },
+    "slot": "bf1:ammo/slot/saliva"
+}

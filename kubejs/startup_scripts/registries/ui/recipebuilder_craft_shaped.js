@@ -1,67 +1,136 @@
-//const { $ArrayList } = require("java.util.ArrayList");
-/*
-let $Collectors = Java.loadClass("java.util.stream.Collectors");
-let $ArrayList = Java.loadClass("java.util.ArrayList");
-let $Stylesheet = Java.loadClass("com.lowdragmc.lowdraglib2.gui.ui.style.Stylesheet");
-let $UI = Java.loadClass("com.lowdragmc.lowdraglib2.gui.ui.UI");
-
-LDLib2UI.player("tlhisland:add_recipe_craft_shaped", event => {
-
-    let stylesheet = StylesheetManager.INSTANCE.getStylesheetSafe('ldlib2:lss/mc.lss');
-
-    var list = Array.of(stylesheet);
-
-    event.modularUI = ModularUI.of($UI.of(new UIElement().addClass('panel_bg').layout(layout => layout.paddingAll(7).flex(1)).addChildren(
-        new Label().setText(Component.translatable('container.tlhisland.add_recipe_craft_shaped').font('minecraft:uniform')),
-        new UIElement().layout(layout => layout.alignItems('center').setFlexDirection('row').left(-11)).addChildren(
-            new UIElement().layout(layout => layout.setFlexDirection('column')).addChildren(
-                new UIElement().layout(layout => layout.setFlexDirection('row')).addChildren(
-                    new ItemSlot(),
-                    new ItemSlot(),
-                    new ItemSlot()
-                ),
-                new UIElement().layout(layout => layout.setFlexDirection('row')).addChildren(
-                    new ItemSlot(),
-                    new ItemSlot(),
-                    new ItemSlot()
-                ),
-                new UIElement().layout(layout => layout.setFlexDirection('row')).addChildren(
-                    new ItemSlot(),
-                    new ItemSlot(),
-                    new ItemSlot()
-                )
-            ),
-            new UIElement().layout(layout => layout.height(17).width(24).top(18).left(6)).style(style => style.background(SpriteTexture.of('tlhisland:textures/gui/progress_arrow_empty'))),
-            new ItemSlot().layout(layout => layout.top(18).left(16)).style(style => style.background(SpriteTexture.of('tlhisland:textures/gui/crafting_output').scale(1.44)))
-        ),
-        new Label().setText(Component.translatable('container.inventory').font('minecraft:uniform')),
-        new InventorySlots()
-    ), list), event.player);
-})*/
+/// <reference path="../../.reference.js"/>
 
 LDLib2UI.player('tlhworld:recipebuilder_craft_shaped', event => {
+    let player = event.player;
+
+    /** @type {$ItemStackHandler} */
+    let itemHandler = new $ItemStackHandler();
+
+    itemHandler.setSize(10);
+
     let ui = UI.of(XmlUtils.loadXml('tlhworld:recipebuilder_craft_shaped.xml'));
 
     let uiLabel = ui.selectId('uiLbl').findFirst().orElse(null);
     let invLabel = ui.selectId('invLbl').findFirst().orElse(null);
 
+    /** @type {$Button} */
     let confirmButton = ui.selectId('confirmBtn').findFirst().orElse(null);
+    /** @type {$Button} */
+    let cancelButton = ui.selectId('cancelBtn').findFirst().orElse(null);
 
-    let item0 = ui.selectId('item0').findFirst().orElse(null);
-    let item1 = ui.selectId('item1').findFirst().orElse(null);
-    let item2 = ui.selectId('item2').findFirst().orElse(null);
-    let item3 = ui.selectId('item3').findFirst().orElse(null);
-    let item4 = ui.selectId('item4').findFirst().orElse(null);
-    let item5 = ui.selectId('item5').findFirst().orElse(null);
-    let item6 = ui.selectId('item6').findFirst().orElse(null);
-    let item7 = ui.selectId('item7').findFirst().orElse(null);
-    let item8 = ui.selectId('item8').findFirst().orElse(null);
-    let item9 = ui.selectId('item9').findFirst().orElse(null);
+    let input1Ele = ui.selectId('input1Ele').findFirst().orElse(null);
+    let input2Ele = ui.selectId('input2Ele').findFirst().orElse(null);
+    let input3Ele = ui.selectId('input3Ele').findFirst().orElse(null);
+    let outputEle = ui.selectId('outputEle').findFirst().orElse(null);
+    let invEle = ui.selectId('invEle').findFirst().orElse(null);
+
+    let itemSlots = [];
+    for (let i = 0; i < 10; i++) {
+        itemSlots[i] = new ItemSlot();
+    }
+
+    let invSlots = new InventorySlots();
 
     uiLabel.setText(Component.translatable('container.tlhworld.recipebuilder_craft_shaped').color(Color.GRAY));
     invLabel.setText(Component.translatable('container.inventory').color(Color.GRAY));
 
     confirmButton.setText(Component.translatable('button.tlhworld.recipebuilder_confirm'));
+    cancelButton.setText(Component.translatable('button.tlhworld.recipebuilder_cancel'));
 
-    event.modularUI = ModularUI.of(ui);
+    let recipeId = player.persistentData.getCompound('tlhData').getCompound('operatorData').getCompound('recipebuilderData').getString('recipeId');
+    let recipe = player.persistentData.getCompound('tlhData').getCompound('operatorData').getCompound('recipebuilderData');
+    if (recipe != null) {
+        let ingredients = recipe.getList('ingredients', 8);
+        for (let i = 0; i < Math.min(ingredients.size(), itemHandler.getSlots()); i++) {
+            itemHandler.setStackInSlot(i, Item.of(ingredients.getString(i)));
+        }
+        let output = Item.of(recipe.getString('result'));
+        itemHandler.setStackInSlot(9, output);
+    }
+    
+    itemSlots[9].layout(layout => layout.top(18).left(16)).style(style => style.background(SpriteTexture.of('tlhworld:textures/gui/crafting_output.png').scale(1.44)));
+
+    itemSlots.forEach((slot, index, array) => {
+        slot.bind(new ItemHandlerSlot(itemHandler, index));
+    });
+
+    confirmButton.setOnClick(event => {
+        itemSlots.forEach((slot, index, array) => {
+            player.sendSystemMessage(Component.literal('ItemSlot'+ index.toString() + ': ' + slot.getSlot().getItem().getDisplayName().getString()));
+        });
+    })
+    confirmButton.setOnServerClick(event => {
+        if (recipe == null || itemSlots[9].getSlot().getItem() == Item.of('minecraft:air')) {
+            event.stopImmediatePropagation;
+            return;
+        }
+        let newResult = itemSlots[9].getSlot().getItem().toStringJS();
+        let newIngredientList = [];
+        if (itemSlots[2].getSlot().getItem() == Item.of('minecraft:air')
+            && itemSlots[5].getSlot().getItem() == Item.of('minecraft:air')
+            && itemSlots[6].getSlot().getItem() == Item.of('minecraft:air')
+            && itemSlots[7].getSlot().getItem() == Item.of('minecraft:air')
+            && itemSlots[8].getSlot().getItem() == Item.of('minecraft:air')) {
+            newIngredientMap = [
+                dissolveIngredient(itemSlots[0].getSlot().getItem()),
+                dissolveIngredient(itemSlots[1].getSlot().getItem()),
+                dissolveIngredient(itemSlots[3].getSlot().getItem()),
+                dissolveIngredient(itemSlots[4].getSlot().getItem()),
+            ]
+        } else {
+            newIngredientMap = [
+                dissolveIngredient(itemSlots[0].getSlot().getItem()),
+                dissolveIngredient(itemSlots[1].getSlot().getItem()),
+                dissolveIngredient(itemSlots[2].getSlot().getItem()),
+                dissolveIngredient(itemSlots[3].getSlot().getItem()),
+                dissolveIngredient(itemSlots[4].getSlot().getItem()),
+                dissolveIngredient(itemSlots[5].getSlot().getItem()),
+                dissolveIngredient(itemSlots[6].getSlot().getItem()),
+                dissolveIngredient(itemSlots[7].getSlot().getItem()),
+                dissolveIngredient(itemSlots[8].getSlot().getItem()),
+            ]
+        }
+        let newIngredients = "";
+        newIngredientList.forEach(ingredient => {
+            newIngredients = newIngredients + " " + ingredient
+        })
+        player.runCommandSilent("recipebuilder edit " + recipeId + " " + newResult + newIngredients)
+    })
+    
+    input1Ele.addChildren(itemSlots[0], itemSlots[1], itemSlots[2]);
+    input2Ele.addChildren(itemSlots[3], itemSlots[4], itemSlots[5]);
+    input3Ele.addChildren(itemSlots[6], itemSlots[7], itemSlots[8]);
+    outputEle.addChild(itemSlots[9]);
+    invEle.addChild(invSlots);
+
+    /*
+    let remove_emitter = ui.getRootElement().addRPCEvent(ele => RPCEventBuilder.simple($UIEvent, (event, arg) => {
+        /** @type {$ServerPlayer} *//*
+        let player = event.modularUI.player;
+        for (let i = 0; i < 10; i++) {
+            player.getEnderChestInventory().setStackInSlot(i, itemHandler.getStackInSlot(i));
+        }
+    }))
+
+    ui.getRootElement().addEventListener(UIEvents.REMOVED, event => {
+        remove_emitter.send(remove_emitter.event())
+    })
+    */
+
+    event.modularUI = ModularUI.of(ui, player);
 })
+/**
+ * 
+ * @param {import("net.minecraft.world.item.ItemStack").$ItemStack$$Original} item 
+ * @returns {StringJS}
+ */
+const dissolveIngredient = (item) => {
+    if (item.getId() == 'ftbfiltersystem:smart_filter') {
+        /** @type {String} */
+        let filter = item.getComponents().get('ftbfiltersystem:filter');
+        if (filter.startsWith('item_tag')) {
+            return '#' + filter.split('item_tag(')[1].split(')')[0];
+        }
+    }
+    return item.getId();
+}

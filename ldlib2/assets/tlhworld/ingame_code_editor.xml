@@ -7,6 +7,9 @@
             flex: 1;
         }
     </style>
-    <root class="panel_bg" style="width: 150; height: 300">
+    <root class="panel_bg" style="">
+      <element style="width:900; height:600; align-items: center; justify-content:center;">
+        <inventory-slots/>
+      </element>
     </root>
 </ldlib2-ui>

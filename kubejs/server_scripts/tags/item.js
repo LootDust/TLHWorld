@@ -232,6 +232,15 @@ ServerEvents.tags("item", event => {
         'minecraft:blackstone'
     ])
 
+    event.add("c:schematics", [
+        'create:schematicannon',
+        'create:schematic_table',
+        'create:empty_schematic',
+        'create:schematic_and_quill',
+        'structure_crafter:structure_wand',
+        'structure_crafter:blackboard'
+    ])
+
     // 食材标签合并
     event.removeAll("c:foods/cooked_eggs")
     event.add("c:foods/cooked_egg", [
@@ -251,6 +260,7 @@ ServerEvents.tags("item", event => {
         'create:creative_crate',
         'create:creative_blaze_cake',
         'createaddition:creative_energy',
+        'simulated:creative_physics_staff',
         'powergrid:creative_voltage_source',
         'powergrid:creative_current_source',
         'powergrid:creative_resistor',

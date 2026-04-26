@@ -1,0 +1,9 @@
+{
+    "operation.tlh.feedback.permission_denied.with_player_uuid": "Operation failed! Permission denied: %s",
+    
+    "ui.tlh.code_editor.title": "Code Editor",
+
+    "ui.tlh.common.button.cancel": "Cancel",
+    "ui.tlh.common.button.confirm": "Confirm",
+    "ui.tlh.common.button.save": "Save"
+}

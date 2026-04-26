@@ -1,0 +1,9 @@
+{
+    "operation.tlh.feedback.permission_denied.with_player_uuid": "操作失败！没有对应权限： %s",
+
+    "ui.tlh.code_editor.title": "代码编辑器",
+
+    "ui.tlh.common.button.cancel": "Cancel",
+    "ui.tlh.common.button.confirm": "确认",
+    "ui.tlh.common.button.save": "Save"
+}

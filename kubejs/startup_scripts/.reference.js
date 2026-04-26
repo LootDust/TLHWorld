@@ -3,8 +3,13 @@
 
 // priority: 10
 
+global.PATH = 'D:\\Minecraft\\.minecraft\\versions\\TLHWorld'
+
 /** @import { $List } from "java.util.List" */
 const $List = Java.loadClass("java.util.List");
+/** @import { $ArrayList } from "java.util.ArrayList" */
+const $ArrayList = Java.loadClass("java.util.ArrayList");
+
 
 /** @import { $CommandSourceStack } from "net.minecraft.commands.CommandSourceStack" */
 const $CommandSourceStack = Java.loadClass("net.minecraft.commands.CommandSourceStack");
@@ -30,6 +35,8 @@ const $RecipeHolder = Java.loadClass("net.minecraft.world.item.crafting.RecipeHo
 const $ItemStackHandler = Java.loadClass("net.neoforged.neoforge.items.ItemStackHandler");
 
 
+/** @import { $RPCEvent } from "com.lowdragmc.lowdraglib2.gui.sync.rpc.RPCEvent" */
+const $RPCEvent = Java.loadClass("com.lowdragmc.lowdraglib2.gui.sync.rpc.RPCEvent");
 /** @import { $Button } from "com.lowdragmc.lowdraglib2.gui.ui.elements.Button" */
 const $Button = Java.loadClass("com.lowdragmc.lowdraglib2.gui.ui.elements.Button");
 /** @import { $UIEvent } from "com.lowdragmc.lowdraglib2.gui.ui.event.UIEvent" */

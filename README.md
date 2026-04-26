@@ -235,6 +235,7 @@
 - [x] CAD Editor 1.21.1-0.1.0
 - [x] Forgematica 0.4.1
 - [x] Notes 1.21.1-3.0.1
+- [x] Observable 
 - [x] Ponderer 1.7.1.5
 - [x] ProbeJS 7.7.2
 - [x] Remove Reloading Screen v5.0.10

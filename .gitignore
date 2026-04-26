@@ -51,6 +51,9 @@ config/*
 config/CSC/*
 !config/CSC/config.toml
 !config/emixx
+!config/iceandfire
+config/iceandfire/*
+!config/iceandfire/iaf-client.json
 !config/inventoryprofilesnext
 config/inventoryprofilesnext/*/
 !config/xaero

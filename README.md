@@ -19,9 +19,9 @@
 - [x] Aquaculture 2 1.21.1-2.7.21 - 提供更多钓鱼
 - [x] Ars Nouveau 5.11.3 - 新生魔艺
 - [x] Better Combat 2.3.2+1.21.1 - 提供更好的近战
-- [x] Civillis 1.3.1 - 阻止玩家基地附近刷怪
+- [x] Civillis 1.3.2 - 阻止玩家基地附近刷怪
 - [x] Cooking for Blockhead 1.21.1-21.1.20 - 提供水槽
-- [x] Create 6.0.9 - 提供机械
+- [x] Create 6.0.10 - 提供机械
 - [x] Curios API 9.5.1+1.21.1 - 提供饰品栏
 - [x] Dragon Survival v2.0.53-12.03.2026 - 提供变龙
 - [x] Etched 5.0.1 - 提供音乐
@@ -37,8 +37,8 @@
 - [x] Pufferfish's Attributes 0.8.2 - 提供更多属性
 - [x] Pufferfish's Skills 0.17.3 - 提供技能树
 - [x] Sophisticated Backpacks 1.21.1-3.5.41.1683 - 提供背包
-- [x] Sophisticated Storage 1.21.1-1.5.38.1637 - 提供仓储
-- [x] Structure Crafter 0.2.7 - 提供简易蓝图
+- [x] Sophisticated Storage 1.21.1-1.5.44.1680 - 提供仓储
+- [x] Structure Crafter 0.2.8 - 提供简易蓝图
 - [x] Supplementaries 1.21-3.5.27 - 提供杂项物品
 - [x] Time in a bottle 6.5.4 - 提供日活
 - [x] Open Parties and Claims 0.26.1 - 提供领地管理
@@ -56,7 +56,7 @@
 - [x] 0World2Create 1.21.1-1.0.0 - 禁用自动创建世界
 - [x] Accelerated recoiling 21.1.11-hotfix - 加速碰撞
 - [x] Accelerated rendering 1.0.8-1.21.1 - 加速渲染
-- [x] Create Better FPS 1.21.1-1.1.3 - 更好的机动帧率
+- [x] Create Better FPS 1.1.4 - 更好的机动帧率
 - [x] Ferrite Core 7.0.3 - 节省内存
 - [x] FTB X Mod Compat 21.1.8 - FTB模组兼容
 - [x] ImmediatelyFast 1.6.10 - 快冗渲染
@@ -81,9 +81,10 @@
 - [x] AppleSkin 1.21.1-3.0.9
 - [x] Configured 2.6.3
 - [x] Controlling 1.21.1-19.0.5
+- [x] Create Cyber Googles 7.5.6
 - [x] EMI 1.1.22+1.21.1
 - [x] FancyMenu v3.8.1
-- [x] IMBlocker v5.5.0
+- [x] IMBlocker v5.5.1
 - [x] Jade 15.10.5
 - [x] JEI 19.27.0.340
 - [x] Just Enough Characters 4.5.23
@@ -108,6 +109,7 @@
 #### Create
 - [x] Ars Technica 2.7.6 - 新生魔艺兼容
 - [x] Create Additional Logistics 1.4.5 - 提供物流优化
+- [ ] Create Aeronautics 1.1.3 - 航空学
 - [x] Create Central Kitchen 2.3.0 - 提供农夫乐事自动化
 - [x] Create Compatible Storage 2.11.0 - 多模组容器机动兼容
 - [x] Create Compressed 2.2.0 - 提供压缩材料块
@@ -118,8 +120,8 @@
 - [x] Create Delicious Teas - 提供更多茶饮
 - [x] Create Design n' Decor 2.1.0 - 提供装饰
 - [x] Create Diesel Generators 1.21.1-1.3.11 - 提供流体和替代燃烧室
-- [x] Create Dragons Plus 1.9.1 - 提供更多鼓风机加工方式等
-- [x] Create Enchantment Industry 2.3.0 - 提供附魔自动化
+- [x] Create Dragons Plus 1.10.0b - 提供更多鼓风机加工方式等
+- [x] Create Enchantment Industry 2.3.1 - 提供附魔自动化
 - [x] Create Entity Control v0.2.8.2 - 实体化控制
 - [x] Create Extra Casing 4.0.4 - 提供16色的封装
 - [x] Create Fantasizing Again 1.1.1 - 提供高效工具
@@ -142,7 +144,7 @@
 - [x] Kaleidoscope Cookery - Automation 1.0.1 - 森罗物语：厨房自动化
 - [x] Mechanical Millstone 1.0.1 - 动力森罗物语：厨房石磨
 - [x] Sophisticated Backpacks Create Integration 1.21.1-0.1.5.29 - 精妙背包机动兼容
-- [x] Sophisticated Storage Create Integration 1.21.1-0.1.3.54 - 精妙存储机动兼容
+- [x] Sophisticated Storage Create Integration 1.21.1-0.1.17.132 - 精妙存储机动兼容
 #### Curios API
 - [x] Artifacts 13.2.1 - 奇异饰品
 - [x] Enigmatic Legacy+ 1.21.1-0.6.0 - 神秘遗物
@@ -225,7 +227,7 @@
 - [x] PlayerAnimator 2.0.4
 - [x] Rhino 2101.2.7-build.77
 - [x] Searchables 1.21.1-1.0.2
-- [x] Sophisticated Core 1.21.1-1.4.25.1696
+- [x] Sophisticated Core 1.21.1-1.4.29.1752
 - [x] TerraBlender 1.21.1-4.1.0.8
 - [x] Uranus 2.4
 ### 调试
@@ -239,6 +241,7 @@
 - [x] Ponderer 1.7.1.5
 - [x] ProbeJS 7.7.2
 - [x] Remove Reloading Screen v5.0.10
+- [ ] Sable 1.1.3
 - [x] Search on MCMOD 0.0.8
 - [x] Spark 1.10.124
 - [x] Tweakerge 0.4.1+1.21.1

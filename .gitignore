@@ -5,6 +5,7 @@
 .vscode/
 TLHWorld-natives/
 crash-reports/
+debug/
 defaultconfigs/
 downloads/
 dragon-survival/
@@ -45,6 +46,8 @@ observable_announce
 options.txt
 patchouli_data.json
 ponders_watched.json
+servers.dat
+servers.dat_old
 usercache.json
 usernamecache.json
 

@@ -1,3 +1,0 @@
-StartupEvents.init(event => {
-
-})

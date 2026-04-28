@@ -109,7 +109,7 @@
 #### Create
 - [x] Ars Technica 2.7.6 - 新生魔艺兼容
 - [x] Create Additional Logistics 1.4.5 - 提供物流优化
-- [ ] Create Aeronautics 1.1.3 - 航空学
+- [x] Create Aeronautics 1.1.3 - 航空学
 - [x] Create Central Kitchen 2.3.0 - 提供农夫乐事自动化
 - [x] Create Compatible Storage 2.11.0 - 多模组容器机动兼容
 - [x] Create Compressed 2.2.0 - 提供压缩材料块
@@ -226,6 +226,7 @@
 - [x] Platform 1.3
 - [x] PlayerAnimator 2.0.4
 - [x] Rhino 2101.2.7-build.77
+- [x] Sable 1.1.3
 - [x] Searchables 1.21.1-1.0.2
 - [x] Sophisticated Core 1.21.1-1.4.29.1752
 - [x] TerraBlender 1.21.1-4.1.0.8
@@ -241,7 +242,6 @@
 - [x] Ponderer 1.7.1.5
 - [x] ProbeJS 7.7.2
 - [x] Remove Reloading Screen v5.0.10
-- [ ] Sable 1.1.3
 - [x] Search on MCMOD 0.0.8
 - [x] Spark 1.10.124
 - [x] Tweakerge 0.4.1+1.21.1

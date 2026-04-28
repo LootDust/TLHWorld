@@ -43,24 +43,42 @@ LDLib2UI.player('tlh:code_editor', event => {
     if (btnSave != null) {
         btnSave.setText(Component.translatable('ui.tlh.common.button.save'));
         btnSave.setOnClick(event => {
-            //editor.getValue().forEach((/** @type {String} */line) => {
-            //    player.sendSystemMessage(Component.literal(line));
-            //})
-            player.sendSystemMessage(Component.literal('clicked!'));
-            //player.sendSystemMessage(Component.literal(mCodeHolder[0]));
-            //player.sendSystemMessage(Component.literal(editor.getValue()[0]));
-            let data = editor.getValue();
-            let lines = []
-            data.forEach((string) => {
-                lines.push(string);
-            })
-            player.sendData('tlh:upload', {'player': player.getUuid().toString(), 'path': path, 'lines': lines});
+            try {
+                let data = editor.getValue();
+                let lines = [];
+                /** @type {import("dev.latvian.mods.kubejs.util.OrderedCompoundTag").$OrderedCompoundTag$$Original} */
+                let uploadData = NBT.compoundTag();
+                /** @type {$ListTag} */
+                let lineTag = NBT.listTag();
+
+                for (let i = 0; i < data.length; i++) {
+                    lines.push(data[i]);
+                }
+
+                console.log(lines);
+                console.log(lines.length);
+
+                for (let i = 0; i < lines.length; i++) {
+                    lineTag.addTag(NBT.stringTag(lines[i]));
+                }
+
+                console.log(lineTag);
+
+                uploadData.putString('player', player.getUuid().toString());
+                uploadData.putString('path', path);
+                uploadData.put('lines', lineTag);
+
+                player.sendData('tlh:upload', uploadData);
+            } catch (err) {
+                player.sendSystemMessage(Component.literal(err.toString()));
+                console.error(err);
+            }
         })
     }
     if (editor != null) {
         try {
             editor.setValue(codeHolder);
-            editor.bind(DataBindingBuilder.create(() => Java.cast($StringArray, mCodeHolder), (value) => mCodeHolder = value).build());
+            //editor.bind(DataBindingBuilder.create(() => Java.cast($StringArray, mCodeHolder), (value) => mCodeHolder = value).build());
         } catch (err) {
             editor.setValue(['Error occured when reading file:', err.toString()]);
         }

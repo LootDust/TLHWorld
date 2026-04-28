@@ -76,10 +76,9 @@ config/xaero/world-map/*
 !config/xaero/world-map/profiles
 config/xaero/world-map/profiles/*
 !config/xaero/world-map/profiles/tlh.cfg
-!config/aether-client.toml
-!config/aether-common.toml
 !config/ae2-client.toml
 !config/dragonsurvival-server.toml
+!config/enigmaticlegacyplus-server.toml
 !config/structure_crafter-common.toml
 !config/sophisticatedstorage-client.toml
 !config/supplementaries-client.toml

@@ -81,14 +81,32 @@ config/CSC
 !config/CSC/*
 config/CSC/config.toml
 config/emixx
-!config/emixx/*
-config/emixx/emixx-client.toml
-config/aether-client.toml
-config/aether-common.toml
+config/emixx/*
+config/iceandfire
+!config/iceandfire/*
+config/iceandfire/iaf-client.json
+config/inventoryprofilesnext
+!config/inventoryprofilesnext/*/
+config/xaero
+!config/xaero/*
+config/xaero/minimap
+!config/xaero/minimap/*
+config/xaero/minimap/profiles
+!config/xaero/minimap/profiles/*
+config/xaero/minimap/profiles/entity_radar_categories
+!config/xaero/minimap/profiles/entity_radar_categories/*
+config/xaero/minimap/profiles/entity_radar_categories/tlh.cfg.json
+config/xaero/minimap/profiles/tlh.cfg
+config/xaero/world-map
+!config/xaero/world-map/*
+config/xaero/world-map/profiles
+!config/xaero/world-map/profiles/*
+config/xaero/world-map/profiles/tlh.cfg
 config/dragonsurvival-server.toml
+config/structure_crafter-common.toml
 config/sophisticatedstorage-client.toml
 config/supplementaries-client.toml
-config/yes_steve_model-client.toml
+config/twilightforest-common.toml
 
 # TaCZ 枪包
 tacz/

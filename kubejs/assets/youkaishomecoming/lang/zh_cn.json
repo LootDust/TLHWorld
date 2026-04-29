@@ -1,0 +1,24 @@
+{
+    "block.youkaishomecoming.cold_tofu": "冷豆腐",
+    "block.youkaishomecoming.cumberland_loin": "坎伯兰猪腰",
+    "block.youkaishomecoming.raw_imitation_bear_paw": "赛熊掌",
+    "block.youkaishomecoming.raw_scholar_ginkgo": "生诗礼银杏",
+    "block.youkaishomecoming.scholar_ginkgo": "诗礼银杏",
+    "block.youkaishomecoming.tomato_sauce_cod": "茄汁鳕鱼",
+
+    "block.youkaishomecoming.copper_tank": "铜水罐",
+    "block.youkaishomecoming.copper_faucet": "铜水龙头",
+    "block.youkaishomecoming.steamer_pot": "蒸锅",
+    "block.youkaishomecoming.steamer_rack": "蒸笼",
+    "block.youkaishomecoming.steamer_lid": "蒸笼盖",
+
+    "item.youkaishomecoming.mantou": "馒头",
+    "item.youkaishomecoming.raw_bun": "生包子",
+    "item.youkaishomecoming.raw_oyaki": "生御烧",
+    "item.youkaishomecoming.sake_bottle": "清酒瓶",
+
+    "itemGroup.youkaishomecoming.youkais_homecoming": "妖怪们的归家 | 饮食",
+    "itemGroup.youkaishomecoming.building_blocks": "妖怪们的归家 | 建筑",
+    "itemGroup.youkaishomecoming.composite_blocks": "妖怪们的归家 | 组合方块",
+    "itemGroup.youkaishomecoming.furniture": "妖怪们的归家 | 家具"
+}

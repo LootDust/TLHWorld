@@ -74,7 +74,11 @@ ServerEvents.tags("item", event => {
         'regions_unexplored:redwood_log',
         'regions_unexplored:silver_birch_log',
         'regions_unexplored:socotra_log',
-        'regions_unexplored:willow_log'
+        'regions_unexplored:willow_log',
+        'undergarden:ancient_root',
+        'undergarden:grongle_log',
+        'undergarden:smogstem_log',
+        'undergarden:wigglewood_log'
     ])
 
     event.add("c:unstripped_woods", [
@@ -121,7 +125,10 @@ ServerEvents.tags("item", event => {
         'regions_unexplored:silver_birch_wood',
         'regions_unexplored:small_oak_log',
         'regions_unexplored:socotra_wood',
-        'regions_unexplored:willow_wood'
+        'regions_unexplored:willow_wood',
+        'undergarden:grongle_wood',
+        'undergarden:smogstem_wood',
+        'undergarden:wigglewood_wood'
     ])
 
     event.add("c:stripped_logs", [

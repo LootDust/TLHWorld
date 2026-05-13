@@ -1,8 +1,12 @@
 {
+    "biome.tlhworld.hideout": "Hideout",
+
     "item.tlhworld.mehvahdjukaars_foolish": "FUCK YOU MehVahdJukaars with your FUCKING DAMN APRIL FOOL JOKE",
     "item.tlhworld.mehvahdjukaars_foolish.tooltip": "You thought you're homorous huh?",
     "item.tlhworld.mehvahdjukaars_foolish.tooltip1": "This is my worst April fool",
     "item.tlhworld.mehvahdjukaars_foolish.tooltip2": "when I saw all copper on my screen with no clue who made this.",
     "item.tlhworld.mehvahdjukaars_foolish.tooltip3": "FUCK YOU son of bitch MehVahdJukaars",
-    "item.tlhworld.mehvahdjukaars_foolish.tooltip4": "——ZNE"
+    "item.tlhworld.mehvahdjukaars_foolish.tooltip4": "——ZNE",
+    "item.tlhworld.sale_license": "Sale License",
+    "item.tlhworld.purchase_license": "Purchase License"
 }

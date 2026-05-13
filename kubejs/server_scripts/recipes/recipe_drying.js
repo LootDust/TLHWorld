@@ -1,15 +1,13 @@
 ServerEvents.recipes(event => {
     event.custom({
-        "type": "youkaishomecoming:drying_rack",
-        "category": "misc",
-        "cookingtime": 800,
-        "experience": 0.0,
-        "ingredient": {
-            "item": "minecraft:rotten_flesh"
+        "type": "twilightforest:drying",
+        "filter_time": 3600,
+        "input": {
+            "item": "regions_unexplored:steppe_shrub"
         },
         "result": {
             "count": 1,
-            "id": "minecraft:leather"
+            "id": "regions_unexplored:dead_steppe_shrub"
         }
     })
 })

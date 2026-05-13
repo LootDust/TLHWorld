@@ -45,9 +45,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:item_application/copper_casing_from_wood' });
     event.remove({ id: 'create:industrial_iron_block_from_ingots_iron_stonecutting' });
 
-    // Mod: Etched
-    event.remove({ id: 'etched:etching_table' });
-
     // Mod: Homeostatic
     //event.remove({ id: 'homeostatic:water_filter' })
     //event.remove({ id: 'homeostatic:campfire_purified_water_bottle' })
@@ -64,6 +61,19 @@ ServerEvents.recipes(event => {
     // Mod: Kaleidoscope End
     // 配方修复
     event.remove({ id: 'kaleidoscope_end:stockpot/mint_noodle_soup' });
+
+    // Mod: Mekanism
+    event.remove({ output: 'mekanism:ingot_lead' });
+    event.remove({ output: 'mekanism:ingot_uranium' });
+    event.remove({ output: 'mekanism:nugget_lead' });
+    event.remove({ output: 'mekanism:nugget_uranium' });
+    
+    // Mod: Net Music
+    event.remove({ id: 'netmusic:music_player' });
+    event.remove({ id: 'netmusic:cd_burner' });
+    event.remove({ id: 'netmusic:music_cd' });
+    event.remove({ id: 'netmusic:computer' });
+    event.remove({ id: 'netmusic:big_megaphone' });
 
     // Mod: Regions Unexplored
     event.remove({ id: 'regions_unexplored:ash'})

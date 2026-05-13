@@ -1,0 +1,5 @@
+{
+    "type": "neoforge:remove_features",
+    "biomes": "#c:is_overworld",
+    "features": ["create_ironworks:deepslate_tin_ore", "create_ironworks:raw_tin_block", "create_ironworks:tin_ore"]
+}

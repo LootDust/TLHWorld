@@ -1,0 +1,146 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "size": 53,
+        "discard_chance_on_air_exposure": 0.2,
+        "targets": [
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:stone",
+                    "probability": 0.03
+                },
+                "state": {
+                    "Name": "minecraft:coal_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:deepslate",
+                    "probability": 0.05
+                },
+                "state": {
+                    "Name": "minecraft:coal_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                    "Name": "minecraft:coal_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                    "Name": "minecraft:deepslate_coal_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:coal_ore"
+                },
+                "state": {
+                    "Name": "minecraft:coal_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:deepslate_coal_ore"
+                },
+                "state": {
+                    "Name": "minecraft:coal_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:coal_block"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_coal_1x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_coal_1x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_coal_2x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_coal_2x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_coal_3x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_coal_3x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_coal_4x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_coal_4x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_coal_5x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_coal_5x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_coal_6x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_coal_6x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_coal_7x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_coal_7x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_coal_8x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_coal_8x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_coal_9x"
+                }
+            }
+        ]
+    }
+}

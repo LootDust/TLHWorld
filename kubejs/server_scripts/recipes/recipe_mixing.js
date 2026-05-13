@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+
     // Mod: Create Crafts & Additions
     event.recipes.create.mixing([Output.of('createaddition:biomass', 0.8), Output.of('createaddition:biomass', 0.2)], ['createdieselgenerators:wood_chip']);
     // Mod: Create Diesel Generators

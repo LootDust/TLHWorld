@@ -1,0 +1,15 @@
+{
+    "type": "tlhworld:hideout",
+    "generator": {
+        "type": "flat",
+        "settings": {
+            "biome": "tlhworld:hideout",
+            "layers": [
+                {
+                    "block": "tlhworld:hideout_barrier",
+                    "height": 512
+                }
+            ]
+        }
+    }
+}

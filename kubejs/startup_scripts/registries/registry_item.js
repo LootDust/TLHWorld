@@ -3,31 +3,31 @@ StartupEvents.registry("item", event => {
         .displayName({ translate: "item.createsifter.tin_mesh" })
         .parentModel("createsifter:block/meshes/mesh")
         .texture("mesh", "tlhworld:item/tin_mesh")
-        .maxDamage(12)
+        .maxDamage(12);
 
     event.create("createsifter:copper_mesh", "createsifter:mesh")
         .displayName({ translate: "item.createsifter.copper_mesh" })
         .parentModel("createsifter:block/meshes/mesh")
         .texture("mesh", "tlhworld:item/copper_mesh")
-        .maxDamage(24)
+        .maxDamage(24);
 
     event.create("createsifter:osmium_mesh", "createsifter:mesh")
         .displayName({ translate: "item.createsifter.osmium_mesh" })
         .parentModel("createsifter:block/meshes/mesh")
         .texture("mesh", "tlhworld:item/osmium_mesh")
-        .maxDamage(128)
+        .maxDamage(128);
 
     event.create("tlhworld:sale_license")
         .displayName({ translate: "item.tlhworld.sale_license" })
         .parentModel("minecraft:item/generated")
         .texture("tlhworld:item/sale_license")
-        .maxStackSize(1)
+        .maxStackSize(1);
     
     event.create("tlhworld:purchase_license")
         .displayName({ translate: "item.tlhworld.purchanse_license" })
         .parentModel("minecraft:item/generated")
         .texture("tlhworld:item/purchase_license")
-        .maxStackSize(1)
+        .maxStackSize(1);
 
     event.create("tlhworld:mehvahdjukaars_foolish")
         .displayName({ translate: "item.tlhworld.mehvahdjukaars_foolish"})
@@ -38,5 +38,5 @@ StartupEvents.registry("item", event => {
         .tooltip(Component.translatable("item.tlhworld.mehvahdjukaars_foolish.tooltip2").color(Color.GRAY).italic())
         .tooltip(Component.translatable("item.tlhworld.mehvahdjukaars_foolish.tooltip3").color(Color.GRAY).italic())
         .tooltip(Component.translatable("item.tlhworld.mehvahdjukaars_foolish.tooltip4").color(Color.GRAY).italic())
-        .maxStackSize(1)
+        .maxStackSize(1);
 })

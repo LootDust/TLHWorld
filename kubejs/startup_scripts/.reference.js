@@ -1,14 +1,16 @@
 // 在其他文件开头用“/// <reference path=".reference.js"/>”以调用此引用文件
 // 注意相对路径
 
+
 // priority: 10
 
-global.PATH = 'D:\\Minecraft\\.minecraft\\versions\\TLHWorld'
+/// <reference path=".config/js"/>
 
 /** @import { $List } from "java.util.List" */
 const $List = Java.loadClass("java.util.List");
 /** @import { $ArrayList } from "java.util.ArrayList" */
 const $ArrayList = Java.loadClass("java.util.ArrayList");
+
 
 
 /** @import { $CommandSourceStack } from "net.minecraft.commands.CommandSourceStack" */
@@ -17,6 +19,8 @@ const $CommandSourceStack = Java.loadClass("net.minecraft.commands.CommandSource
 const $BlockPos = Java.loadClass("net.minecraft.core.BlockPos");
 /** @import { $NonNullList } from "net.minecraft.core.NonNullList" */
 const $NonNullList = Java.loadClass("net.minecraft.core.NonNullList");
+/** @import { $CompoundTag } from "net.minecraft.nbt.CompoundTag" */
+const $CompoundTag = Java.loadClass("net.minecraft.nbt.CompoundTag");
 /** @import { $ListTag } from "net.minecraft.nbt.ListTag" */
 const $ListTag = Java.loadClass("net.minecraft.nbt.ListTag");
 /** @import { $ResourceLocation } from "net.minecraft.resources.ResourceLocation" */

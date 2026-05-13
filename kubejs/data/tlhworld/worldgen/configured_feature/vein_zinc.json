@@ -1,0 +1,146 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "size": 42,
+        "discard_chance_on_air_exposure": 0.0,
+        "targets": [
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:stone",
+                    "probability": 0.03
+                },
+                "state": {
+                    "Name": "create:raw_zinc_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:deepslate",
+                    "probability": 0.05
+                },
+                "state": {
+                    "Name": "create:raw_zinc_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                    "Name": "create:zinc_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                    "Name": "create:deepslate_zinc_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "create:zinc_ore"
+                },
+                "state": {
+                    "Name": "create:raw_zinc_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "create:deepslate_zinc_ore"
+                },
+                "state": {
+                    "Name": "create:raw_zinc_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "create:raw_zinc_block"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_zinc_1x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_zinc_1x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_zinc_2x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_zinc_2x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_zinc_3x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_zinc_3x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_zinc_4x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_zinc_4x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_zinc_5x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_zinc_5x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_zinc_6x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_zinc_6x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_zinc_7x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_zinc_7x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_zinc_8x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_zinc_8x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_zinc_9x"
+                }
+            }
+        ]
+    }
+}

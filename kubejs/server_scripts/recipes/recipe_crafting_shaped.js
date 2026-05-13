@@ -117,6 +117,11 @@ ServerEvents.recipes(event => {
         C: 'minecraft:crafter'
     });
 
+    // Mod: Create Compression
+    to9xCompressed(event, 'createcompression:compressed_raw_zinc', 'create:raw_zinc_block');
+    to9xCompressed(event, 'createcompression:compressed_raw_tin', 'create_ironworks:raw_tin_block');
+    to9xCompressed(event, 'createcompression:compressed_tin', 'create_ironworks:tin_block');
+
     // Mod: Create Diesel Generators
     event.shaped(Item.of('createdieselgenerators:chip_wood_block'), [
         "CCC",
@@ -142,7 +147,7 @@ ServerEvents.recipes(event => {
     ], {
         C: 'createdieselgenerators:chip_wood_block'
     });
-    event.shaped(Item.of('createdieselgenerators:hammer'), [
+    event.shaped(Item.of('createdieselgenerators:hammer[minecraft:unbreakable={}]'), [
         "TAT",
         "ASA",
         "SAT"
@@ -151,7 +156,7 @@ ServerEvents.recipes(event => {
         T: 'create_ironworks:tin_ingot',
         S: 'minecraft:stick'
     });
-    event.shaped(Item.of('createdieselgenerators:wire_cutters'), [
+    event.shaped(Item.of('createdieselgenerators:wire_cutters[minecraft:unbreakable={}]'), [
         " A ",
         "PSA",
         " P "
@@ -243,16 +248,64 @@ ServerEvents.recipes(event => {
         A: 'minecraft:andesite'
     });
 
-    // Mod: Etched
-    event.shaped(Item.of('etched:etching_table'), [
-        " BI",
-        "PPP"
+    // Mod: Net Music
+    event.shaped(Item.of('netmusic:music_player'), [
+        " RN",
+        "BCB"
     ], {
         B: 'create_ironworks:bronze_ingot',
-        I: 'minecraft:iron_ingot',
-        P: '#minecraft:planks'
+        C: 'create:brass_casing',
+        R: 'createaddition:brass_rod',
+        N: "minecraft:note_block"
+    });
+    event.shaped(Item.of('netmusic:cd_burner'), [
+        " L ",
+        "IRI",
+        "BCB"
+    ], {
+        B: 'create_ironworks:bronze_ingot',
+        C: 'create:brass_casing',
+        I: 'create:iron_sheet',
+        R: 'minecraft:redstone',
+        L: "minecraft:lightning_rod"
+    });
+    event.shaped(Item.of('netmusic:computer'), [
+        "GGG",
+        "LEC",
+        "BPB"
+    ], {
+        B: 'create:brass_casing',
+        L: 'ae2:logic_processor',
+        C: 'ae2:calculation_processor',
+        E: 'ae2:engineering_processor',
+        P: 'create:precision_mechanism',
+        G: Ingredient.of(['minecraft:glass_pane', 'create:framed_glass_pane'])
+    });
+    event.shaped(Item.of('netmusic:big_megaphone'), [
+        " B ",
+        "BEB",
+        "N C"
+    ], {
+        B: 'create_ironworks:bronze_ingot',
+        C: 'create:brass_casing',
+        E: 'create:electron_tube',
+        N: "minecraft:note_block"
     });
 
+    // Mod: Regions Unexplored
+    event.shaped(Item.of('regions_unexplored:raw_redstone_block', 2), [
+        "PP",
+        "PP"
+    ], {
+        P: 'regions_unexplored:pointed_redstone'
+    })
+    event.shaped(Item.of('regions_unexplored:ash'), [
+        "AA",
+        "AA"
+    ], {
+        A: 'supplementaries:ash'
+    })
+    
     // Mod: Sophisticated Backpacks
     event.shaped(Item.of('sophisticatedbackpacks:backpack'), [
         "TLT",
@@ -264,14 +317,6 @@ ServerEvents.recipes(event => {
         C: '#c:chests/wooden',
         A: 'create:andesite_alloy'
     });
-
-    // Mod: Regions Unexplored
-    event.shaped(Item.of('regions_unexplored:ash'), [
-        "AA",
-        "AA"
-    ], {
-        A: 'supplementaries:ash'
-    })
 
     // Mod: TaCZ
     event.shaped(Item.of('tacz:modern_kinetic_gun[minecraft:custom_data={"GunFireMode":"SEMI","GunId":"tacz:springfield1873","GunCurrentAmmoCount":0}]'), [
@@ -304,3 +349,32 @@ ServerEvents.recipes(event => {
         P: 'minecraft:paper'
     });
 })
+
+/**
+ * 
+ * @param {import("dev.latvian.mods.kubejs.recipe.RecipesKubeEvent").$RecipesKubeEvent$$Original} event 
+ * @param {StringJS} storageBlock 
+ * @param {import("net.minecraft.world.item.ItemStack").$ItemStack$$Type} material 
+ */
+const toStorageBlock = (event, storageBlock, material) => {
+    event.shaped(Item.of(storageBlock), [
+        "MMM",
+        "MMM",
+        "MMM"
+    ], {
+        M: material
+    });
+}
+
+/**
+ * 
+ * @param {import("dev.latvian.mods.kubejs.recipe.RecipesKubeEvent").$RecipesKubeEvent$$Original} event 
+ * @param {StringJS} storageBlock 
+ * @param {import("net.minecraft.world.item.ItemStack").$ItemStack$$Type} material 
+ */
+const to9xCompressed = (event, storageBlock, material) => {
+    toStorageBlock(event, storageBlock + "_1x", material);
+    for(let i = 2; i < 10; i++) {
+        toStorageBlock(event, storageBlock + "_" + i.toString() + "x", storageBlock + "_" + (i - 1).toString() + "x");
+    }
+}

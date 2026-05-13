@@ -1,4 +1,25 @@
 ServerEvents.tags("block", event => {
+    event.add("minecraft:needs_iron_tool", [
+        'createcompression:compressed_raw_zinc_1x',
+        'createcompression:compressed_raw_zinc_2x',
+        'createcompression:compressed_raw_zinc_3x',
+        'createcompression:compressed_raw_zinc_4x',
+        'createcompression:compressed_raw_zinc_5x',
+        'createcompression:compressed_raw_zinc_6x',
+        'createcompression:compressed_raw_zinc_7x',
+        'createcompression:compressed_raw_zinc_8x',
+        'createcompression:compressed_raw_zinc_9x',
+        'createcompression:compressed_raw_tin_1x',
+        'createcompression:compressed_raw_tin_2x',
+        'createcompression:compressed_raw_tin_3x',
+        'createcompression:compressed_raw_tin_4x',
+        'createcompression:compressed_raw_tin_5x',
+        'createcompression:compressed_raw_tin_6x',
+        'createcompression:compressed_raw_tin_7x',
+        'createcompression:compressed_raw_tin_8x',
+        'createcompression:compressed_raw_tin_9x'
+    ])
+
     event.add("c:anomalies", [
         'biomesoplenty:unmapped_end_stone',
         'biomesoplenty:null_end_stone',
@@ -36,6 +57,10 @@ ServerEvents.tags("block", event => {
         'supplementaries:safe',
         'supplementaries:sack'
     ])
+    
+    event.add("c:storage_blocks", [
+        /createcompression:*/
+    ])
 
     event.add("c:textables", [
         '#minecraft:all_signs',
@@ -67,7 +92,7 @@ ServerEvents.tags("block", event => {
         'create:brown_toolbox',
         'create:clipboard',
         'create:crushing_wheel_controller',
-        'createadditionallogistics:package_editor',
+        'createadditionallogistics:package_editor'
     ])
 
     event.add("create:creatives", [

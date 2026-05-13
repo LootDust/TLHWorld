@@ -1,0 +1,5 @@
+{
+    "type": "neoforge:remove_features",
+    "biomes": "#c:is_overworld",
+    "features": ["ore_coal_lower", "ore_coal_upper", "ore_copper", "ore_copper_large", "ore_diamond", "ore_diamond_buried", "ore_diamond_large", "ore_diamond_medium", "ore_gold", "ore_gold_extra", "ore_gold_lower", "ore_iron_middle", "ore_iron_small", "ore_iron_upper", "ore_lapis", "ore_lapis_buried", "ore_redstone", "ore_redstone_lower"]
+}

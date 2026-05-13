@@ -28,3 +28,26 @@ NetworkEvents.dataReceived('tlh:upload', event => {
         }
     }
 })
+
+/**
+ * 
+ * @param {$Player} player 
+ * @param {StringJS} path 
+ * @param {StringJS[]} lines 
+ */
+const func_tlh__network__upload = (player, path, lines) => {
+    let uuid = player.getUuid().toString();
+    if (uuid == undefined || uuid == '') {
+        console.warn('server_scripts: network/upload.js$func_tlh__network__upload(): Error occured when trying to upload file: No UUID. Upload interrupted.');
+        return false;
+    } else {
+        if (player.hasPermissions(2) && /** @type {string[]} */(global.WHITELISTS.FILES.WRITE).includes(uuid)) {
+            console.log('server_scripts: network/upload.js$func_tlh__network__upload(): Player ' + uuid + ' succeeded to upload file: ' + path);
+            FilesJS.writeLines(path, lines);
+            return true;
+        } else {
+            console.warn('server_scripts: network/upload.js$func_tlh__network__upload(): Error occured when trying to upload file: Permission Denied (' + uuid + '). Upload interrupted.');
+            return false;
+        }
+    }
+}

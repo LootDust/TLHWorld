@@ -1,4 +1,9 @@
 {
+    "biome.tlhworld.hideout": "藏身处",
+
+    "block.tlhworld.hideout_barrier": "藏身处外墙",
+    "block.tlhworld.hideout_light": "藏身处应急灯",
+
     "container.tlhworld.recipebuilder_craft_shaped": "有序合成配方编辑器",
     "container.tlhworld.recipebuilder_craft_shaped.miss_recipe": "正在编辑：未知配方",
     "container.tlhworld.recipebuilder_craft_shaped.recipe": "正在编辑：%s",

@@ -1,0 +1,6 @@
+{
+    "type": "neoforge:add_features",
+    "biomes": "#c:is_overworld",
+    "features": ["tlhworld:vein_coal_upper", "tlhworld:vein_coal_lower", "tlhworld:vein_zinc", "tlhworld:vein_iron_lower", "tlhworld:vein_gold_upper", "tlhworld:vein_gold_lower"],
+    "step": "underground_ores"
+}

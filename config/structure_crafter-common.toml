@@ -1,35 +1,8 @@
 [General]
-	#NBT Ignore List
-	structure_blacklist = ["#create:creatives", "#c:containers", "simulated:*", "aeronautics:*", "offroad:*", "sophisticatedbackpacks:*", "sophisticatedstorage:*"]
-	#Placement Distance Multiplier
-	# Default: 1
-	# Range: 1 ~ 10
-	structure_place_distance = 1
 	#Preview Unlock Distance
 	# Default: 300
 	# Range: > 1
 	preview_unlock_distance = 300
-	#NBT Placement Mode
-	#Allowed Values: ALL, IGNORE_NBT, BLACKLIST
-	structure_place_mode = "BLACKLIST"
-
-	[General."Blackboard Record Size Limit"]
-		#Blackboard Size Limit (X)
-		# Default: 30
-		# Range: > -1
-		max_size_x = 30
-		#Blackboard Size Limit (Y)
-		# Default: 60
-		# Range: > -1
-		max_size_y = 60
-		#Blackboard Size Limit (Z)
-		# Default: 30
-		# Range: > -1
-		max_size_z = 30
-		#Blackboard Volume Limit
-		# Default: 100000
-		# Range: > -1
-		max_volume = 100000
 
 ["Hidden Features"]
 	material_list_scattered = true

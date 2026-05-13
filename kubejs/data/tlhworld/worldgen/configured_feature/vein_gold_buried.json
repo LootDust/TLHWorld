@@ -1,0 +1,146 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "size": 24,
+        "discard_chance_on_air_exposure": 0.6,
+        "targets": [
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:stone",
+                    "probability": 0.03
+                },
+                "state": {
+                    "Name": "minecraft:raw_gold_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:deepslate",
+                    "probability": 0.05
+                },
+                "state": {
+                    "Name": "minecraft:raw_gold_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                    "Name": "minecraft:gold_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                    "Name": "minecraft:deepslate_gold_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:gold_ore"
+                },
+                "state": {
+                    "Name": "minecraft:raw_gold_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:deepslate_gold_ore"
+                },
+                "state": {
+                    "Name": "minecraft:raw_gold_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:raw_gold_block"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_gold_1x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_gold_1x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_gold_2x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_gold_2x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_gold_3x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_gold_3x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_gold_4x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_gold_4x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_gold_5x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_gold_5x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_gold_6x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_gold_6x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_gold_7x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_gold_7x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_gold_8x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_raw_gold_8x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_raw_gold_9x"
+                }
+            }
+        ]
+    }
+}

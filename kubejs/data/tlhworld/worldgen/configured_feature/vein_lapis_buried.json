@@ -1,0 +1,146 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "size": 42,
+        "discard_chance_on_air_exposure": 0.8,
+        "targets": [
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:stone",
+                    "probability": 0.03
+                },
+                "state": {
+                    "Name": "minecraft:lapis_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:deepslate",
+                    "probability": 0.05
+                },
+                "state": {
+                    "Name": "minecraft:lapis_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                    "Name": "minecraft:lapis_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                    "Name": "minecraft:deepslate_lapis_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:lapis_ore"
+                },
+                "state": {
+                    "Name": "minecraft:lapis_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:deepslate_lapis_ore"
+                },
+                "state": {
+                    "Name": "minecraft:lapis_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:lapis_block"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_lapis_1x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_lapis_1x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_lapis_2x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_lapis_2x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_lapis_3x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_lapis_3x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_lapis_4x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_lapis_4x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_lapis_5x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_lapis_5x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_lapis_6x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_lapis_6x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_lapis_7x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_lapis_7x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_lapis_8x"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "createcompression:compressed_lapis_8x"
+                },
+                "state": {
+                    "Name": "createcompression:compressed_lapis_9x"
+                }
+            }
+        ]
+    }
+}

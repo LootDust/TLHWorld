@@ -1,4 +1,5 @@
 ServerEvents.tags("item", event => {
+    // 原版标签
     // 木质物品
     event.removeAll("minecraft:logs")
     event.add("minecraft:logs", [
@@ -7,6 +8,11 @@ ServerEvents.tags("item", event => {
         '#c:branches'
     ])
 
+
+    // 通用标签
+    event.removeAll("neoforge:storage_blocks")
+
+    // 木质物品
     event.add("c:logs", [
         '#c:unstripped_logs',
         '#c:stripped_logs'
@@ -38,6 +44,7 @@ ServerEvents.tags("item", event => {
         'minecraft:dark_oak_log',
         'minecraft:mangrove_log',
         'minecraft:cherry_log',
+        'minecraft:pale_oak_log',
         'biomesoplenty:fir_log',
         'biomesoplenty:pine_log',
         'biomesoplenty:maple_log',
@@ -91,6 +98,7 @@ ServerEvents.tags("item", event => {
         'minecraft:dark_oak_wood',
         'minecraft:mangrove_wood',
         'minecraft:cherry_wood',
+        'minecraft:pale_oak_wood',
         'biomesoplenty:fir_wood',
         'biomesoplenty:pine_wood',
         'biomesoplenty:maple_wood',
@@ -139,6 +147,7 @@ ServerEvents.tags("item", event => {
     ])
 
     event.add("c:stripped_woods", [
+        'minecraft:stripped_pale_oak_wood',
         'ratatouille_fried_delights:stripped_cola_wood'
     ])
 
@@ -239,6 +248,12 @@ ServerEvents.tags("item", event => {
         'minecraft:blackstone'
     ])
 
+    // 砖类物品
+    event.add("c:bricks", [
+        'minecraft:resin_brick'
+    ])
+
+    // 蓝图物品
     event.add("c:schematics", [
         'create:schematicannon',
         'create:schematic_table',
@@ -259,6 +274,29 @@ ServerEvents.tags("item", event => {
         'kaleidoscope_cookery:raw_noodles'
     ])
 
+    // 唱片标签统一
+    event.add("c:music_discs", [
+        'apothic_enchanting:music_disc_eterna',
+        'apothic_enchanting:music_disc_quanta',
+        'apothic_enchanting:music_disc_arcana',
+        'ars_technica:blank_disc',
+        'born_in_chaos_v1:anluka_doors',
+        'born_in_chaos_v1:serpumpkinhead_m',
+        'cataclysm:music_disc_netherite_monstrosity',
+        'cataclysm:music_disc_ender_guardian',
+        'cataclysm:music_disc_ignis',
+        'cataclysm:music_disc_the_harbinger',
+        'cataclysm:music_disc_the_leviathan',
+        'cataclysm:music_disc_ancient_remnant',
+        'cataclysm:music_disc_scylla',
+        'cataclysm:music_disc_the_cataclysmfarer',
+        'apotheosis:music_disc_flash',
+        'apotheosis:music_disc_glimmer',
+        'apotheosis:music_disc_shimmer'
+    ])
+
+
+    // Mod: Create
     // 创造物品
     event.add("create:creatives", [
         'create:handheld_worldshaper',
@@ -273,5 +311,29 @@ ServerEvents.tags("item", event => {
         'powergrid:creative_resistor',
         'create_connected:creative_fluid_vessel',
         'createcasing:creative_cogwheel'
+    ])
+
+
+    // Mod: The Twilight Forest
+    // 空心原木
+    event.add("twilightdelight:hollow_logs", [
+        'twilightforest:hollow_oak_log',
+        'twilightforest:hollow_spruce_log',
+        'twilightforest:hollow_birch_log',
+        'twilightforest:hollow_jungle_log',
+        'twilightforest:hollow_acacia_log',
+        'twilightforest:hollow_dark_oak_log',
+        'twilightforest:hollow_vangrove_log',
+        'twilightforest:hollow_cherry_log',
+        'twilightforest:hollow_crimson_stem',
+        'twilightforest:hollow_warped_stem',
+        'twilightforest:hollow_twilight_oak_log',
+        'twilightforest:hollow_canopy_log',
+        'twilightforest:hollow_mangrove_log',
+        'twilightforest:hollow_dark_log',
+        'twilightforest:hollow_time_log',
+        'twilightforest:hollow_transformation_log',
+        'twilightforest:hollow_mining_log',
+        'twilightforest:hollow_sorting_log'
     ])
 })

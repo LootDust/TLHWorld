@@ -126,8 +126,8 @@
 		healthThreshold = 40
 
 	[else.explorerScroll]
-		# Default: 4
-		# Range: 1 ~ 8
+		# Default: 5
+		# Range: 1 ~ 10
 		effectiveRange = 4
 		# Default: 320
 		# Range: 160 ~ 800
@@ -175,11 +175,47 @@
 		# Default: 50
 		# Range: 0 ~ 100
 		specialDamageResistance = 50
+		# Default: 1200
+		# Range: 200 ~ 2000
+		cooldown = 1200
 
 	[else.hunterGuidebook]
 		# Default: 16.0
 		# Range: 4.0 ~ 64.0
 		effectiveRange = 16.0
+
+	[else.majesticElytra]
+		# Default: 75
+		# Range: 0 ~ 95
+		resistanceModifier = 75
+
+	[else.infernalRing]
+		# Default: 60
+		# Range: 0 ~ 100
+		specialDamageResistance = 60
+
+	[else.enigmaticAmulet]
+		# Default: 2.0
+		# Range: 0.0 ~ 10.0
+		amuletRed = 2.0
+		# Default: 15
+		# Range: 0 ~ 100
+		amuletAqua = 15
+		# Default: 15
+		# Range: 0 ~ 100
+		amuletViolet = 15
+		# Default: 20
+		# Range: 0 ~ 100
+		amuletMagenta = 20
+		# Default: 2.0
+		# Range: 0.0 ~ 10.0
+		amuletGreen = 2.0
+		# Default: 10
+		# Range: 0 ~ 100
+		amuletBlack = 10
+		# Default: 25
+		# Range: 0 ~ 100
+		amuletBlue = 25
 
 [abyssItems]
 	# Default: 5

@@ -1,23 +1,7 @@
 ServerEvents.recipes(event => {
-    event.custom({
-        "type": "kaleidoscope_cookery:millstone",
-        "ingredient": {
-            "item": "minecraft:cobblestone"
-        },
-        "result": {
-            "count": 1,
-            "id": "minecraft:gravel"
-        }
-    })
+    // 农业粗磨
 
-    event.custom({
-        "type": "kaleidoscope_cookery:millstone",
-        "ingredient": {
-            "tag": "minecraft:planks"
-        },
-        "result": {
-            "count": 1,
-            "id": "createdieselgenerators:wood_chip"
-        }
-    })
+    // 材料粗磨
+    event.recipes.kaleidoscope_cookery.millstone(Output.of('minecraft:gravel'), Ingredient.of('minecraft:cobblestone'));
+    event.recipes.kaleidoscope_cookery.millstone(Output.of('createdieselgenerators:wood_chip'), Ingredient.of('#minecraft:planks'));
 })

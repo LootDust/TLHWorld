@@ -1,20 +1,19 @@
 ServerEvents.recipes(event => {
-    event.remove({ mod: 'create_dragons_plus' });
-    event.remove({ mod: 'createdieselgenerators' });
-    event.remove({ mod: 'create_fantasizing' });
-    event.remove({ mod: 'createaddition' });
+    event.remove({ mod: 'ae2' });
     // Create: Aeronautics
-    event.remove({ mod: 'simulated' });
-    event.remove({ mod: 'aeronautics'});
-    event.remove({ mod: 'offroad' });
+        event.remove({ mod: 'simulated' });
+        event.remove({ mod: 'aeronautics'});
+        event.remove({ mod: 'offroad' });
+    event.remove({ mod: 'create_dragons_plus' });
+    event.remove({ mod: 'create_fantasizing' });
+    event.remove({ mod: "create_shimmer" });
+    event.remove({ mod: 'createaddition' });
+    event.remove({ mod: 'createdieselgenerators' });
     event.remove({ mod: 'createmetalogistics' });
-    event.remove({ mod: 'createnuclear' })
-    //event.remove({ mod: 'createnetherindustry' })
+    event.remove({ mod: 'createnuclear' });
     event.remove({ mod: 'create_mechanical_extruder' });
     event.remove({ mod: 'createsifter' });
     event.remove({ mod: 'mekanism' });
-    event.remove({ mod: 'ae2' });
-    //event.remove({ mod: 'torchmaster' })
 
     
     // 普轴配方删除

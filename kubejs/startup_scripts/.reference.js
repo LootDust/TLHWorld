@@ -4,7 +4,7 @@
 
 // priority: 10
 
-/// <reference path=".config/js"/>
+/// <reference path=".config.js"/>
 
 /** @import { $List } from "java.util.List" */
 const $List = Java.loadClass("java.util.List");

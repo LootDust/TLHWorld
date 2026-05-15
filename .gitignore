@@ -1,9 +1,11 @@
 .gunsmithlib/
 .mixin.out/
 .pg-native/
-.probe
+.probe/
+.sable/
 .vscode/
 TLHWorld-natives/
+civil/
 crash-reports/
 debug/
 defaultconfigs/
@@ -42,6 +44,7 @@ acceleratedRecoilingLib.dll
 command_history.txt
 emi.json
 handbook_data.json
+imgui.ini
 observable_announce
 options.txt
 patchouli_data.json

@@ -74,8 +74,8 @@ ServerEvents.recipes(event => {
 /**
  * 
  * @param {import("dev.latvian.mods.kubejs.recipe.RecipesKubeEvent").$RecipesKubeEvent$$Original} event 
- * @param {StringJS} storageBlock 
- * @param {StringJS} material 
+ * @param {import("@package/net/minecraft/world/item").$ItemStack_} storageBlock 
+ * @param {import("@package/net/minecraft/world/item").$ItemStack_} material 
  */
 const fromStorageBlock = (event, storageBlock, material) => {
     event.shapeless(Item.of(material, 9), [storageBlock]);
@@ -84,8 +84,8 @@ const fromStorageBlock = (event, storageBlock, material) => {
 /**
  * 
  * @param {import("dev.latvian.mods.kubejs.recipe.RecipesKubeEvent").$RecipesKubeEvent$$Original} event 
- * @param {StringJS} storageBlock 
- * @param {import("net.minecraft.world.item.ItemStack").$ItemStack$$Type} material 
+ * @param {import("@package/net/minecraft/world/item").$ItemStack_} storageBlock 
+ * @param {import("@package/net/minecraft/world/item").$ItemStack_} material 
  */
 const from9xCompressed = (event, storageBlock, material) => {
     fromStorageBlock(event, storageBlock + "_1x", material);

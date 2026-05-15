@@ -1,3 +1,10 @@
 {
-    "probejs.modHash": 8281152764952106310
+    "probejs.modHash": 7232879910260635193,
+    "probejs.fullScanMods": [
+        "minecraft",
+        "kubejs",
+        "neoforge",
+        "ldlib2"
+    ],
+    "probejs.hintsForLLM": false
 }

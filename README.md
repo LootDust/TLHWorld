@@ -1,6 +1,6 @@
 # 塔罗会：世界
 ## 基本概况
-- 游戏版本：1.21.1 Neoforge  21.1.222
+- 游戏版本：1.21.1 Neoforge  21.1.232
 
 ## 模组列表
 | 模组状态 | 模组原名 | 模组版本 | 模组译名 | 模组类型 | 运行环境 | 模组描述 |
@@ -35,9 +35,15 @@
 | 已启用 | bad packets | 0.8.2 | - | 前置库 | 仅客户端 | - |
 | 已启用 | Balm | 21.0.56 | - | 前置库 | 双端需装 | - |
 | 已启用 | Born in Chaos | 1.7.4 | 生于混沌 | 玩法-冒险 | 双端需装 | 提供更多怪物 |
+| 已启用 | Caelus API | 7.0.1 | 鞘翅栏位 | 附属-Curios | 双端需装 | - |
 | 已启用 | Carry On | 2.2.4.4 | 搬运 | 机制调整 | 双端需装 | - |
 | 已启用 | Carry On Extend | 1.5.1 | 搬运：拓展 | 附属-Carry On | 双端需装 | - |
-| 已启用 | Cloth Config API | 15.0.140 | Fabric配置 | 前置库 | 双端需装 | - |
+| 已启用 | Cloth Config API | 15.0.140 | Fabric配置 | 前置库 | 双端可选 | - |
+| 已启用 | Configured | 2.6.3 | 配置界面 | 前置库 | 客需服选 | - |
+| 已启用 | Cooking for Blockheads | 21.1.23 | 懒人厨房 | 玩法-农业 | 双端需装 | - |
+| 已启用 | CoroUtil | 1.3.9 | - | 前置库 | 双端需装 | - |
+| 已启用 | Cosmetic Armor Reworked | 1 | 时装盔甲重制版 | 机制调整 | 双端需装 | - |
+| 已启用 | Crate Delight | 25.09.22 | 装箱乐事 | 附属-Farmer's Delight | 双端需装 | - |
 | 已启用 | Create | 2.1.3 | 机械动力 | 玩法-科技 | 双端需装 | - |
 | 已启用 | Create : Addition | 1.5.11 | 机械动力：创想附加 | 附属-Create | 双端需装 | - |
 | 已启用 | Create : Additional Logistics | 1.4.5 | 机械动力：物品附加 | 附属-Create | 双端需装 | - |
@@ -74,7 +80,20 @@
 | 已禁用 | Create More : Package Couriers | 2.2.4 | 机械动力：纸板物流 | 附属-Create | 双端需装 | - |
 | 已启用 | Create : Deco | 2.1.3 | 机械动力：装饰 | 附属-Create | 双端需装 | - |
 | 已启用 | Create : Molten Vents | 2.1.1 | 机械动力：熔融矿脉 | 附属-Create | 双端需装 | - |
+| 已启用 | Creative Core | 2.13.36 | - | 前置库 | 双端需装 | - |
+| 已启用 | Crotrolling | 19.0.5 | 键位冲突显示 | 信息显示 | 双端需装 | - |
+| 已启用 | Curios API | 9.5.1 | 饰品栏 | 玩法-装备 | 双端需装 | - |
 | 已启用 | Curios for Ammo Box | 1.1.0 | TaCZ弹药盒饰品栏 | 附属-TaCZ | 双端需装 | - |
+| 已启用 | Civillis | 1.4.0 | 文礼 | 机制调整 | 双端需装 | - |
+| 已启用 | Custom Machinery | 0.10.65 | 自定义机器 | 技术性 | 双端需装 | - |
+| 已启用 | Custom Machinery Ars | 0.10.65 | 自定义机器新生魔艺附属 | 附属-Custom Machinery | 双端需装 | - |
+| 已启用 | Don't Touch My Datapack | 1.0.0 | 别碰我的数据包 | 未知分类 | 双端需装 | - |
+| 已启用 | Delightful Creators | 1.2 | 动力乐事 | 附属-Farmer's Delight | 双端需装 | - |
+| 已启用 | Design n' Decor | 2.1.0 | 机械动力：设计与装饰 | 未知分类 | 双端需装 | - |
+| 已启用 | Dragon Survival | 2.0.54-29.04.2026 | 龙之生存 | 未知分类 | 双端需装 | - |
+| 已启用 | Dragon Survival IAF Integration | 1.2.1 | 龙之生存冰火传说兼容 | 附属-Dragon Survival | 双端需装 | - |
+| 已启用 | Default Options | 21.1.6 | 默认配置 | 机制调整 | 仅客户端 | - |
+| 已启用 | Dummmmmmy | 2.0.12 | 试验假人 | 玩法-实用 | 双端需装 | - |
 | 已启用 | Mechanical Millstone | 1.0.1-fix | 机械动力：动力石磨 | 附属-Create | 双端需装 | - |
 
 表格模板：

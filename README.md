@@ -44,7 +44,7 @@
 | ✅ | CoroUtil | 1.3.9 | - | 前置库 | 双端需装 | - |
 | ✅ | Cosmetic Armor Reworked | 1 | 时装盔甲重制版 | 机制调整 | 双端需装 | - |
 | ✅ | Crate Delight | 25.09.22 | 装箱乐事 | 附属-Farmer's Delight | 双端需装 | - |
-| ✅ | Create | 2.1.3 | 机械动力 | 玩法-科技 | 双端需装 | - |
+| ✅ | Create | 6.0.10 | 机械动力 | 玩法-科技 | 双端需装 | - |
 | ✅ | Create : Addition | 1.5.11 | 机械动力：创想附加 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Additional Logistics | 1.4.5 | 机械动力：物品附加 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Aeronautics | 1.2.1 | 机械动力：航空学 | 附属-Create | 双端需装 | - |
@@ -87,13 +87,66 @@
 | ✅ | Civillis | 1.4.0 | 文礼 | 机制调整 | 双端需装 | - |
 | ✅ | Custom Machinery | 0.10.65 | 自定义机器 | 技术性 | 双端需装 | - |
 | ✅ | Custom Machinery Ars | 0.10.65 | 自定义机器新生魔艺附属 | 附属-Custom Machinery | 双端需装 | - |
-| ✅ | Don't Touch My Datapack | 1.0.0 | 别碰我的数据包 | 未知分类 | 双端需装 | - |
+| ✅ | Don't Touch My Datapack | 1.0.0 | 别碰我的数据包 | 机制调整 | 双端需装 | - |
 | ✅ | Delightful Creators | 1.2 | 动力乐事 | 附属-Farmer's Delight | 双端需装 | - |
-| ✅ | Design n' Decor | 2.1.0 | 机械动力：设计与装饰 | 未知分类 | 双端需装 | - |
-| ✅ | Dragon Survival | 2.0.54-29.04.2026 | 龙之生存 | 未知分类 | 双端需装 | - |
+| ✅ | Design n' Decor | 2.1.0 | 机械动力：设计与装饰 | 附属-Create | 双端需装 | - |
+| ✅ | Dragon Survival | 2.0.54-29.04.2026 | 龙之生存 | 玩法-冒险 | 双端需装 | - |
 | ✅ | Dragon Survival IAF Integration | 1.2.1 | 龙之生存冰火传说兼容 | 附属-Dragon Survival | 双端需装 | - |
 | ✅ | Default Options | 21.1.6 | 默认配置 | 机制调整 | 仅客户端 | - |
-| ✅ | Dummmmmmy | 2.0.12 | 试验假人 | 玩法-实用 | 双端需装 | - |
+| ✅ | Target Dummy | 2.0.12 | 试验假人 | 玩法-实用 | 双端需装 | - |
+| ✅ | EMI++ | 1.2.3 | - | 附属-EMI | 仅客户端 | - |
+| ✅ | EMI Enchanting | 0.1.2 | EMI附魔查询 | 附属-EMI | 仅客户端 | - |
+| ✅ | EMI | 1.1.24 | EMI物品管理器 | 信息显示 | 客需服选 | - |
+| ✅ | EMI Loot | 0.7.9 | EMI战利品表查询 | 附属-EMI | 双端需装 | - |
+| ✅ | ezactions | 2.0.3.5 | 简易轮盘 | 玩法-实用 | 仅客户端 | - |
+| ✅ | End's Delight | 2.5.1 | 末地乐事 | 附属-Farmer's Delight | 双端需装 | - |
+| ✅ | Ender's Delight | 1.3.0 | 末影乐事 | 附属-Farmer's Delight | 双端需装 | - |
+| ✅ | Enigmatic Legacy+ | 1.0.0 | 神秘遗物+ | 附属-Curios API | 双端需装 | - |
+| ✅ | FTB Teams | 2101.1.10 | FTB 团队 | 前置库 | 双端需装 | - |
+| ✅ | FTB Filter System | 21.1.4 | FTB过滤器 | 技术性 | 双端需装 | - |
+| ✅ | FTB X Mod Compat | 21.1.8 | FTB兼容 | 性能优化 | 双端需装 | - |
+| ✅ | FTB Library | 2101.1.31 | FTB库 | 前置库 | 双端需装 | - |
+| ✅ | FTB Quests | 2101.1.24 | FTB任务 | 技术性 | 双端需装 | - |
+| ✅ | FetchJS | 1.0.0 | KubeJS网络同步附属 | 附属-KubeJS | 双端可选 | - |
+| ✅ | FilesJS | 1.0 | KubeJS文件操作附属 | 附属-KubeJS | 双端需装 | - |
+| ✅ | Farmer's Delight | 1.3.2 | 农夫乐事 | 玩法-农业 | 双端需装 | - |
+| ✅ | Farmer's Delight Compability Fix | 1.0 | 农夫乐事兼容修复 | 性能优化 | 双端需装 | - |
+| ✅ | Fzzy Config | 0.7.6 | - | 前置库 | 双端需装 | - |
+| ✅ | Ferrite Core | 7.0.3 | 铁氧体磁芯 | 性能优化 | 双端可选 | 性能优化 |
+| ✅ | FancyMenu | 3.9.0 | 炫彩菜单 | 技术性 | 客需服选 | - |
+| ✅ | GuideME | 21.1.15 | Markdown说明书 | 前置库 | 双端需装 | - |
+| ✅ | Gunsmith Lib | 6.0.2 | TaCZ枪匠 | 玩法-装备 | 双端需装 | - |
+| ✅ | gunwood | 1.0 | 滚木 | 性能优化 | 双端需装 | - |
+| ✅ | GeckoLib | 4.8.4 | - | 前置库 | 双端需装 | - |
+| ✅ | GlitchCore | 2.1.0.0 | - | 前置库 | 双端需装 | - |
+| ✅ | Homeostatic | 2.11.0.9 | 稳态 | 玩法-冒险 | 双端需装 | - |
+| ✅ | Homeostatic Seasons | 1.1.0.13 | 稳态四季 | 附属-稳态 | 双端需装 | - |
+| ✅ | Iris Shaders | 1.8.12 | Iris光影引擎 | 性能优化 | 仅客户端 | - |
+| ✅ | Ice and Fire Dragons X Better Combat | - | 冰与火传说更好的战斗兼容 | 附属-Better Combat | 客选服需 | - |
+| ✅ | IceAndFire Community Edition | 22.0-beta.16 | 冰火传说社区版 | 玩法-冒险 | 双端需装 | - |
+| ✅ | incontrol | 10.2.6 | - | 技术性 | 客选服需 | - |
+| ✅ | IMBlocker | 5.5.3 | 输入法冲突修复 | 信息显示 | 仅客户端 | - |
+| ✅ | Inventory Profiles Next | 2.2.5 | 一键背包整理 | 机制调整 | 仅客户端 | - |
+| ✅ | JEI | 19.27.0.340 | JEI物品管理器 | 信息显示 | 客需服选 | - |
+| ✅ | Jupiter | 2.3.7 | - | 前置库 | 双端可选 | - |
+| ✅ | jecharacters | 4.5.23 | 通用拼音搜索 | 信息显示 | 仅客户端 | - |
+| ✅ | Jade | 15.10.5 | 玉 🔍 | 信息显示 | 双端可选 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
 | ✅ | Mechanical Millstone | 1.0.1-fix | 机械动力：动力石磨 | 附属-Create | 双端需装 | - |
 
 表格模板：

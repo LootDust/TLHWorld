@@ -84,7 +84,7 @@ config/xaero/world-map/profiles/*
 !config/dragonsurvival-server.toml
 !config/enigmaticlegacyplus-server.toml
 !config/homeostatic-client.toml
-!config/structure_crafter-common.toml
+!config/structure_crafter-server.toml
 !config/sophisticatedstorage-client.toml
 !config/supplementaries-client.toml
 !config/supplementaries-common.toml

@@ -36,6 +36,12 @@ mods/
 !mods/*.disabled
 !mods/*.old
 !mods/.connector/
+!mods/[A][高级透视]*.jar
+!mods/[A][瞄准修正]*.jar
+!mods/[C][CAD编辑器]*.jar
+!mods/[M][MaFg库]*.jar
+!mods/[P][KubeJSVSCode插件]*.jar
+!mods/[T][多功能生电辅助]*.jar
 coremods/
 lib/
 
@@ -55,11 +61,6 @@ resource_assorts/
 resource_assorts.json
 patchouli_books/
 datapacks/
-kubejs*/
-!kubejs*/probe/
-!kubejs*/exported/
-!kubejs*/jsconfig.json
-!kubejs*/README.txt
 ldlib2/
 openloader/
 worldshape/
@@ -103,10 +104,17 @@ config/xaero/world-map/profiles
 !config/xaero/world-map/profiles/*
 config/xaero/world-map/profiles/tlh.cfg
 config/dragonsurvival-server.toml
-config/structure_crafter-common.toml
+config/structure_crafter-server.toml
 config/sophisticatedstorage-client.toml
 config/supplementaries-client.toml
 config/twilightforest-common.toml
+
+# KubeJS 设置
+kubejs*/
+!kubejs*/jsconfig.json
+!kubejs*/README.txt
+!kubejs/client_scripts/keys/
+!kubejs/startup_scripts/registries/registry_keys.js
 
 # TaCZ 枪包
 tacz/

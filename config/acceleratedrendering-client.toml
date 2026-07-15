@@ -175,7 +175,7 @@
 	#- DISABLED: Disable simple orientation face culling.
 	#- ENABLED: Enable simple orientation face culling.
 	#Allowed Values: DISABLED, ENABLED
-	feature_Status = "ENABLED"
+	feature_Status = "DISABLED"
 	#- DISABLED: Faces will not be culled unless mods explicitly enable it temporarily when rendering their own faces.
 	#- ENABLED: All faces will be culled unless mods explicitly disable it temporarily when rendering their own faces.
 	#Allowed Values: DISABLED, ENABLED

@@ -3,6 +3,86 @@
 - 游戏版本：1.21.1 Neoforge  21.1.222
 
 ## 模组列表
+| 模组状态 | 模组原名 | 模组版本 | 模组译名 | 模组类型 | 运行环境 | 模组描述 |
+| :---: | :--- | :--- | :--- | :---: | :---: | :--- |
+| 已启用 | 0Pack2Reload | 1.0.1 | 抑验重载 | 性能优化 | 仅客户端 | 禁用无效内容包重载 |
+| 已启用 | 0World2Create | 1.0.0 | 别创建新世界 | 性能优化 | 仅客户端 | 禁用自动创建世界 |
+| 已启用 | Accelerated Recoiling | 21.1.13-alpha | 加速碰撞 | 性能优化 | 双端可选 | 多线程实体碰撞计算优化 |
+| 已启用 | Accelerated Rendering | 1.0.10.1 | 加速渲染 | 性能优化 | 仅客户端 | 整体渲染计算优化 |
+| 已启用 | Advanced Xray | 21.0.0 | 高级透视 | 调试 | 仅客户端 | 透视与高亮查找方块 |
+| 已启用 | Aim Bot | 1.3 | 瞄准修正 | 调试 | 仅客户端 | 准星实体吸附 |
+| 已启用 | AllTheLeaks | 1.1.9 | 内存泄漏修复 | 性能优化 | 双端需装 | 修复游戏内存泄漏 |
+| 已启用 | Almanac | 1.5.2 | - | 前置库 | 客选服需 | - |
+| 已启用 | Apotheosis | 8.5.2 | 神化 | 玩法-冒险 | 双端需装 | 提供RPG玩法 |
+| 已启用 | Apotheosis Modern Ragnarok: Zero | 7.0.0 | 神化：现代诸神黄昏 | 附属-Apotheosis | 双端需装 | 提供枪械附魔与词条 |
+| 已启用 | Apothic Attributes | 2.9.1 | 神化属性 | 前置库 | 双端需装 | - |
+| 已启用 | APothic Compats | 0.2.4.1 | 神化兼容 | 附属-Apotheosis | 双端需装 | 提供多模组神化兼容 |
+| 已启用 | Apothic Enchanting | 1.5.2 | 神化附魔 | 前置库 | 双端需装 | - |
+| 已启用 | Apothic Spawners | 1.3.4 | 神化刷怪笼 | 前置库 | 双端需装 | - |
+| 已启用 | AppleSkin | 3.0.9 | 苹果皮 | 信息显示 | 客需服选 | 饱和度显示与食物信息显示 |
+| 已启用 | Applied energistics 2 | 19.2.17 | 应用能源2 | 玩法-科技 | 双端需装 | 提供后期储存与物流解决方案 |
+| 已启用 | Applied energistics 2 wireless terminals | 19.5.0 | AE2无线终端 | 附属-Applied Energistics 2 | 双端需装 | 提供无线访问AE2网络功能 |
+| 已启用 | Aquaculture | 2.7.21 | 水产品2 | 玩法-农业 | 双端需装 | 提供更多钓鱼内容 |
+| 已启用 | Architectury API | 13.0.8 | - | 前置库 | 双端需装 | - |
+| 已启用 | Ars Delight | 2.2.1 | 新生乐事 | 附属-Ars nouveau | 双端需装 | 提供新生魔艺食物 |
+| 已启用 | Ars nouveau | 5.11.5 | 新生魔艺 | 玩法-魔法 | 双端需装 | 提供施法与炼金玩法 |
+| 已启用 | Ars Technica | 2.7.6 | 新生魔匠 | 附属-Ars nouveau | 双端需装 | 提供机械师魔法职业 |
+| 已启用 | Artifacts | 13.2.1 | 奇异饰品 | 玩法-装备 | 双端需装 | 提供简易神秘向饰品 |
+| 已启用 | Better Combat | 2.3.2 | 更好的战斗 | 机制调整 | 双端需装 | 提供有别于原版的近战体验 |
+| 已启用 | Better Combat Toggle | 1.5.0 | 更好的战斗切换 | 附属-Better Combat | 双端需装 | 提供可选的BC式近战 |
+| 已启用 | BetterF3 | 11.0.3 | 更好的调试屏幕 | 调试 | 仅客户端 | 提供更清晰的调试屏幕 |
+| 已启用 | Biomes O' Plenty | 21.1.0.13 | 超多生物群系 | 地形生成 | 双端需装 | 提供生物群系 |
+| 已启用 | bad packets | 0.8.2 | - | 前置库 | 仅客户端 | - |
+| 已启用 | Balm | 21.0.56 | - | 前置库 | - |
+| 已启用 | Born in Chaos | 1.7.4 | 生于混沌 | 玩法-冒险 | 双端需装 | 提供更多怪物 |
+| 已启用 | Carry On | 2.2.4.4 | 搬运 | 机制调整 | 双端需装 | - |
+| 已启用 | Carry On Extend | 1.5.1 | 搬运：拓展 | 附属-Carry On | 双端需装 | - |
+| 已启用 | Cloth Config API | 15.0.140 | Fabric配置 | 前置库 | 双端需装 | - |
+| 已启用 | Create | 2.1.3 | 机械动力 | 玩法-科技 | 双端需装 | - |
+| 已启用 | Create : Addition | 1.5.11 | 机械动力：创想附加 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Additional Logistics | 1.4.5 | 机械动力：物品附加 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Aeronautics | 1.2.1 | 机械动力：航空学 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Better FPS | 1.1.4 | 机械动力：更好的FPS表现 | 附属-Create | 仅客户端 | - |
+| 已启用 | Create : Central Kitchen | 2.4.0 | 机械动力：中央厨房 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Compatible Storage | 2.11.0 | 机械动力：动态储具兼容 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Compressed | 2.2.0 | 机械动力：压缩 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Compression | 2.0.0 | 机械动力：多重压缩 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Connected | 1.1.16 | 机械动力：创意传动 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Cyber Googles | 7.6.2 | 机械动力：赛博护目镜 | 附属-Create | 客需服选 | - |
+| 已启用 | Create : Diesel Generators | 1.3.11 | 机械动力：柴油动力 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Dragon Plus | 1.10.0b | 机械动力：龙+ | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Encased | 1.8-ht2 | 机械动力：封装工艺 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Filters Anywhere | 2.5.0 | 机械动力：处处皆可过滤器 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Fluid Logistics | 1.0.4 | 机械动力：流体包裹 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Gears and Tavern | 1.1.3 | 机械动力：齿轮与麦穗 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Ironworks | 4.0.3 | 机械动力：金属工艺 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Lazy Tick | 2.4.9 | 机械动力：懒惰刻 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Mechanical Chicken | 1.4.1-6.0.10 | 机械动力：动力鸡 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Mechanical Spawner | 1.3.0-6.0.8 | 机械动力：动力刷怪笼 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Mechanical Extruder | 2.2.0-6.0.8 | 机械动力：动力造石机 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Ratatouille | 1.3.9-2 | 机械动力：齿轮与麦穗 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Ratatouille Fried Delights | 1.3.9-2 | 机械动力：齿轮与麦穗的炸物附属 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Optical | 0.4.2 | 机械动力：光学 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Power Grid | 0.5.5.1 | 机械动力：交错电网 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Schematic Checker | 1.21.25 | 机械动力：蓝图校验 | 附属-Create | 双端需装 | - |
+| 已禁用 | Create : Shimmer | 1.2.8 | 机械动力：微光 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Sifter | 2.2.1 | 机械动力：筛子 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Tea | 1.0 | 机械动力：更多茶饮 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Fatasizing | 1.1.3 | 机械动力：又在幻想了 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Nuclear | 1.3.2-beta.3 | 机械动力：原子核动 | 附属-Create | 双端需装 | - |
+| 已启用 | Create Heat JS | 0.0.5 | KubeJS机械动力热量附属 | 附属-KubeJS | 双端需装 | - |
+| 已禁用 | Create More : Package Couriers | 2.2.4 | 机械动力：纸板物流 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Deco | 2.1.3 | 机械动力：装饰 | 附属-Create | 双端需装 | - |
+| 已启用 | Create : Molten Vents | 2.1.1 | 机械动力：熔融矿脉 | 附属-Create | 双端需装 | - |
+| 已启用 | Curios for Ammo Box | 1.1.0 | TaCZ弹药盒饰品栏 | 附属-TaCZ | 双端需装 | - |
+| 已启用 | Mechanical Millstone | 1.0.1-fix | 机械动力：动力石磨 | 附属-Create | 双端需装 | - |
+
+表格模板：
+
+	| 已启用 | Create :  |  | 机械动力： | 附属-Create | 双端需装 | - |
+	| 已启用 | ModName |  | - | 未知分类 | 双端需装 | - |
+
+
 ### 技术性
 - [x] Custom Machinery 0.10.65
 - [x] Default Options 21.1.6
@@ -252,7 +332,7 @@
 - [x] Notes 3.0.1
 - [x] Observable 5.4.4
 - [x] Ponderer 1.8.2
-- [x] ProbeJS 8.0.0
+- [x] ProbeJS 8.0.2
 - [x] Spark 1.10.124
 - [x] Tweakerge 0.4.3
 ### 依赖树

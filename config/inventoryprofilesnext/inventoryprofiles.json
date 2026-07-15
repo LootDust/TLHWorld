@@ -62,5 +62,17 @@
         "enable_profiles": {
             "value": false
         }
+    },
+    "Hotkeys": {
+        "copy_components": {
+            "main": {
+                "keys": "LEFT_CONTROL,LEFT_SHIFT,C"
+            }
+        },
+        "copy_item_id": {
+            "main": {
+                "keys": "LEFT_CONTROL,C"
+            }
+        }
     }
 }

@@ -6,5 +6,6 @@
         "neoforge",
         "ldlib2"
     ],
-    "probejs.hintsForLLM": false
+    "probejs.hintsForLLM": false,
+    "probejs.newGame": false
 }

@@ -1,5 +1,10 @@
 {
     "biome.regions_unexplored.redstone_abyss": "红石深渊",
+    
+    "block.regions_unexplored.argillie": "泥质岩",
+    "block.regions_unexplored.argillite_grass_block": "泥质岩草方块",
     "block.regions_unexplored.mauve_wood": "魅紫木",
-    "block.regions_unexplored.stripped_mauve_wood": "去皮魅紫木"
+    "block.regions_unexplored.stripped_mauve_wood": "去皮魅紫木",
+
+    "itemGroup.regions_unexplored.main": "未至之地"
 }

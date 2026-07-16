@@ -131,6 +131,29 @@
 | ✅ | Jupiter | 2.3.7 | - | 前置库 | 双端可选 | - |
 | ✅ | jecharacters | 4.5.23 | 通用拼音搜索 | 信息显示 | 仅客户端 | - |
 | ✅ | Jade | 15.10.5 | 玉 🔍 | 信息显示 | 双端可选 | - |
+| ✅ | KeyBindJS | 1.0.1 | KubeJS按键绑定附属 | 附属-KubeJS | 仅客户端 | - |
+| ✅ | KubeJS Create | 2101.3.1-build.18 | KubeJS机械动力附属 | 附属-KubeJS | 双端需装 | - |
+| ✅ | KubeJS  | 2101.7.2-build.368 | KubeJS魔改引擎 | 技术性 | 客选服需 | - |
+| ✅ | KubeJS Delight | 1.1.5 | KubeJS农夫乐事附属 | 附属-KubeJS | 客选服需 | - |
+| ✅ | KubeJS Curios | 1.0.4 | KubeJS饰品栏附属 | 附属-KubeJS | 双端需装 | - |
+| ✅ | KubeJS Ars Nouveau | 1.3.2 | KubeJS新生魔艺兼容 | 附属-KubeJS | 双端需装 | - |
+| ✅ | Kiwi | 15.8.3 | - | 前置库 | 双端需装 | - |
+| ✅ | Konkrete | 1.9.9 | - | 前置库 | 客需服选 | - |
+| ✅ | Kotlin for Forge | 5.11.0 | - | 前置库 | 双端可选 | - |
+| ✅ | Kaleidoscope Chinese Food | 1.0.3 | 森罗厨房：国味 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope End | 1.0.11 | 森罗厨房：末地 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope Nether | 1.1.1 | 森罗厨房：下界 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope Cookery - Automation | 1.0.1 | 森罗厨房：自动化 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope Cookery | 1.3.0 | 森罗物语：厨房 | 玩法-农业 | 双端需装 | - |
+| ✅ | Kaleidoscope Orchard | 0.0.1 | 森罗物语：果园 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope Tavern | 1.1.1 | 森罗物语：酒馆 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope Doll | 1.3.1 | 森罗物语：玩偶 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | LycheeJS NeoForge | 2.1 | - | 附属-KubeJS | 双端需装 | - |
+| ✅ | LDLib2 | 2.2.8 | LDLib2GUI绘制库 | 技术性 | 双端需装 | - |
+| ✅ | Lootr | 1.11.37.120 | 可重复战利品 | 机制调整 | 双端需装 | - |
+| ✅ | libIPN | 6.6.2 | - | 前置库 | 仅客户端 | - |
+| ✅ | Lionfish API | 2.7-fix-fix | - | 前置库 | 双端需装 | - |
+| ✅ | Lodestone | 1.8.2 | - | 前置库 | 双端需装 | - |
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
@@ -138,15 +161,7 @@
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+
 | ✅ | Mechanical Millstone | 1.0.1-fix | 机械动力：动力石磨 | 附属-Create | 双端需装 | - |
 
 表格模板：

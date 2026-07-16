@@ -112,7 +112,7 @@
 | ✅ | Farmer's Delight | 1.3.2 | 农夫乐事 | 玩法-农业 | 双端需装 | - |
 | ✅ | Farmer's Delight Compability Fix | 1.0 | 农夫乐事兼容修复 | 性能优化 | 双端需装 | - |
 | ✅ | Fzzy Config | 0.7.6 | - | 前置库 | 双端需装 | - |
-| ✅ | Ferrite Core | 7.0.3 | 铁氧体磁芯 | 性能优化 | 双端可选 | 性能优化 |
+| ✅ | Ferrite Core | 7.0.3 | 铁氧体磁芯 | 性能优化 | 双端可选 | - |
 | ✅ | FancyMenu | 3.9.0 | 炫彩菜单 | 技术性 | 客需服选 | - |
 | ✅ | GuideME | 21.1.15 | Markdown说明书 | 前置库 | 双端需装 | - |
 | ✅ | Gunsmith Lib | 6.0.2 | TaCZ枪匠 | 玩法-装备 | 双端需装 | - |
@@ -132,11 +132,11 @@
 | ✅ | jecharacters | 4.5.23 | 通用拼音搜索 | 信息显示 | 仅客户端 | - |
 | ✅ | Jade | 15.10.5 | 玉 🔍 | 信息显示 | 双端可选 | - |
 | ✅ | KeyBindJS | 1.0.1 | KubeJS按键绑定附属 | 附属-KubeJS | 仅客户端 | - |
-| ✅ | KubeJS Create | 2101.3.1-build.18 | KubeJS机械动力附属 | 附属-KubeJS | 双端需装 | - |
-| ✅ | KubeJS  | 2101.7.2-build.368 | KubeJS魔改引擎 | 技术性 | 客选服需 | - |
-| ✅ | KubeJS Delight | 1.1.5 | KubeJS农夫乐事附属 | 附属-KubeJS | 客选服需 | - |
-| ✅ | KubeJS Curios | 1.0.4 | KubeJS饰品栏附属 | 附属-KubeJS | 双端需装 | - |
-| ✅ | KubeJS Ars Nouveau | 1.3.2 | KubeJS新生魔艺兼容 | 附属-KubeJS | 双端需装 | - |
+| ✅ | KubeJS Create | 2101.3.1-build.18 | - | 附属-KubeJS | 双端需装 | KubeJS机械动力附属 |
+| ✅ | KubeJS  | 2101.7.2-build.368 | - | 技术性 | 客选服需 | - |
+| ✅ | KubeJS Delight | 1.1.5 | - | 附属-KubeJS | 客选服需 | KubeJS农夫乐事附属 |
+| ✅ | KubeJS Curios | 1.0.4 | - | 附属-KubeJS | 双端需装 | KubeJS饰品栏附属 |
+| ✅ | KubeJS Ars Nouveau | 1.3.2 | - | 附属-KubeJS | 双端需装 | KubeJS新生魔艺兼容 |
 | ✅ | Kiwi | 15.8.3 | - | 前置库 | 双端需装 | - |
 | ✅ | Konkrete | 1.9.9 | - | 前置库 | 客需服选 | - |
 | ✅ | Kotlin for Forge | 5.11.0 | - | 前置库 | 双端可选 | - |
@@ -154,6 +154,57 @@
 | ✅ | libIPN | 6.6.2 | - | 前置库 | 仅客户端 | - |
 | ✅ | Lionfish API | 2.7-fix-fix | - | 前置库 | 双端需装 | - |
 | ✅ | Lodestone | 1.8.2 | - | 前置库 | 双端需装 | - |
+| ✅ | Let Me Despawn | 1.5.0 | 实体卸载优化 | 性能优化 | 客选服需 | - |
+| ✅ | Lychee | 6.5.0 | 数据包自定义 | 技术性 | 双端需装 | - |
+| ✅ | Luncheon Meat 'S Delight | 1.0.6 | 午餐肉乐事 | 附属-Farmer's Delight | 双端需装 | - |
+| ✅ | L_Ender 's Cataclysm | 3.27 | 灾变 | 玩法-冒险 | 双端需装 | - |
+| ✅ | MaFgLib | 0.4.3 | MaFg库 | 前置库 | 仅客户端 | - |
+| ✅ | MyNethersDelight | 1.10.2 | 地狱乐事 | 附属-Farmer's Delight | 双端需装 | - |
+| ✅ | Mechanical Millstone | 1.0.1-fix | 机械动力：动力石磨 | 附属-Create | 双端需装 | - |
+| ✅ | Miner's Delight | 1.4.5 | 矿工乐事 | 附属-Farmer's Delight | 双端需装 | - |
+| ✅ | Mod Menu | 1.0.2 | 模组菜单（NeoForge 版） | 信息显示 | 仅客户端 | - |
+| ✅ | MaidUseHandCrank | 1.6.0 | 女仆摇曲柄 | 附属-Touhou Little Maid | 双端需装 | - |
+| ✅ | Mechanicals Lib | 1.1.0 | - | 前置库 | 双端需装 | - |
+| ✅ | Mechanical Millstone | 1.0.1-fix | 机械动力：动力石磨 | 附属-Create | 双端需装 | - |
+| ✅ | Melody | 1.0.10 | - | 前置库 | 仅客户端 | - |
+| ✅ | Moonlight Lib | 3.0.7 | - | 前置库 | 双端需装 | - |
+| ✅ | Mouse Tweaks | 2.26.1 | 鼠标手势 | 机制调整 | 仅客户端 | - |
+| ✅ | Mekanism | 10.7.19.85 | 通用机械 | 玩法-科技 | 双端需装 | - |
+| ✅ | Notes | 3.0.1 | 笔记 | 调试 | 仅客户端 | - |
+| ✅ | NetMusic LoginNeed | 0.4 | 网络音乐机：登登你的 | 附属-Net Music | 双端需装 | - |
+| ✅ | Net Music | 1.5.1 | 网络音乐机 | 玩法-实用 | 双端需装 | - |
+| ✅ | NoRollback | 2.1 | - | 机制调整 | 仅服务端 | - |
+| ⛔ | obscuraspanoramica | 1.0.0 | Obsura的全景图 | 调试 | 仅客户端 | - |
+| ✅ | Open Parties and Claims | 0.26.1 | - | 玩法-实用 | 客选服需 | - |
+| ✅ | Observable | 5.4.4 | 可视性能侦测 | 调试 | 客选服需 | - |
+| ✅ | ProbeJS | 8.0.2 | - | 调试 | 仅客户端 | KubeJSVSCode插件 |
+| ✅ | Ponder for KubeJS | 2.4.0 | - | 附属-KubeJS | 客需服选 | KubeJS思索附属 |
+| ✅ | Pufferfish's Skills | 0.17.3 | - | 玩法-冒险 | 双端需装 | Puffish的技能 |
+| ✅ | Pufferfish's Attributes | 1.1.0 | - | 玩法-冒险 | 双端需装 | Puffish的属性 |
+| ✅ | polymorph | 1.1.0 | 多态合成 | 机制调整 | 双端需装 | - |
+| ✅ | Create: Protection Pixel | 2.2.1 | 机素防护 | 附属-Create | 双端需装 | - |
+| ✅ | Patchouli | 1.21.1-93 | 帕秋莉手册 | 信息显示 | 双端需装 | - |
+| ✅ | ParCool! | 3.4.3.3 | 跑酷! | 机制调整 | 双端需装 | - |
+| ✅ | parcoolskil | 1.1.7 | 跑酷技能 | 附属-ParCool! | 双端需装 | - |
+| ✅ | ParCool+ | 3.4.3.1-1.1 | - | 附属-ParCool! | 双端需装 | 跑酷兼容 |
+| ✅ | Placebo | 9.9.1 | - | 前置库 | 双端需装 | - |
+| ⛔ | Platform | 1.3 | - | 前置库 | 双端可选 | - |
+| ✅ | PlayerAnimator | 2.0.4 | - | 前置库 | 客需服选 | - |
+| ✅ | ponderer | 1.8.2 | 思索者 | 调试 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
@@ -162,7 +213,6 @@
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
 
-| ✅ | Mechanical Millstone | 1.0.1-fix | 机械动力：动力石磨 | 附属-Create | 双端需装 | - |
 
 表格模板：
 
@@ -398,7 +448,7 @@
 - [x] Lithostitched 1.7.2
 - [x] Lionfish API 2.7-fix-fix
 - [x] Lodestone 1.8.2
-- [x] Machanicals Lib 1.1.0
+- [x] Mechanicals Lib 1.1.0
 - [x] MaFgLib 0.4.3
 - [x] Melody v1.0.10
 - [x] Moonlight Lib 3.0.7

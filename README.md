@@ -8,7 +8,7 @@
 | ✅ | 0Pack2Reload | 1.0.1 | 抑验重载 | 性能优化 | 仅客户端 | 禁用无效内容包重载 |
 | ✅ | 0World2Create | 1.0.0 | 别创建新世界 | 性能优化 | 仅客户端 | 禁用自动创建世界 |
 | ✅ | Accelerated Recoiling | 21.1.13-alpha | 加速碰撞 | 性能优化 | 双端可选 | 多线程实体碰撞计算优化 |
-| ✅ | Accelerated Rendering | 1.0.10.1 | 加速渲染 | 性能优化 | 仅客户端 | 整体渲染计算优化 |
+| ✅ | Accelerated Rendering | 1.0.13-alpha | 加速渲染 | 性能优化 | 仅客户端 | 整体渲染计算优化 |
 | ✅ | Advanced Xray | 21.0.0 | 高级透视 | 调试 | 仅客户端 | 透视与高亮查找方块 |
 | ✅ | Aim Bot | 1.3 | 瞄准修正 | 调试 | 仅客户端 | 准星实体吸附 |
 | ✅ | AllTheLeaks | 1.1.9 | 内存泄漏修复 | 性能优化 | 双端需装 | 修复游戏内存泄漏 |
@@ -28,6 +28,7 @@
 | ✅ | Ars nouveau | 5.11.5 | 新生魔艺 | 玩法-魔法 | 双端需装 | 提供施法与炼金玩法 |
 | ✅ | Ars Technica | 2.7.6 | 新生魔匠 | 附属-Ars nouveau | 双端需装 | 提供机械师魔法职业 |
 | ✅ | Artifacts | 13.2.1 | 奇异饰品 | 玩法-装备 | 双端需装 | 提供简易神秘向饰品 |
+| ✅ | Barbeque's Delight | 1.3.0 | 烧烤乐事 | 附属-Farmer's Delight | 双端需装 | - |
 | ✅ | Better Combat | 2.3.2 | 更好的战斗 | 机制调整 | 双端需装 | 提供有别于原版的近战体验 |
 | ✅ | Better Combat Toggle | 1.5.0 | 更好的战斗切换 | 附属-Better Combat | 双端需装 | 提供可选的BC式近战 |
 | ✅ | BetterF3 | 11.0.3 | 更好的调试屏幕 | 调试 | 仅客户端 | 提供更清晰的调试屏幕 |
@@ -39,6 +40,7 @@
 | ✅ | Carry On | 2.2.4.4 | 搬运 | 机制调整 | 双端需装 | - |
 | ✅ | Carry On Extend | 1.5.1 | 搬运：拓展 | 附属-Carry On | 双端需装 | - |
 | ✅ | Cloth Config API | 15.0.140 | Fabric配置 | 前置库 | 双端可选 | - |
+| ✅ | CME is bad | 1.1.2 | 并发修改什么的不要鸭 | 调试 | 双端需装 | CME Suck My Duck |
 | ✅ | Configured | 2.6.3 | 配置界面 | 前置库 | 客需服选 | - |
 | ✅ | Cooking for Blockheads | 21.1.23 | 懒人厨房 | 玩法-农业 | 双端需装 | - |
 | ✅ | CoroUtil | 1.3.9 | - | 前置库 | 双端需装 | - |
@@ -47,7 +49,7 @@
 | ✅ | Create | 6.0.10 | 机械动力 | 玩法-科技 | 双端需装 | - |
 | ✅ | Create : Addition | 1.5.11 | 机械动力：创想附加 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Additional Logistics | 1.4.5 | 机械动力：物品附加 | 附属-Create | 双端需装 | - |
-| ✅ | Create : Aeronautics | 1.2.1 | 机械动力：航空学 | 附属-Create | 双端需装 | - |
+| ✅ | Create : Aeronautics | 1.3.0 | 机械动力：航空学 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Better FPS | 1.1.4 | 机械动力：更好的FPS表现 | 附属-Create | 仅客户端 | - |
 | ✅ | Create : Central Kitchen | 2.4.0 | 机械动力：中央厨房 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Compatible Storage | 2.11.0 | 机械动力：动态储具兼容 | 附属-Create | 双端需装 | - |
@@ -63,16 +65,16 @@
 | ✅ | Create : Gears and Tavern | 1.1.3 | 机械动力：齿轮与麦穗 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Ironworks | 4.0.3 | 机械动力：金属工艺 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Lazy Tick | 2.4.9 | 机械动力：懒惰刻 | 附属-Create | 双端需装 | - |
-| ✅ | Create : Mechanical Chicken | 1.4.1-6.0.10 | 机械动力：动力鸡 | 附属-Create | 双端需装 | - |
-| ✅ | Create : Mechanical Spawner | 1.3.0-6.0.8 | 机械动力：动力刷怪笼 | 附属-Create | 双端需装 | - |
-| ✅ | Create : Mechanical Extruder | 2.2.0-6.0.8 | 机械动力：动力造石机 | 附属-Create | 双端需装 | - |
+| ✅ | Create : Mechanical Chicken | 1.4.2-6.0.10 | 机械动力：动力鸡 | 附属-Create | 双端需装 | - |
+| ✅ | Create : Mechanical Spawner | 1.3.2-6.0.10 | 机械动力：动力刷怪笼 | 附属-Create | 双端需装 | - |
+| ✅ | Create : Mechanical Extruder | 2.2.2-6.0.10 | 机械动力：动力造石机 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Ratatouille | 1.3.9-2 | 机械动力：齿轮与麦穗 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Ratatouille Fried Delights | 1.3.9-2 | 机械动力：齿轮与麦穗的炸物附属 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Optical | 0.4.2 | 机械动力：光学 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Power Grid | 0.5.5.1 | 机械动力：交错电网 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Schematic Checker | 1.21.25 | 机械动力：蓝图校验 | 附属-Create | 双端需装 | - |
 | ⛔ | Create : Shimmer | 1.2.8 | 机械动力：微光 | 附属-Create | 双端需装 | - |
-| ✅ | Create : Sifter | 2.2.1 | 机械动力：筛子 | 附属-Create | 双端需装 | - |
+| ✅ | Create : Sifter | 2.3.0 | 机械动力：筛子 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Tea | 1.0 | 机械动力：更多茶饮 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Fatasizing | 1.1.3 | 机械动力：又在幻想了 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Nuclear | 1.3.2-beta.3 | 机械动力：原子核动 | 附属-Create | 双端需装 | - |
@@ -90,11 +92,12 @@
 | ✅ | Don't Touch My Datapack | 1.0.0 | 别碰我的数据包 | 机制调整 | 双端需装 | - |
 | ✅ | Delightful Creators | 1.2 | 动力乐事 | 附属-Farmer's Delight | 双端需装 | - |
 | ✅ | Design n' Decor | 2.1.0 | 机械动力：设计与装饰 | 附属-Create | 双端需装 | - |
-| ✅ | Dragon Survival | 2.0.54-29.04.2026 | 龙之生存 | 玩法-冒险 | 双端需装 | - |
+| ✅ | Display Delight | 1.7.0 | 展示乐事 | 附属-Farmer's Delight | 双端需装 | - |
+| ✅ | Dragon Survival | 2.0.56-10.06.2026 | 龙之生存 | 玩法-冒险 | 双端需装 | - |
 | ✅ | Dragon Survival IAF Integration | 1.2.1 | 龙之生存冰火传说兼容 | 附属-Dragon Survival | 双端需装 | - |
 | ✅ | Default Options | 21.1.6 | 默认配置 | 机制调整 | 仅客户端 | - |
 | ✅ | Target Dummy | 2.0.12 | 试验假人 | 玩法-实用 | 双端需装 | - |
-| ✅ | EMI++ | 1.2.3 | - | 附属-EMI | 仅客户端 | - |
+| ✅ | EMI++ | 2.0.0 | - | 附属-EMI | 仅客户端 | - |
 | ✅ | EMI Enchanting | 0.1.2 | EMI附魔查询 | 附属-EMI | 仅客户端 | - |
 | ✅ | EMI | 1.1.24 | EMI物品管理器 | 信息显示 | 客需服选 | - |
 | ✅ | EMI Loot | 0.7.9 | EMI战利品表查询 | 附属-EMI | 双端需装 | - |
@@ -121,7 +124,8 @@
 | ✅ | GlitchCore | 2.1.0.0 | - | 前置库 | 双端需装 | - |
 | ✅ | Homeostatic | 2.11.0.9 | 稳态 | 玩法-冒险 | 双端需装 | - |
 | ✅ | Homeostatic Seasons | 1.1.0.13 | 稳态四季 | 附属-稳态 | 双端需装 | - |
-| ✅ | Iris Shaders | 1.8.12 | Iris光影引擎 | 性能优化 | 仅客户端 | - |
+| ✅ | Iris Shaders | 1.8.14-beta.1 | Iris光影引擎 | 性能优化 | 仅客户端 | - |
+| ✅ | Immortalers Delight | 1.0.1 | 千古乐事 | 附属-Farmer's Delight | 双端需装 | - |
 | ✅ | Ice and Fire Dragons X Better Combat | - | 冰与火传说更好的战斗兼容 | 附属-Better Combat | 客选服需 | - |
 | ✅ | IceAndFire Community Edition | 22.0-beta.16 | 冰火传说社区版 | 玩法-冒险 | 双端需装 | - |
 | ✅ | incontrol | 10.2.6 | - | 技术性 | 客选服需 | - |
@@ -140,16 +144,20 @@
 | ✅ | Kiwi | 15.8.3 | - | 前置库 | 双端需装 | - |
 | ✅ | Konkrete | 1.9.9 | - | 前置库 | 客需服选 | - |
 | ✅ | Kotlin for Forge | 5.11.0 | - | 前置库 | 双端可选 | - |
-| ✅ | Kaleidoscope Chinese Food | 1.0.3 | 森罗厨房：国味 | 附属-Kaleidoscope Cookery | 双端需装 | - |
-| ✅ | Kaleidoscope End | 1.0.11 | 森罗厨房：末地 | 附属-Kaleidoscope Cookery | 双端需装 | - |
-| ✅ | Kaleidoscope Nether | 1.1.1 | 森罗厨房：下界 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope Chinese Food | 1.1.6 | 森罗厨房：国味 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope End | 1.0.14 | 森罗厨房：末地 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope Nether | 1.1.4 | 森罗厨房：下界 | 附属-Kaleidoscope Cookery | 双端需装 | - |
 | ✅ | Kaleidoscope Cookery - Automation | 1.0.1 | 森罗厨房：自动化 | 附属-Kaleidoscope Cookery | 双端需装 | - |
-| ✅ | Kaleidoscope Cookery | 1.3.0 | 森罗物语：厨房 | 玩法-农业 | 双端需装 | - |
-| ✅ | Kaleidoscope Orchard | 0.0.1 | 森罗物语：果园 | 附属-Kaleidoscope Cookery | 双端需装 | - |
-| ✅ | Kaleidoscope Tavern | 1.1.1 | 森罗物语：酒馆 | 附属-Kaleidoscope Cookery | 双端需装 | - |
-| ✅ | Kaleidoscope Doll | 1.3.1 | 森罗物语：玩偶 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope Cookery | 1.4.1 | 森罗物语：厨房 | 玩法-农业 | 双端需装 | - |
+| ⛔ | Kaleidoscope Orchard | 0.0.2 | 森罗物语：果园 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope Tavern | 1.2.0 | 森罗物语：酒馆 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope Doll | 1.4.1 | 森罗物语：玩偶 | 玩法-实用 | 双端需装 | - |
+| ✅ | Kaleidoscope Texture Expansion | 2.8.0 | 森罗厨房：乐此不疲 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope Twilight | 1.0.6 | 森罗物语：暮色 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope World Liquor | 1.1.7 | 森罗酒馆：世界名酒 | 附属-Kaleidoscope Tavern | 双端需装 | - |
 | ✅ | LycheeJS NeoForge | 2.1 | - | 附属-KubeJS | 双端需装 | - |
 | ✅ | LDLib2 | 2.2.8 | LDLib2GUI绘制库 | 技术性 | 双端需装 | - |
+| ✅ | Load My F***ing Tags | 1.1.1 | 给我tmd加载标签 | 调试 | 客选服需 | - |
 | ✅ | Lootr | 1.11.37.120 | 可重复战利品 | 机制调整 | 双端需装 | - |
 | ✅ | libIPN | 6.6.2 | - | 前置库 | 仅客户端 | - |
 | ✅ | Lionfish API | 2.7-fix-fix | - | 前置库 | 双端需装 | - |
@@ -158,18 +166,20 @@
 | ✅ | Lychee | 6.5.0 | 数据包自定义 | 技术性 | 双端需装 | - |
 | ✅ | Luncheon Meat 'S Delight | 1.0.6 | 午餐肉乐事 | 附属-Farmer's Delight | 双端需装 | - |
 | ✅ | L_Ender 's Cataclysm | 3.27 | 灾变 | 玩法-冒险 | 双端需装 | - |
+| ✅ | L_Ender 's Cataclysm Delight | 1.0.10b | 灾变乐事 | 附属-Farmer's Delight | 双端需装 | - |
 | ✅ | MaFgLib | 0.4.3 | MaFg库 | 前置库 | 仅客户端 | - |
 | ✅ | MyNethersDelight | 1.10.2 | 地狱乐事 | 附属-Farmer's Delight | 双端需装 | - |
 | ✅ | Mechanical Millstone | 1.0.1-fix | 机械动力：动力石磨 | 附属-Create | 双端需装 | - |
 | ✅ | Miner's Delight | 1.4.5 | 矿工乐事 | 附属-Farmer's Delight | 双端需装 | - |
 | ✅ | Mod Menu | 1.0.2 | 模组菜单（NeoForge 版） | 信息显示 | 仅客户端 | - |
 | ✅ | MaidUseHandCrank | 1.6.0 | 女仆摇曲柄 | 附属-Touhou Little Maid | 双端需装 | - |
-| ✅ | Mechanicals Lib | 1.1.0 | - | 前置库 | 双端需装 | - |
+| ✅ | Mechanicals Lib | 1.1.6 | - | 前置库 | 双端需装 | - |
 | ✅ | Mechanical Millstone | 1.0.1-fix | 机械动力：动力石磨 | 附属-Create | 双端需装 | - |
 | ✅ | Melody | 1.0.10 | - | 前置库 | 仅客户端 | - |
-| ✅ | Moonlight Lib | 3.0.7 | - | 前置库 | 双端需装 | - |
+| ✅ | Moonlight Lib | 3.1.1 | - | 前置库 | 双端需装 | - |
 | ✅ | Mouse Tweaks | 2.26.1 | 鼠标手势 | 机制调整 | 仅客户端 | - |
 | ✅ | Mekanism | 10.7.19.85 | 通用机械 | 玩法-科技 | 双端需装 | - |
+| ✅ | Not Enough Bandwidth Legacy | 21.1.09 | 网络包优化重制版 | 性能优化 | 双端需装 | - |
 | ✅ | Notes | 3.0.1 | 笔记 | 调试 | 仅客户端 | - |
 | ✅ | NetMusic LoginNeed | 0.4 | 网络音乐机：登登你的 | 附属-Net Music | 双端需装 | - |
 | ✅ | Net Music | 1.5.1 | 网络音乐机 | 玩法-实用 | 双端需装 | - |
@@ -183,6 +193,7 @@
 | ✅ | Pufferfish's Attributes | 1.1.0 | - | 玩法-冒险 | 双端需装 | Puffish的属性 |
 | ✅ | polymorph | 1.1.0 | 多态合成 | 机制调整 | 双端需装 | - |
 | ✅ | Create: Protection Pixel | 2.2.1 | 机素防护 | 附属-Create | 双端需装 | - |
+| ✅ | Packet Fixer | 3.3.1 | - | 性能优化 | 双端需装 | - |
 | ✅ | Patchouli | 1.21.1-93 | 帕秋莉手册 | 信息显示 | 双端需装 | - |
 | ✅ | ParCool! | 3.4.3.3 | 跑酷! | 机制调整 | 双端需装 | - |
 | ✅ | parcoolskil | 1.1.7 | 跑酷技能 | 附属-ParCool! | 双端需装 | - |
@@ -192,25 +203,44 @@
 | ✅ | PlayerAnimator | 2.0.4 | - | 前置库 | 客需服选 | - |
 | ✅ | ponderer | 1.8.2 | 思索者 | 调试 | 双端需装 | - |
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
-| ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
+| ✅ | Rhino | 2101.2.7-build.81 | 犀牛 | 前置库 | 双端需装 | - |
+| ✅ | Save My Shaky Network | 1.4.3 | 救救我的答辩网络 | 性能优化 | 双端需装 | - |
+| ✅ | Skin Layers 3D | 1.11.1 | 3D皮肤层 | 机制调整 | 仅客户端 | - |
+| ✅ | Searchables | 1.0.2 | 按键绑定查找 | 信息显示 | 仅客户端 | - |
+| ✅ | Structure Crafter | 0.2.9 | 构印师匠 | 玩法-实用 | 双端需装 | - |
+| ✅ | Spark | 1.10.124 | 火花 | 调试 | 双端需装 | - |
+| ✅ | Sophisticated Backpacks | 3.25.45.1742 | 精妙背包 | 玩法-装备 | 双端需装 | - |
+| ✅ | Sophisticated Backpacks Create Integration | 0.1.5.29 | 精妙背包机动结构兼容 | 附属-Create | 双端需装 | - |
+| ✅ | Sophisticated Storage | 1.5.47.1724 | 精妙存储 | 玩法-科技 | 双端需装 | - |
+| ✅ | Sophisticated Storage Create Integration | 0.1.17.132 | 精妙存储机动结构兼容 | 附属-Create | 双端需装 | - |
+| ✅ | Sophisticated Core | 1.4.39.1852 | 精妙核心 | 前置库 | 双端需装 | - |
+| ✅ | Serene Shrubbery | 2.3.2 | 静谧花丛 | 世界元素 | 双端需装 | - |
+| ✅ | Sodium | 0.8.12 | 钠 | 性能优化 | 仅客户端 | - |
+| ✅ | Spice of Life : Maid | 1.0.1 | 生活调味料：酒狐萝贝 | 附属-Spice of Life Onion | 双端需装 | - |
+| ✅ | Spice of Life Onion | 1.5.6 | 生活调味料：洋葱版 | 机制调整 | 双端需装 | - |
+| ✅ | Sable | 2.0.3 | 物理化引擎 | 前置库 | 双端需装 | - |
+| ✅ | Search on MCMOD | 0.0.81 | MC百科搜索 | 信息显示 | 仅客户端 | - |
+| ✅ | Supplementaries | 3.8.0 | 锦致装饰 | 玩法-实用 | 双端需装 | - |
+| ✅ | Touhou Little Maid | 1.5.3 | 车万女仆 | 玩法-实用 | 双端需装 | - |
+| ✅ | Tweakerge | 0.4.3 | - | 调试 | 仅客户端 | - |
+| ✅ | Tower of the Wild Modded | 1.0.9 | 旷野之息高塔：重重build | 世界元素 | 双端需装 | - |
+| ✅ | Twilight Delight | 3.2.1 | 暮色风味乐事 | 附属-Farmer's Delight | 双端需装 | - |
+| ✅ | The Twilight Forest | 4.8.3345 | 暮色森林 | 世界元素 | 双端需装 | - |
+| ✅ | TerraBlender | 4.1.0.8 | - | 前置库 | 双端需装 | - |
+| ✅ | The Undergarden | 0.9.6 | 深暗之园 | 世界元素 | 双端需装 | - |
+| ✅ | Time in a Bottle | 6.5.4 | 时间之瓶 | 玩法-实用 | 双端需装 | - |
+| ✅ | TaCZ Pack Upgrader | 2.1.1 | TaCZ枪包升级器 | 附属-TaCZ | 双端需装 | - |
+| ✅ | TaCZ 1.21.1 NeoForge Port | 1.1.8-r2 | 永恒枪械工坊：零 | 玩法-装备 | 双端需装 | - |
+| ✅ | Trail & Tales Delight | 0.4.1 | 樱途旅事 | 附属-Farmer's Delight | 双端需装 | - |
+| ✅ | Uranus | 2.4.1 | - | 前置库 | 双端需装 | - |
+| ✅ | Undergarden Delight | 1.2.1 | 深暗之园乐事 | 附属-Farmer's Delight | 双端需装 | - |
+| ✅ | Raw's Visual Keybinder | 0.1.13 | 可视化按键绑定 | 信息显示 | 仅客户端 | - |
+| ⛔ | Vanilla Backport | 1.1.6.3 | - | 机制调整 | 双端需装 | - |
+| ✅ | ViScriptShop | 1.1.4 | Viscript的商店 | 玩法-实用 | 双端需装 | - |
+| ✅ | What Are They Up To | 1.2.7 | 他们在看啥 | 信息显示 | 双端需装 | - |
+| ✅ | Xaero's World Map | 1.40.11 | Xaero的世界地图 | 信息显示 | 客需服选 | - |
+| ✅ | Xaero's Minimap | 25.3.10 | Xaero的小地图 | 信息显示 | 客需服选 | - |
+| ✅ | Youkai's Homecoming | 3.0.8 | 妖怪们的归家 | 玩法-农业 | 双端需装 | - |
 | ✅ | ModName |  | - | 未知分类 | 双端需装 | - |
 
 

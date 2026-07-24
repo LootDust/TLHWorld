@@ -1,4 +1,3 @@
-
 /** @import { $MapColor } from "net.minecraft.world.level.material.MapColor" */
 const $MapColor = Java.loadClass("net.minecraft.world.level.material.MapColor");
 

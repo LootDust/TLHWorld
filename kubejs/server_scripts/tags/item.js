@@ -12,6 +12,22 @@ ServerEvents.tags("item", event => {
     // 通用标签
     event.removeAll("neoforge:storage_blocks")
 
+    event.add("c:creatives", [
+        '#create:creatives',
+        'mekanism:creative_bin',
+        'mekanism:creative_fluid_tank',
+        'mekanism:creative_energy_cube',
+        'mekanism:creative_chemical_tank',
+        'iceandfire:creative_dragon_meal',
+        'iceandfire:godly_dragon_seeker',
+        'ars_nouveau:creative_source_jar',
+        'ars_nouveau:creative_source_jar',
+        'born_in_chaos_v1:supreme_measure',
+        'touhou_little_maid:substitute_jizo',
+        'ae2:creative_storage_cell',
+        'ae2:creative_energy_cell'
+    ])
+
     // 木质物品
     event.add("c:logs", [
         '#c:unstripped_logs',
@@ -304,6 +320,7 @@ ServerEvents.tags("item", event => {
         'create:creative_fluid_tank',
         'create:creative_crate',
         'create:creative_blaze_cake',
+        'create_enchantment_industry:creative_bookshelf',
         'createaddition:creative_energy',
         'simulated:creative_physics_staff',
         'powergrid:creative_voltage_source',

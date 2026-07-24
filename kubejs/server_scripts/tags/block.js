@@ -99,6 +99,7 @@ ServerEvents.tags("block", event => {
         'create:creative_motor',
         'create:creative_fluid_tank',
         'create:creative_crate',
+        'create_enchantment_industry:creative_bookshelf',
         'createaddition:creative_energy',
         'powergrid:creative_voltage_source',
         'powergrid:creative_current_source',

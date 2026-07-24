@@ -144,7 +144,7 @@
 | ✅ | JEI | 19.39.0.368 | JEI物品管理器 | 信息显示 | 客需服选 | - |
 | ✅ | Jupiter | 2.3.7 | - | 前置库 | 双端可选 | - |
 | ✅ | Just Enough Characters | 4.5.26 | 通用拼音搜索 | 信息显示 | 仅客户端 | - |
-| ✅ | Kaleidoscope Chinese Food | 1.1.7 | 森罗厨房：国味 | 附属-Kaleidoscope Cookery | 双端需装 | - |
+| ✅ | Kaleidoscope Chinese Food | 1.1.8 | 森罗厨房：国味 | 附属-Kaleidoscope Cookery | 双端需装 | - |
 | ✅ | Kaleidoscope Cookery | 1.4.1 | 森罗物语：厨房 | 玩法-农业 | 双端需装 | - |
 | ✅ | Kaleidoscope Cookery - Automation | 1.0.2 | 森罗厨房：自动化 | 附属-Kaleidoscope Cookery | 双端需装 | - |
 | ✅ | Kaleidoscope Doll | 1.4.1 | 森罗物语：玩偶 | 玩法-实用 | 双端需装 | - |

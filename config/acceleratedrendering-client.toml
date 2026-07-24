@@ -144,11 +144,11 @@
 	#- DISABLED: Accelerated Rendering will not accelerate item models that are marked as "too small to make up the cost of acceleration" when rendering it in hand unless mods explicitly enable it temporarily when rendering their own item models.
 	#- ENABLED: Accelerated Rendering will still accelerate item models that are marked as "too small to make up the cost of acceleration" when rendering it in hand unless mods explicitly disable it temporarily when rendering their own item models, which may slightly reduce the FPS but accelerate vanilla-like modded item models with large amount of vertices.
 	#Allowed Values: DISABLED, ENABLED
-	hand_acceleration = "ENABLED"
+	hand_acceleration = "DISABLED"
 	#- DISABLED: Accelerated Rendering will not accelerate item models that are marked as "too small to make up the cost of acceleration" when rendering it in a container GUI unless mods explicitly enable it temporarily when rendering their own item models.
 	#- ENABLED: Accelerated Rendering will still accelerate item models that are marked as "too small to make up the cost of acceleration" when rendering it in a container GUI unless mods explicitly disable it temporarily when rendering their own item models, which may slightly reduce the FPS but accelerate vanilla-like modded item models with large amount of vertices.
 	#Allowed Values: DISABLED, ENABLED
-	gui_acceleration = "ENABLED"
+	gui_acceleration = "DISABLED"
 	#- DISABLED: Items in the container GUI will be rendered as per item per batch if the GUI Acceleration is enabled, which is inefficient and may cause reduction in FPS, but it has better compatibility in modded container GUI.
 	#- ENABLED: Items in the container will be rendered together in a single batch if the GUI Acceleration is enabled, which is much more efficient but has little compatibility in modded container GUI.
 	#Allowed Values: DISABLED, ENABLED
@@ -204,7 +204,7 @@
 	#- DISABLED: Entity filter will be disabled and all entities will be accelerated.
 	#- ENABLED: Entity filter will test if the entities should be accelerated when rendering based on the filter values and the filter type.
 	#Allowed Values: DISABLED, ENABLED
-	entity_filter = "DISABLED"
+	entity_filter = "ENABLED"
 	#- DISABLED: Block entity filter will be disabled and all block entities will be accelerated.
 	#- ENABLED: Block entity filter will test if the block entities should be accelerated when rendering based on the filter values and the filter type.
 	#Allowed Values: DISABLED, ENABLED
@@ -242,7 +242,7 @@
 	menu_filter_values = ["minecraft:.*"]
 	#You can configure the entity filter by this list.
 	#Entity filter will use this list and the filter type to determine if an entity can pass the filter.
-	entity_filter_values = []
+	entity_filter_values = ["minecraft:item"]
 	#You can configure the block entity filter by this list.
 	#Block entity filter will use this list and the filter type to determine if a block entity can pass the filter.
 	block_entity_filter_values = []

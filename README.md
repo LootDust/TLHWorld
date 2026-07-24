@@ -55,6 +55,7 @@
 | ✅ | Create : Addition | 1.6.0 | 机械动力：创想附加 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Additional Logistics | 1.4.5 | 机械动力：物品附加 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Aeronautics | 1.3.0 | 机械动力：航空学 | 附属-Create | 双端需装 | - |
+| ✅ | Create : Aeroworks | 1.3.0 | - | 附属-Create | 双端需装 | - |
 | ✅ | Create : Better FPS | 1.1.4 | 机械动力：更好的FPS表现 | 附属-Create | 仅客户端 | - |
 | ✅ | Create : Central Kitchen | 2.5.0 | 机械动力：中央厨房 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Compatible Storage | 2.11.0 | 机械动力：动态储具兼容 | 附属-Create | 双端需装 | - |
@@ -90,6 +91,7 @@
 | ✅ | Create : Tea | 1.0 | 机械动力：更多茶饮 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Fatasizing | 1.2.0-b2 | 机械动力：又在幻想了 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Nuclear | 1.3.2-beta.3 | 机械动力：原子核动 | 附属-Create | 双端需装 | - |
+| ⚠️ | Create Aeronautics x Curios API Compat | ? | 机械动力：航空学与饰品栏兼容 | 附属-KubeJS | 双端需装 | - |
 | ✅ | Create Heat JS | 0.0.6 | KubeJS机械动力热量附属 | 附属-KubeJS | 双端需装 | - |
 | ⛔ | Create More : Package Couriers | 2.3.0 | 机械动力：纸板物流 | 附属-Create | 双端需装 | - |
 | ✅ | Creative Core | 2.13.41 | - | 前置库 | 双端需装 | - |

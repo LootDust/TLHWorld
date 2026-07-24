@@ -85,4 +85,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'tacz:workbench_a' });
     event.remove({ output: 'tacz:workbench_b' });
     event.remove({ output: 'tacz:workbench_c' });
+    event.remove({ output: 'tacz:ammo[custom_data={AmmoId:"cyber_armorer:material_1"}]' });
+    event.remove({ output: 'tacz:ammo[custom_data={AmmoId:"cyber_armorer:material_2"}]' });
+    event.remove({ output: 'tacz:ammo[custom_data={AmmoId:"cyber_armorer:material_3"}]' });
+    event.remove({ output: 'tacz:ammo[custom_data={AmmoId:"cyber_armorer:material_4"}]' });
 })

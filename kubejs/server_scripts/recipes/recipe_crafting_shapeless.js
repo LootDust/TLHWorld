@@ -66,6 +66,10 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('supplementaries:ash', 4), ['regions_unexplored:ash']);
 
     // Mod: TaCZ
+    event.shapeless(Item.of('tacz:ammo[custom_data={AmmoId:"cyber_armorer:material_1"}]', 4), ['apotheosis:uncommon_material', 'apotheosis:common_material', 'apotheosis:common_material', 'apotheosis:common_material', 'apotheosis:common_material'])
+    event.shapeless(Item.of('tacz:ammo[custom_data={AmmoId:"cyber_armorer:material_2"}]', 4), ['apotheosis:rare_material', 'apotheosis:uncommon_material', 'apotheosis:uncommon_material', 'apotheosis:uncommon_material', 'apotheosis:uncommon_material'])
+    event.shapeless(Item.of('tacz:ammo[custom_data={AmmoId:"cyber_armorer:material_3"}]', 4), ['apotheosis:epic_material', 'apotheosis:rare_material', 'apotheosis:rare_material', 'apotheosis:rare_material', 'apotheosis:rare_material'])
+    event.shapeless(Item.of('tacz:ammo[custom_data={AmmoId:"cyber_armorer:material_4"}]', 4), ['apotheosis:mythic_material', 'apotheosis:epic_material', 'apotheosis:epic_material', 'apotheosis:epic_material', 'apotheosis:epic_material'])
     event.shapeless(Item.of('tacz:ammo[minecraft:custom_data={"AmmoId":"tacz:9mm"}]', 10), ['minecraft:gunpowder', 'create:copper_nugget', 'create:copper_nugget']);
     event.shapeless(Item.of('tacz:ammo[minecraft:custom_data={"AmmoId":"tacz:45_70"}]', 4), ['minecraft:gunpowder', 'create:copper_sheet', 'create:copper_nugget']);
     event.shapeless(Item.of('tacz:modern_kinetic_gun[minecraft:custom_data={"GunFireMode":"SEMI","HasBulletInBarrel":1,"GunId":"create_armorer:special_melee_wrench","GunCurrentAmmoCount":1}]'), ['create:wrench']);  

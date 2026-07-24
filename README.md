@@ -7,6 +7,7 @@
 | :---: | :--- | :--- | :--- | :---: | :---: | :--- |
 | ✅ | 0Pack2Reload | 1.0.1 | 抑验重载 | 性能优化 | 仅客户端 | 禁用无效内容包重载 |
 | ✅ | 0World2Create | 1.0.0 | 别创建新世界 | 性能优化 | 仅客户端 | 禁用自动创建世界 |
+| ✅ | 3D Skin Layers | 1.11.2 | 3D皮肤层 | 机制调整 | 仅客户端 | - |
 | ✅ | Accelerated Recoiling | 21.1.13-alpha | 加速碰撞 | 性能优化 | 双端可选 | 多线程实体碰撞计算优化 |
 | ✅ | Accelerated Rendering | 1.0.14-alpha | 加速渲染 | 性能优化 | 仅客户端 | 整体渲染计算优化 |
 | ✅ | Advanced Xray | 21.0.0 | 高级透视 | 调试 | 仅客户端 | 透视与高亮查找方块 |
@@ -22,6 +23,7 @@
 | ✅ | AppleSkin | 3.0.9 | 苹果皮 | 信息显示 | 客需服选 | 饱和度显示与食物信息显示 |
 | ✅ | Applied energistics 2 | 19.2.17 | 应用能源2 | 玩法-科技 | 双端需装 | 提供后期储存与物流解决方案 |
 | ✅ | Applied energistics 2 wireless terminals | 19.5.1 | AE2无线终端 | 附属-Applied Energistics 2 | 双端需装 | 提供无线访问AE2网络功能 |
+| ✅ | Applied energistics 2 Things | 1.4.2 | AE2元件拓展 | 附属-Applied Energistics 2 | 双端需装 | 提供深度存储 |
 | ✅ | Aquaculture | 2.7.21 | 水产品2 | 玩法-农业 | 双端需装 | 提供更多钓鱼内容 |
 | ✅ | Architectury API | 13.0.8 | - | 前置库 | 双端需装 | - |
 | ✅ | Ars Delight | 2.2.2 | 新生乐事 | 附属-Ars nouveau | 双端需装 | 提供新生魔艺食物 |
@@ -47,6 +49,7 @@
 | ✅ | Cooking for Blockheads | 21.1.24 | 懒人厨房 | 玩法-农业 | 双端需装 | - |
 | ✅ | CoroUtil | 1.3.9 | - | 前置库 | 双端需装 | - |
 | ✅ | Cosmetic Armor Reworked | 1 | 时装盔甲重制版 | 机制调整 | 双端需装 | - |
+| ⚠️ | Cosmonautics : Deep Air | ? | 航空学：深空 | 附属-Create | 双端需装 | - |
 | ✅ | Crate Delight | 26.07.01 | 装箱乐事 | 附属-Farmer's Delight | 双端需装 | - |
 | ✅ | Create | 6.0.10 | 机械动力 | 玩法-科技 | 双端需装 | - |
 | ✅ | Create : Addition | 1.6.0 | 机械动力：创想附加 | 附属-Create | 双端需装 | - |
@@ -58,8 +61,10 @@
 | ✅ | Create : Compressed | 2.2.0 | 机械动力：压缩 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Compression | 2.0.0 | 机械动力：多重压缩 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Connected | 1.3.2 | 机械动力：创意传动 | 附属-Create | 双端需装 | - |
+| ✅ | Create : Cosmonautics | 26.07.272 | 机械动力：宇航学 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Cyber Googles | 8.1.3 | 机械动力：赛博护目镜 | 附属-Create | 客需服选 | - |
 | ✅ | Create : Deco | 2.1.3 | 机械动力：装饰 | 附属-Create | 双端需装 | - |
+| ⚠️ | Create : Deep Seas | ? | 机械动力：深海 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Diesel Generators | 1.3.14 | 机械动力：柴油动力 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Dragon Plus | 1.11.2b | 机械动力：龙+ | 附属-Create | 双端需装 | - |
 | ✅ | Create : Encased | 1.9.0-ht1 | 机械动力：封装工艺 | 附属-Create | 双端需装 | - |
@@ -73,6 +78,7 @@
 | ✅ | Create : Mechanical Spawner | 1.3.2 | 机械动力：动力刷怪笼 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Mechanical Extruder | 2.2.2 | 机械动力：动力造石机 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Molten Vents | 2.1.1 | 机械动力：熔融矿脉 | 附属-Create | 双端需装 | - |
+| ✅ | Create : Rainbow Compound | 1.3.5d | 机械动力：彩虹化合物 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Ratatouille | 1.4.0 | 机械动力：齿轮与麦穗 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Ratatouille Fried Delights | 1.0.4 | 机械动力：齿轮与麦穗的炸物拓展 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Optical | 0.4.2 | 机械动力：光学 | 附属-Create | 双端需装 | - |
@@ -196,6 +202,7 @@
 | ✅ | ParCool+ | 3.4.3.1-1.1 | - | 附属-ParCool! | 双端需装 | 跑酷兼容 |
 | ✅ | parcoolskil | 1.3.1 | 跑酷技能 | 附属-ParCool! | 双端需装 | - |
 | ✅ | Patchouli | 1.21.1-93 | 帕秋莉手册 | 信息显示 | 双端需装 | - |
+| ✅ | Pillager's Gun (Unofficial Port) | 3.3.4 | 掠夺者的枪（非官方移植） | 玩法-冒险 | 双端需装 | - |
 | ✅ | Placebo | 9.9.1 | - | 前置库 | 双端需装 | - |
 | ⛔ | Platform | 1.3.3 | - | 前置库 | 双端可选 | - |
 | ✅ | PlayerAnimator | 2.0.4 | - | 前置库 | 客需服选 | - |
@@ -213,7 +220,6 @@
 | ✅ | Search on MCMOD | 0.1.0 | MC百科搜索 | 信息显示 | 仅客户端 | - |
 | ✅ | Searchables | 1.0.2 | 按键绑定查找 | 信息显示 | 仅客户端 | - |
 | ✅ | Serene Shrubbery | 2.4.0 | 静谧花丛 | 世界元素 | 双端需装 | - |
-| ✅ | Skin Layers 3D | 1.11.2 | 3D皮肤层 | 机制调整 | 仅客户端 | - |
 | ✅ | Sodium | 0.8.12 | 钠 | 性能优化 | 仅客户端 | - |
 | ✅ | Sophisticated Backpacks | 3.25.71.1997 | 精妙背包 | 玩法-装备 | 双端需装 | - |
 | ✅ | Sophisticated Backpacks Create Integration | 0.1.8.134 | 精妙背包机动结构兼容 | 附属-Create | 双端需装 | - |

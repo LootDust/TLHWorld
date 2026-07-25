@@ -36,6 +36,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crafting/kinetics/depot'});
     event.remove({ id: 'create:crafting/kinetics/wrench' });
     event.remove({ id: 'create:crafting/kinetics/mechanical_crafter' });
+    event.remove({ id: 'create:crafting/kinetics/mechanical_mixer'});
     event.remove({ id: 'create:item_application/andesite_casing_from_log' });
     event.remove({ id: 'create:item_application/andesite_casing_from_wood' });
     event.remove({ id: 'create:item_application/brass_casing_from_log' });

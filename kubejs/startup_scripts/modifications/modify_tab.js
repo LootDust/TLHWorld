@@ -57,6 +57,23 @@ StartupEvents.modifyCreativeTab('kubejs:tab', event => {
     event.remove('createcompression:compressed_tin_8x');
     event.remove('createcompression:compressed_tin_9x');
 
+    event.remove('tlhworld:incomplete_andesite_mechanism');
+    event.remove('tlhworld:incomplete_experience_mechanism');
+    event.remove('tlhworld:incomplete_super_experience_mechanism');
+    event.remove('tlhworld:incomplete_ferrite_mechanism');
+    event.remove('tlhworld:incomplete_fluid_mechanism');
+    event.remove('tlhworld:incomplete_advanced_fluid_mechanism');
+    event.remove('tlhworld:incomplete_low_heat_mechanism');
+    event.remove('tlhworld:incomplete_heat_mechanism');
+    event.remove('tlhworld:incomplete_advanced_heat_mechanism');
+    event.remove('tlhworld:incomplete_infused_mechanism');
+    event.remove('tlhworld:incomplete_logic_mechanism');
+    event.remove('tlhworld:incomplete_computing_mechanism');
+    event.remove('tlhworld:incomplete_nuclear_mechanism');
+    event.remove('tlhworld:incomplete_advanced_precision_mechanism');
+    event.remove('tlhworld:incomplete_redstone_mechanism');
+    event.remove('tlhworld:incomplete_wooden_mechanism');
+
     event.remove('createsifter:tin_mesh');
     event.remove('createsifter:copper_mesh');
     event.remove('createsifter:osmium_mesh');

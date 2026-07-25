@@ -116,6 +116,15 @@ ServerEvents.recipes(event => {
         B: 'create:brass_casing',
         C: 'minecraft:crafter'
     });
+    event.shaped(Item.of('create:mechanical_mixer'), [
+        "M",
+        "C",
+        "W"
+    ], {
+        M: 'tlhworld:andesite_mechanism',
+        C: 'create:andesite_casing',
+        W: 'create:whisk'
+    })
 
     // Mod: Create Compression
     to9xCompressed(event, 'createcompression:compressed_raw_zinc', 'create:raw_zinc_block');

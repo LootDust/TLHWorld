@@ -348,6 +348,33 @@ ServerEvents.tags("item", event => {
         'create_connected:creative_fluid_vessel',
         'createcasing:creative_cogwheel'
     ])
+    // 构件物品
+    event.add("create:mechanisms", [
+        'create:precision_mechanism',
+        'simulated:gyroscopic_mechanism',
+        'simulated:engine_assembly',
+        'rainbowcompound:shadow_mechanism',
+        'rainbowcompound:radiance_mechanism',
+        'rainbowcompound:shadow_resonant_assembly',
+        'rainbowcompound:radiance_resonant_assembly',
+        'protection_pixel:heatoverlockingmechanism',
+        'tlhworld:andesite_mechanism',
+        'tlhworld:computing_mechanism',
+        'tlhworld:experience_mechanism',
+        'tlhworld:super_experience_mechanism',
+        'tlhworld:ferrite_mechanism',
+        'tlhworld:fluid_mechanism',
+        'tlhworld:advanced_fluid_mechanism',
+        'tlhworld:low_heat_mechanism',
+        'tlhworld:heat_mechanism',
+        'tlhworld:advanced_heat_mechanism',
+        'tlhworld:infused_mechanism',
+        'tlhworld:logic_mechanism',
+        'tlhworld:nuclear_mechanism',
+        'tlhworld:advanced_precision_mechanism',
+        'tlhworld:redstone_mechanism',
+        'powergrid:electrical_gizmo'
+    ])
 
 
     // Mod: The Twilight Forest

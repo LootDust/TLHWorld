@@ -23,7 +23,21 @@ StartupEvents.registry("item", event => {
 
     // TLHWorld
     // Mechanisms
-    createMechanism(event, 'andesite_mechanism', 'tlhworld:item/mechanism/andesite_mechanism', 'tlhworld:item/mechanism/incomplete/andesite_mechanism')
+    createMechanism(event, 'andesite_mechanism', 'tlhworld:item/mechanism/andesite_mechanism', 'tlhworld:item/mechanism/incomplete/andesite_mechanism');
+    createMechanism(event, 'experience_mechanism', 'tlhworld:item/mechanism/experience_mechanism', 'tlhworld:item/mechanism/incomplete/experience_mechanism');
+    createMechanism(event, 'super_experience_mechanism', 'tlhworld:item/mechanism/super_experience_mechanism', 'tlhworld:item/mechanism/incomplete/super_experience_mechanism');
+    createMechanism(event, 'ferrite_mechanism', 'tlhworld:item/mechanism/ferrite_mechanism', 'tlhworld:item/mechanism/incomplete/ferrite_mechanism');
+    createMechanism(event, 'fluid_mechanism', 'tlhworld:item/mechanism/fluid_mechanism', 'tlhworld:item/mechanism/incomplete/fluid_mechanism');
+    createMechanism(event, 'advanced_fluid_mechanism', 'tlhworld:item/mechanism/advanced_fluid_mechanism', 'tlhworld:item/mechanism/incomplete/advanced_fluid_mechanism');
+    createMechanism(event, 'low_heat_mechanism', 'tlhworld:item/mechanism/low_heat_mechanism', 'tlhworld:item/mechanism/incomplete/low_heat_mechanism');
+    createMechanism(event, 'heat_mechanism', 'tlhworld:item/mechanism/heat_mechanism', 'tlhworld:item/mechanism/incomplete/heat_mechanism');
+    createMechanism(event, 'advanced_heat_mechanism', 'tlhworld:item/mechanism/advanced_heat_mechanism', 'tlhworld:item/mechanism/incomplete/advanced_heat_mechanism');
+    createMechanism(event, 'infused_mechanism', 'tlhworld:item/mechanism/infused_mechanism', 'tlhworld:item/mechanism/incomplete/infused_mechanism');
+    createMechanism(event, 'logic_mechanism', 'tlhworld:item/mechanism/logic_mechanism', 'tlhworld:item/mechanism/incomplete/logic_mechanism');
+    createMechanism(event, 'computing_mechanism', 'tlhworld:item/mechanism/computing_mechanism', 'tlhworld:item/mechanism/incomplete/computing_mechanism');
+    createMechanism(event, 'nuclear_mechanism', 'tlhworld:item/mechanism/nuclear_mechanism', 'tlhworld:item/mechanism/incomplete/nuclear_mechanism');
+    createMechanism(event, 'advanced_precision_mechanism', 'tlhworld:item/mechanism/advanced_precision_mechanism', 'tlhworld:item/mechanism/incomplete/advanced_precision_mechanism');
+    createMechanism(event, 'redstone_mechanism', 'tlhworld:item/mechanism/redstone_mechanism', 'tlhworld:item/mechanism/incomplete/redstone_mechanism');
 
     // Miscs
     event.create('tlhworld:sale_license')

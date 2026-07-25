@@ -3,15 +3,46 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('minecraft:rooted_dirt'), ['minecraft:dirt', 'minecraft:stick', 'minecraft:stick', 'minecraft:stick']);
     event.shapeless(Item.of('minecraft:yellow_dye'), ['mekanism:dust_gold']);
 
-    // TLH Island专属
+    // TLHWorld
+    // Mechanisms
+    event.custom({
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "type": "neoforge:components",
+                "items": [ "tlhworld:incomplete_andesite_mechanism"],
+                "components": {
+                    "create:sequenced_assembly": {
+                        "id": "tlhworld:sequenced_assembly/andesite_mechanism",
+                        "progress": 0.33333334,
+                        "step": 1
+                    }
+                }
+            },
+            {
+                "item": "create:cogwheel"
+            }
+        ],
+        "result": {
+            "id": "tlhworld:incomplete_andesite_mechanism",
+            "count": 1,
+            "components": {
+                "create:sequenced_assembly": {
+                    "id": "tlhworld:sequenced_assembly/andesite_mechanism",
+                    "progress": 0.6666667,
+                    "step": 2
+                }
+            }
+        }
+    });
+
+    // Miscs
     event.shapeless(Item.of('tlhworld:mehvahdjukaars_foolish'), ['minecraft:copper_block', 'minecraft:exposed_copper', 'minecraft:weathered_copper', 'minecraft:oxidized_copper',
         'minecraft:copper_ingot', 'minecraft:waxed_copper_block', 'minecraft:waxed_exposed_copper', 'minecraft:waxed_weathered_copper', 'minecraft:waxed_oxidized_copper'
     ]);
-
     // 普轴配方重写
     event.shapeless(Item.of('createadditionallogistics:lazy_cogwheel'), ['#createadditionallogistics:basic_shafts', '#minecraft:planks']);
     event.shapeless(Item.of('createadditionallogistics:lazy_large_cogwheel'), ['#createadditionallogistics:basic_shafts', '#minecraft:planks', '#minecraft:planks']);
-
     // 懒轴与普轴转换
     event.shapeless('createadditionallogistics:lazy_shaft', ['create:shaft']);
     event.shapeless('createadditionallogistics:lazy_cogwheel', ['create:cogwheel']);
@@ -19,6 +50,7 @@ ServerEvents.recipes(event => {
     event.shapeless('create:shaft', ['createadditionallogistics:lazy_shaft']);
     event.shapeless('create:cogwheel', ['createadditionallogistics:lazy_cogwheel']);
     event.shapeless('create:large_cogwheel', ['createadditionallogistics:lazy_large_cogwheel']);
+
 
     // Mod: Create
     event.shapeless(Item.of('create:depot'), ['createdeco:andesite_sheet', 'create:andesite_casing']);

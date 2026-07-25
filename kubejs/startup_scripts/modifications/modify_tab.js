@@ -47,6 +47,16 @@ StartupEvents.modifyCreativeTab('kubejs:tab', event => {
     event.remove('createcompression:compressed_raw_zinc_8x');
     event.remove('createcompression:compressed_raw_zinc_9x');
 
+    event.remove('createcompression:compressed_tin_1x');
+    event.remove('createcompression:compressed_tin_2x');
+    event.remove('createcompression:compressed_tin_3x');
+    event.remove('createcompression:compressed_tin_4x');
+    event.remove('createcompression:compressed_tin_5x');
+    event.remove('createcompression:compressed_tin_6x');
+    event.remove('createcompression:compressed_tin_7x');
+    event.remove('createcompression:compressed_tin_8x');
+    event.remove('createcompression:compressed_tin_9x');
+
     event.remove('createsifter:tin_mesh');
     event.remove('createsifter:copper_mesh');
     event.remove('createsifter:osmium_mesh');

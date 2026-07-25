@@ -3,6 +3,28 @@ ServerEvents.recipes(event => {
         "type": "createdieselgenerators:hammering",
         "ingredients": [
             {
+                "type": "neoforge:components",
+                "items": [ "tlhworld:incomplete_andesite_mechanism"],
+                "components": {
+                    "create:sequenced_assembly": {
+                        "id": "tlhworld:sequenced_assembly/andesite_mechanism",
+                        "progress": 0.6666667,
+                        "step": 2
+                    }
+                }
+            }
+        ],
+        "results": [
+            {
+                "id": "tlhworld:andesite_mechanism"
+            }
+        ]
+    })
+
+    event.custom({
+        "type": "createdieselgenerators:hammering",
+        "ingredients": [
+            {
                 "item": "create_ironworks:tin_ingot"
             }
         ],

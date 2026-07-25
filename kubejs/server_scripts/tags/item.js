@@ -12,6 +12,7 @@ ServerEvents.tags("item", event => {
     // 通用标签
     event.removeAll("neoforge:storage_blocks")
 
+    // 创造物品
     event.add("c:creatives", [
         '#create:creatives',
         'mekanism:creative_bin',
@@ -26,6 +27,24 @@ ServerEvents.tags("item", event => {
         'touhou_little_maid:substitute_jizo',
         'ae2:creative_storage_cell',
         'ae2:creative_energy_cell'
+    ])
+
+    // 锻造模板
+    event.add("c:smithing_templates", [
+        'minecraft:netherite_upgrade_smithing_template',
+        'ae2:fluix_upgrade_smithing_template',
+        'kaleidoscope_end:ender_dragon_smithing_template',
+        'rainbowcompound:obsidianite_upgrade_kit',
+        'rainbowcompound:rainbow_upgrade_kit',
+        'born_in_chaos_v1:dark_upgrade',
+        'cataclysm:ignitium_upgrade_smithing_template',
+        'cataclysm:cursium_upgrade_smithing_template',
+        'dragonsurvival:light_upgrade',
+        'dragonsurvival:dark_upgrade',
+        'create_dragons_plus:blaze_upgrade_smithing_template',
+        'apotheosis:iron_upgrade_smithing_template',
+        'apotheosis:gold_upgrade_smithing_template',
+        'apotheosis:diamond_upgrade_smithing_template'
     ])
 
     // 木质物品

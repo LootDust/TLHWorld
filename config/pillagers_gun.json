@@ -16,7 +16,7 @@
   "bazookaExplosionPower": 2.5,
   "bazookaBreakBlocks": false,
   "enableTaczCompatibility": true,
-  "taczGunSpawnChance": 1,
+  "taczGunSpawnChance": 1.0,
   "taczGunIds": [
     "tacz:glock_17",
     "tacz:ak47",

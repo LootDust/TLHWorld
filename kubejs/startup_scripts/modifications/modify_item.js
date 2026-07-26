@@ -23,4 +23,8 @@ ItemEvents.modification(event => {
     event.modify("powergrid:creative_resistor", item => {
         item.rarity = "EPIC"
     });
+
+    event.modify("create_ironworks:copper_axe", item => {
+        item.setAdditionalTooltipHidden()
+    })
 })

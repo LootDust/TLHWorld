@@ -1,6 +1,32 @@
 import { Item } from "@side-only/startup/events/registry";
 
 StartupEvents.registry("item", event => {
+    // Create : Ironworks
+    event.create('create_ironworks:andesite_armor_helmet', 'kubejs:helmet')
+        .displayName({ translate: 'item.create_ironworks.andesite_armor_helmet'})
+        .parentModel('minecraft:item/generated')
+        .textures({'layer0': 'create_ironworks:item/andesite_armor_helmet'})
+        .material('create_ironworks:andesite_armor')
+        .maxDamage(256);
+    event.create('create_ironworks:andesite_armor_chestplate', 'kubejs:chestplate')
+        .displayName({ translate: 'item.create_ironworks.andesite_armor_chestplate'})
+        .parentModel('minecraft:item/generated')
+        .textures({'layer0': 'create_ironworks:item/andesite_armor_chestplate'})
+        .material('create_ironworks:andesite_armor')
+        .maxDamage(256);
+    event.create('create_ironworks:andesite_armor_leggings', 'kubejs:leggings')
+        .displayName({ translate: 'item.create_ironworks.andesite_armor_leggings'})
+        .parentModel('minecraft:item/generated')
+        .textures({'layer0': 'create_ironworks:item/andesite_armor_leggings'})
+        .material('create_ironworks:andesite_armor')
+        .maxDamage(256);
+    event.create('create_ironworks:andesite_armor_boots', 'kubejs:boots')
+        .displayName({ translate: 'item.create_ironworks.andesite_armor_boots'})
+        .parentModel('minecraft:item/generated')
+        .textures({'layer0': 'create_ironworks:item/andesite_armor_boots'})
+        .material('create_ironworks:andesite_armor')
+        .maxDamage(256);
+
     // Create : Sifter
     event.create('createsifter:tin_mesh', 'createsifter:mesh')
         .displayName({ translate: 'item.createsifter.tin_mesh' })
@@ -77,7 +103,7 @@ const createMechanism = (event, id, texture, incompleteTexture) => {
         .parentModel('create:item/incomplete_precision_mechanism')
         .textures({'layer0': texture})
     
-    event.create('tlhworld:incomplete_' + id)
+    event.create('tlhworld:incomplete_' + id, 'create:sequenced_assembly')
         .displayName({ translate: ('item.tlhworld.incomplete_' + id) })
         .parentModel('create:item/precision_mechanism')
         .textures({'layer0': incompleteTexture})

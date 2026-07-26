@@ -72,7 +72,6 @@ StartupEvents.modifyCreativeTab('kubejs:tab', event => {
     event.remove('tlhworld:incomplete_nuclear_mechanism');
     event.remove('tlhworld:incomplete_advanced_precision_mechanism');
     event.remove('tlhworld:incomplete_redstone_mechanism');
-    event.remove('tlhworld:incomplete_wooden_mechanism');
 
     event.remove('createsifter:tin_mesh');
     event.remove('createsifter:copper_mesh');

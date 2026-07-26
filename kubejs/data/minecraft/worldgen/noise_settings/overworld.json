@@ -33,13 +33,12 @@
                 "type": "minecraft:mul",
                 "argument1": 0.64,
                 "argument2": {
-                    "type": "minecraft:interpolated",
-                    "argument": {
-                        "type": "minecraft:blend_density",
+                    "type": "minecraft:add",
+                    "argument1": {
+                        "type": "minecraft:interpolated",
                         "argument": {
-                            "type": "minecraft:add",
-                            "argument1": 0.1171875,
-                            "argument2": {
+                            "type": "minecraft:blend_density",
+                            "argument": {
                                 "type": "minecraft:mul",
                                 "argument1": {
                                     "type": "minecraft:y_clamped_gradient",

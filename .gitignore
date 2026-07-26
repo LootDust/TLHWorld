@@ -14,6 +14,7 @@ dragon-survival/
 dynamic-data-pack-cache/
 dynamic-resource-pack-cache/
 fancymenu_data/
+generated/
 kiwipacks/
 local/
 logs/
@@ -71,6 +72,7 @@ config/inventoryprofilesnext/*/
 !config/dragonsurvival-server.toml
 !config/enigmaticlegacyplus-server.toml
 !config/homeostatic-client.toml
+!config/kaleidoscope_chinesefood-common.toml
 !config/pillagers_gun.json
 !config/structure_crafter-server.toml
 !config/sophisticatedstorage-client.toml

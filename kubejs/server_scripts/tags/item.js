@@ -1,17 +1,26 @@
 ServerEvents.tags("item", event => {
+    // 标签修复
+    event.remove("farmersdelight:pies", [
+        'arsdelight:flashpine_pie',
+        'arsdelight:dawnberry_pie',
+        'arsdelight:lightchee_pie'
+    ])
+    event.remove("forge:vegetables", [
+        '#c:foods/vegetables'
+    ])
+
     // 原版标签
     // 木质物品
-    event.removeAll("minecraft:logs")
+    event.removeAll("minecraft:logs");
     event.add("minecraft:logs", [
         '#c:logs',
         '#c:woods',
         '#c:branches'
-    ])
+    ]);
 
 
     // 通用标签
-    event.removeAll("neoforge:storage_blocks")
-
+    event.removeAll("neoforge:storage_blocks");
     // 创造物品
     event.add("c:creatives", [
         '#create:creatives',
@@ -27,8 +36,7 @@ ServerEvents.tags("item", event => {
         'touhou_little_maid:substitute_jizo',
         'ae2:creative_storage_cell',
         'ae2:creative_energy_cell'
-    ])
-
+    ]);
     // 锻造模板
     event.add("c:smithing_templates", [
         'minecraft:netherite_upgrade_smithing_template',
@@ -45,29 +53,24 @@ ServerEvents.tags("item", event => {
         'apotheosis:iron_upgrade_smithing_template',
         'apotheosis:gold_upgrade_smithing_template',
         'apotheosis:diamond_upgrade_smithing_template'
-    ])
-
+    ]);
     // 木质物品
     event.add("c:logs", [
         '#c:unstripped_logs',
         '#c:stripped_logs'
-    ])
-
+    ]);
     event.add("c:woods", [
         '#c:unstripped_woods',
         '#c:stripped_woods'
-    ])
-
+    ]);
     event.add("c:unstrippeds", [
         '#c:unstripped_logs',
         '#c:unstripped_woods'
-    ])
-
+    ]);
     event.add("c:strippeds", [
         '#c:stripped_logs',
         '#c:stripped_woods'
-    ])
-
+    ]);
     event.add("c:unstripped_logs", [
         '#c:unstripped_stems',
         'minecraft:oak_log',
@@ -121,8 +124,7 @@ ServerEvents.tags("item", event => {
         'undergarden:grongle_log',
         'undergarden:smogstem_log',
         'undergarden:wigglewood_log'
-    ])
-
+    ]);
     event.add("c:unstripped_woods", [
         '#c:unstripped_hyphaes',
         'minecraft:oak_wood',
@@ -172,30 +174,25 @@ ServerEvents.tags("item", event => {
         'undergarden:grongle_wood',
         'undergarden:smogstem_wood',
         'undergarden:wigglewood_wood'
-    ])
-
+    ]);
     event.add("c:stripped_logs", [
         'createdieselgenerators:chip_wood_beam',
         'ratatouille_fried_delights:stripped_cola_log',
         'regions_unexplored:stripped_bamboo_log',
         'regions_unexplored:stripped_small_oak_log'
-    ])
-
+    ]);
     event.add("c:stripped_woods", [
         'minecraft:stripped_pale_oak_wood',
         'ratatouille_fried_delights:stripped_cola_wood'
-    ])
-
+    ]);
     event.add("c:stems", [
         '#c:unstripped_stems',
         '#c:stripped_stems'
-    ])
-
+    ]);
     event.add("c:hyphaes", [
         '#c:unstripped_hyphaes',
         '#c:stripped_hyphaes'
-    ])
-
+    ]);
     event.add("c:unstripped_stems", [
         'minecraft:crimson_stem',
         'minecraft:warped_stem',
@@ -204,8 +201,7 @@ ServerEvents.tags("item", event => {
         'regions_unexplored:yellow_bioshroom_stem',
         'regions_unexplored:blue_bioshroom_stem',
         'regions_unexplored:green_bioshroom_stem'
-    ])
-
+    ]);
     event.add("c:unstripped_hyphaes", [
         'minecraft:crimson_hyphae',
         'minecraft:warped_hyphae',
@@ -213,8 +209,7 @@ ServerEvents.tags("item", event => {
         'regions_unexplored:yellow_bioshroom_hyphae',
         'regions_unexplored:blue_bioshroom_hyphae',
         'regions_unexplored:green_bioshroom_hyphae'
-    ])
-
+    ]);
     event.add("c:stripped_stems", [
         'minecraft:stripped_crimson_stem',
         'minecraft:stripped_warped_stem',
@@ -222,8 +217,7 @@ ServerEvents.tags("item", event => {
         'regions_unexplored:stripped_yellow_bioshroom_stem',
         'regions_unexplored:stripped_blue_bioshroom_stem',
         'regions_unexplored:stripped_green_bioshroom_stem'
-    ])
-
+    ]);
     event.add("c:stripped_hyphaes", [
         'minecraft:stripped_crimson_hyphae',
         'minecraft:stripped_warped_hyphae',
@@ -231,8 +225,7 @@ ServerEvents.tags("item", event => {
         'regions_unexplored:stripped_yellow_bioshroom_hyphae',
         'regions_unexplored:stripped_blue_bioshroom_hyphae',
         'regions_unexplored:stripped_green_bioshroom_hyphae'
-    ])
-
+    ]);
     event.add("c:branches", [
         'regions_unexplored:acacia_branch',
         'regions_unexplored:birch_branch',
@@ -259,8 +252,7 @@ ServerEvents.tags("item", event => {
         'regions_unexplored:silver_birch_branch',
         'regions_unexplored:socotra_branch',
         'regions_unexplored:willow_branch'
-    ])
-
+    ]);
     // 石质物品
     event.add("c:stones", [
         'minecraft:calcite',
@@ -281,13 +273,11 @@ ServerEvents.tags("item", event => {
         'minecraft:dripstone_block',
         'minecraft:basalt',
         'minecraft:blackstone'
-    ])
-
+    ]);
     // 砖类物品
     event.add("c:bricks", [
         'minecraft:resin_brick'
-    ])
-
+    ]);
     // 蓝图物品
     event.add("c:schematics", [
         'create:schematicannon',
@@ -296,19 +286,16 @@ ServerEvents.tags("item", event => {
         'create:schematic_and_quill',
         'structure_crafter:structure_wand',
         'structure_crafter:blackboard'
-    ])
-
+    ]);
     // 食材标签合并
     event.removeAll("c:foods/cooked_eggs")
     event.add("c:foods/cooked_egg", [
         '#c:foods/cooked_eggs',
         'kaleidoscope_cookery:fried_egg'
-    ])
-
+    ]);
     event.add("c:foods/raw_noodles", [
         'kaleidoscope_cookery:raw_noodles'
-    ])
-
+    ]);
     // 唱片标签统一
     event.add("c:music_discs", [
         'apothic_enchanting:music_disc_eterna',
@@ -328,7 +315,7 @@ ServerEvents.tags("item", event => {
         'apotheosis:music_disc_flash',
         'apotheosis:music_disc_glimmer',
         'apotheosis:music_disc_shimmer'
-    ])
+    ]);
 
 
     // Mod: Create
@@ -347,7 +334,7 @@ ServerEvents.tags("item", event => {
         'powergrid:creative_resistor',
         'create_connected:creative_fluid_vessel',
         'createcasing:creative_cogwheel'
-    ])
+    ]);
     // 构件物品
     event.add("create:mechanisms", [
         'create:precision_mechanism',
@@ -374,7 +361,7 @@ ServerEvents.tags("item", event => {
         'tlhworld:advanced_precision_mechanism',
         'tlhworld:redstone_mechanism',
         'powergrid:electrical_gizmo'
-    ])
+    ]);
 
 
     // Mod: The Twilight Forest
@@ -398,5 +385,5 @@ ServerEvents.tags("item", event => {
         'twilightforest:hollow_transformation_log',
         'twilightforest:hollow_mining_log',
         'twilightforest:hollow_sorting_log'
-    ])
+    ]);
 })

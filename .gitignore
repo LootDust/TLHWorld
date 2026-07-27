@@ -84,3 +84,4 @@ exported/*
 !exported/export_config.txt
 
 kubejs/README.txt
+!kubejs/data/tlhworld/dimension/tlhworld.json

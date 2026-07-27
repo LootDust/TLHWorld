@@ -232,6 +232,7 @@
 | ✅ | Spark | 1.10.124 | 火花 | 调试 | 双端需装 | - |
 | ✅ | Spice of Life : Maid | 1.0.1 | 生活调味料：酒狐萝贝 | 附属-Spice of Life Onion | 双端需装 | - |
 | ✅ | Spice of Life Onion | 1.5.6 | 生活调味料：洋葱版 | 机制调整 | 双端需装 | - |
+| ✅ | Strike After Swing | 1.0.0 | - | 机制调整 | 双端需装 | - |
 | ✅ | Structure Crafter | 0.2.9.1 | 构印师匠 | 玩法-实用 | 双端需装 | - |
 | ✅ | Supplementaries | 3.8.2 | 锦致装饰 | 玩法-实用 | 双端需装 | - |
 | ✅ | TaCZ Pack Upgrader | 2.1.3 | TaCZ枪包升级器 | 附属-TaCZ | 双端需装 | - |
@@ -250,7 +251,7 @@
 | ✅ | Undergarden Delight | 2.0.2 | 深暗之园乐事 | 附属-Farmer's Delight | 双端需装 | - |
 | ✅ | Uranus | 2.4.1 | - | 前置库 | 双端需装 | - |
 | ⛔ | Vanilla Backport | 1.1.7.10 | - | 机制调整 | 双端需装 | - |
-| ✅ | ViScriptShop | 1.1.8 | Viscript的商店 | 玩法-实用 | 双端需装 | - |
+| ✅ | ViScriptShop | 1.1.9 | Viscript的商店 | 玩法-实用 | 双端需装 | - |
 | ✅ | What Are They Up To | 1.2.7 | 他们在看啥 | 信息显示 | 双端需装 | - |
 | ✅ | Xaero's Minimap | 26.4.2 | Xaero的小地图 | 信息显示 | 客需服选 | - |
 | ✅ | Xaero's World Map | 1.44.2 | Xaero的世界地图 | 信息显示 | 客需服选 | - |

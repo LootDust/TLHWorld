@@ -198,6 +198,7 @@
 | ✅ | Notes | 3.0.1 | 笔记 | 调试 | 仅客户端 | - |
 | ⛔ | obscuraspanoramica | 1.0.0 | Obsura的全景图 | 调试 | 仅客户端 | - |
 | ✅ | Observable | 5.4.4 | 可视性能侦测 | 调试 | 客选服需 | - |
+| ✅ | One Enough Damage | 1.0.2-hotfix | - | 技术性 | 双端需装 | - |
 | ✅ | Open Parties and Claims | 0.27.8 | - | 玩法-实用 | 客选服需 | - |
 | ✅ | Packet Fixer | 3.3.1 | 网络数据包修复 | 性能优化 | 双端需装 | - |
 | ✅ | ParCool! | 3.4.3.3 | 跑酷! | 机制调整 | 双端需装 | - |

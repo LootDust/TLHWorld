@@ -4,7 +4,7 @@
 <!--占位-->
 # 整合包开发笔记
 ><font color="yellow">目录</font>  
-[1.数据组件与数据包等](#数据组件与数据包)  
+[1.数据组件与数据包](#数据组件与数据包)  
 [1.1.数据组件(Data Components, aka. newer NBT system)](#数据组件)  
 [1.2.配方和标签(Recipes & Tags)](#配方和标签)  
 [1.2.1.配方](#配方)  
@@ -15,7 +15,8 @@
 [1.3.3.噪声设置](#噪声设置)  
 [1.3.4.地物与结构](#地物与结构)  
 [1.3.5.实体生成](#实体生成)  
-[2.KubeJS](#KubeJS)
+[2.KubeJS](#kubejs)  
+[2.1.如何安装KubeJS](#如何安装kubejs)
 
 ## 数据组件与数据包
 在光鲜亮丽的Minecraft世界之下的黑暗里，代码涌动着构成了一切的基底。而在没那么黑的灰暗处，数据组件和数据包向我们提供了一些不需要多少编程知识就能应用到实际的自定义整个世界的手段。
@@ -40,7 +41,7 @@
 >参考链接：  
 [中文Minecraft Wiki - 配方](https://zh.minecraft.wiki/w/配方)
 
-游戏中的一切配方（除了少数几个有特殊效用的，酿造配方则是在Minecraft26.3版本数据驱动化了，不过考虑到我们也不需要自定义什么药水效果所以无所谓），全部都是直接或间接依赖数据驱动的，这便于我们直接编写数据包进行配方自定义。
+游戏中的一切配方（除了少数几个有特殊效用的，酿造配方则是在Minecraft 26.3版本数据驱动化了，不过考虑到我们也不需要自定义什么药水效果所以无所谓），全部都是直接或间接依赖数据驱动的，这便于我们直接编写数据包进行配方自定义。
 
 但是注意一点，Minecraft的原版是不支持筛选配方输入物的数据组件的，感谢NeoForge吧。
 
@@ -90,22 +91,26 @@
 }
 ```
 
-#### 无序合成
+##### 烧炼配方
 ><font color="red">WIP</font>
 
-#### 烧炼配方
+##### 切石机配方
 ><font color="red">WIP</font>
 
-#### 切石机配方
-><font color="red">WIP</font>
-
-#### 锻造配方
+##### 锻造配方
 ><font color="red">WIP</font>
 
 ---
 
 #### 标签
-><font color="red">WIP</font>
+>参考链接：  
+[中文Minecraft Wiki - Java版标签](https://zh.minecraft.wiki/w/Java版标签)
+
+标签源自古早时期Forge的矿物辞典系统，在Minecraft 1.13版本，ojng吸纳了这一思想，加入了标签系统。简单来说，标签是一类具有相同功效的对象的集合，是一种对于方块、物品等游戏资源的分组。
+
+通过使用标签，我们可以快捷地对多个游戏资源进行分组与统一调用，例如在上文配方中使用标签，就可以将一类相似的物品作为同一种原料使用。
+
+由于标签种类极多，建议自行前往中文Minecraft Wiki进行查询。
 
 ---
 ---
@@ -158,4 +163,31 @@
 ---
 
 ## KubeJS
-><font color="red">WIP</font>
+>参考链接：  
+[MC百科 - KubeJS](https://www.mcmod.cn/class/2450.html)  
+[KubeJS官网](https://kubejs.com/)  
+[CrychicDoc by PickAID - KubeJS文档](https://docs.mihono.cn/zh/modpack/kubejs/Catalogue)
+
+KubeJS，也被熟知为KJS，是一个通过基于Rhino引擎的JavaScript对Minecraft的游戏内容进行自定义更改的模组。其作用原理主要是基于Rhino引擎将整合包作者编写的JavaScript脚本转译为可运行的Java程序并在运行时部署到Minecraft游戏内，同时KubeJS也有作为全局资源包与数据包加载器的功能，在KubeJS系统下编写的数据包和资源包将能轻松地加载到所有游戏存档。
+
+如若没有特殊说明，以下KubeJS教程均面向Minecraft 1.21.1、KubeJS 7.2的版本。
+
+### 如何安装KubeJS
+这里我们只以整合包制作者的角度描述如何安装KubeJS，对于常规整合包玩家而言KubeJS是没有必要安装的，因为KubeJS其本身并不能像AI Agent一样自动帮你实现你想要的魔改。
+
+#### 游戏侧
+游戏内的KubeJS安装非常简单，只要在启动器里正常下载KubeJS模组与其前置Rhino模组即可。
+
+然而，作为一个合格的整合包制作者，你应当额外安装ProbeJS模组，这个模组将会和下文提到的VSCode ProbeJS扩展相结合，为你提供开发时详尽的代码补全功能。
+
+#### 编辑器侧
+>参考链接：  
+[Microsoft Visual Studio Code官网](https://code.visualstudio.com/)
+
+给Minecraft安装好KubeJS模组并至少运行一次游戏以后，你就能在版本文件夹里看到`kubejs`文件夹了。虽然这时候你已经可以在这个文件夹里编写`.js`脚本文件了，但是用记事本（或者Notepad++，鬼知道为什么会有人选择这玩意写JavaScript）编写脚本是极其吃力且易于出错的，在这里（以及几乎所有提及KubeJS的其他教程）我们推荐你使用Microsoft VSCode作为你的KubeJS脚本编辑器（这玩意是PC端的，移动设备老实用你的MT管理器去）。
+
+关于VSCode的安装与汉化配置在此不多赘述，我们接下来要做的是，在左侧边栏的扩展菜单里下载并安装Prunoideae的ProbeJS扩展。
+
+安装完成ProbeJS后，点击VSCode顶层左侧工具栏中的`文件(F)`按钮（没有汉化的请自行下载汉化），并在下拉菜单中选择`打开文件夹`，找到你的整合包所在版本文件夹并选择它，确保信任整个文件夹而不是让VSCode处于受限模式。完成以上操作后，左边的资源管理器里应该能显示版本文件夹内包含的各类`config`、`logs`、`mods`等文件夹和包括`版本名.jar`在内的一众文件。
+
+那么接下来，我们就即将正式开始了解并编写KubeJS脚本了。

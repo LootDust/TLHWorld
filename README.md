@@ -12,7 +12,7 @@
 | ✅ | Accelerated Rendering | 1.0.14-alpha | 加速渲染 | 性能优化 | 仅客户端 | 整体渲染计算优化 |
 | ✅ | Advanced Xray | 21.0.0 | 高级透视 | 调试 | 仅客户端 | 透视与高亮查找方块 |
 | ✅ | Aim Bot | 1.3 | 瞄准修正 | 调试 | 仅客户端 | 准星实体吸附 |
-| ✅ | AllTheLeaks | 1.1.10 | 内存泄漏修复 | 性能优化 | 双端需装 | 修复游戏内存泄漏 |
+| ✅ | AllTheLeaks | 1.1.11 | 内存泄漏修复 | 性能优化 | 双端需装 | 修复游戏内存泄漏 |
 | ✅ | Almanac | 1.5.2 | - | 前置库 | 客选服需 | - |
 | ✅ | Apotheosis | 8.5.4 | 神化 | 玩法-冒险 | 双端需装 | 提供RPG玩法 |
 | ✅ | Apotheosis Modern Ragnarok: Zero | 7.0.0 | 神化：现代诸神黄昏 | 附属-Apotheosis | 双端需装 | 提供枪械附魔与词条 |
@@ -203,7 +203,7 @@
 | ✅ | Packet Fixer | 3.3.1 | 网络数据包修复 | 性能优化 | 双端需装 | - |
 | ✅ | ParCool! | 3.4.3.3 | 跑酷! | 机制调整 | 双端需装 | - |
 | ✅ | ParCool+ | 3.4.3.1-1.1 | - | 附属-ParCool! | 双端需装 | 跑酷兼容 |
-| ✅ | parcoolskil | 1.3.1 | 跑酷技能 | 附属-ParCool! | 双端需装 | - |
+| ✅ | parcoolskil | 1.3.3 | 跑酷技能 | 附属-ParCool! | 双端需装 | - |
 | ✅ | Patchouli | 1.21.1-93 | 帕秋莉手册 | 信息显示 | 双端需装 | - |
 | ✅ | Patpat | 1.2.4 | - | 玩法-实用 | 双端需装 | - |
 | ✅ | Pillager's Gun (Unofficial Port) | 3.3.4 | 掠夺者的枪（非官方移植） | 玩法-冒险 | 双端需装 | - |
@@ -230,6 +230,7 @@
 | ✅ | Sophisticated Storage | 1.5.79.1991 | 精妙存储 | 玩法-科技 | 双端需装 | - |
 | ✅ | Sophisticated Storage Create Integration | 0.1.20.192 | 精妙存储机动结构兼容 | 附属-Create | 双端需装 | - |
 | ✅ | Sophisticated Core | 1.4.76.2170 | 精妙核心 | 前置库 | 双端需装 | - |
+| ✅ | Soul Fire Nether Portal | 1.0.0 | 魂火界门 | 玩法-实用 | 双端需装 | - |
 | ✅ | Spark | 1.10.124 | 火花 | 调试 | 双端需装 | - |
 | ✅ | Spice of Life : Maid | 1.0.1 | 生活调味料：酒狐萝贝 | 附属-Spice of Life Onion | 双端需装 | - |
 | ✅ | Spice of Life Onion | 1.5.6 | 生活调味料：洋葱版 | 机制调整 | 双端需装 | - |
@@ -243,7 +244,7 @@
 | ✅ | The Twilight Forest | 4.8.3345 | 暮色森林 | 世界元素 | 双端需装 | - |
 | ✅ | The Undergarden | 0.9.6 | 深暗之园 | 世界元素 | 双端需装 | - |
 | ✅ | Time in a Bottle | 6.5.4 | 时间之瓶 | 玩法-实用 | 双端需装 | - |
-| ✅ | TimeScaleLib | 1.2.1 | - | 前置库 | 双端需装 | - |
+| ✅ | TimeScaleLib | 1.2.2 | - | 前置库 | 双端需装 | - |
 | ✅ | Touhou Little Maid | 1.5.3 | 车万女仆 | 玩法-实用 | 双端需装 | - |
 | ✅ | Tower of the Wild Modded | 1.0.9 | 旷野之息高塔：重重build | 世界元素 | 双端需装 | - |
 | ✅ | Trail & Tales Delight | 0.4.1 | 樱途旅事 | 附属-Farmer's Delight | 双端需装 | - |

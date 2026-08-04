@@ -128,7 +128,7 @@
 	#- DISABLED: Disable accelerated item rendering.
 	#- ENABLED: Enable accelerated item rendering.
 	#Allowed Values: DISABLED, ENABLED
-	feature_status = "ENABLED"
+	feature_status = "DISABLED"
 	#- DISABLED: Accelerated Rendering will not bake mesh for quads provided by dynamic item models (something that is not SimpleBakedModel) unless mods explicitly enable it temporarily when rendering their own item models.
 	#- ENABLED: Accelerated Rendering will bake mesh for all quads provided by dynamic item models (something that is not SimpleBakedModel) unless mods explicitly disable it temporarily when rendering their own item models, which will accelerate the rendering of these models but will crash if they keep allocating new quad data. (but who will?)
 	#Allowed Values: DISABLED, ENABLED

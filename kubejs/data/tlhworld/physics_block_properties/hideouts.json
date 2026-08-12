@@ -1,0 +1,6 @@
+{
+    "selector": "#tlhworld:hideouts",
+    "properties": {
+        "sable:mass": 1000.0
+    }
+}

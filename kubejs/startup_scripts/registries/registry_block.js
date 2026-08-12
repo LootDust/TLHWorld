@@ -1,4 +1,6 @@
-/** @import { $MapColor } from "net.minecraft.world.level.material.MapColor" */
+/// <reference path="../.reference.js"/>
+
+/** @import { $MapColor } from "@package/net/minecraft/world/level/material" */
 const $MapColor = Java.loadClass("net.minecraft.world.level.material.MapColor");
 
 StartupEvents.registry("block", event => {
@@ -14,7 +16,7 @@ StartupEvents.registry("block", event => {
 
 /**
  * 
- * @param {import("moe.wolfgirl.probejs.generated.registry.minecraft.Block").$Block$$Original} event 
+ * @param {Registries.Block} event 
  * @param {StringJS} name 
  * @param {"probejs$$tag$$minecraft:block"[]} blockTags
  * @param {$MapColor} mapColor
@@ -29,7 +31,7 @@ const createCompressedRawOre = (event, name, blockTags, mapColor) => {
 
 /**
  * 
- * @param {import("moe.wolfgirl.probejs.generated.registry.minecraft.Block").$Block$$Original} event 
+ * @param {Registries.Block} event 
  * @param {StringJS} name 
  * @param {"probejs$$tag$$minecraft:block"[]} blockTags
  * @param {$MapColor} mapColor
@@ -44,7 +46,7 @@ const createCompressedMetalBlock = (event, name, blockTags, mapColor) => {
 
 /**
  * 
- * @param {import("moe.wolfgirl.probejs.generated.registry.minecraft.Block").$Block$$Original} event 
+ * @param {Registries.Block} event 
  * @param {StringJS} name 
  * @param {"probejs$$tag$$minecraft:block"[]} blockTags 
  * @param {import("net.minecraft.world.level.material.MapColor").$MapColor$$Type} mapColor

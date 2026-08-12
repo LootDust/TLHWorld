@@ -1,5 +1,3 @@
-import { Item } from "@side-only/startup/events/registry";
-
 StartupEvents.registry("item", event => {
     // Create : Ironworks
     event.create('create_ironworks:andesite_armor_helmet', 'kubejs:helmet')
@@ -64,6 +62,14 @@ StartupEvents.registry("item", event => {
     createMechanism(event, 'nuclear_mechanism', 'tlhworld:item/mechanism/nuclear_mechanism', 'tlhworld:item/mechanism/incomplete/nuclear_mechanism');
     createMechanism(event, 'advanced_precision_mechanism', 'tlhworld:item/mechanism/advanced_precision_mechanism', 'tlhworld:item/mechanism/incomplete/advanced_precision_mechanism');
     createMechanism(event, 'redstone_mechanism', 'tlhworld:item/mechanism/redstone_mechanism', 'tlhworld:item/mechanism/incomplete/redstone_mechanism');
+
+    // Music discs
+    event.create('tlhworld:music_disc_hideout')
+        .displayName({ translate: 'item.tlhworld.music_disc_hideout' })
+        .parentModel('minecraft:item/generated')
+        .textures({ 'layer0': 'tlhworld:item/music_disc/hideout' })
+        .maxStackSize(1)
+        .jukeboxPlayable("tlhworld:hideout", true);
 
     // Miscs
     event.create('tlhworld:sale_license')

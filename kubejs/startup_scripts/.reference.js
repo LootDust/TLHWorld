@@ -6,6 +6,9 @@
 
 /// <reference path=".config.js"/>
 
+/** @import * as Registries from "@side-only/startup/events/registry"; */
+
+
 /** @import { $List } from "java.util.List" */
 const $List = Java.loadClass("java.util.List");
 /** @import { $ArrayList } from "java.util.ArrayList" */

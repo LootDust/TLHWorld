@@ -1,15 +1,23 @@
 {
-    "carvers": {},
-    "downfall": 0.4,
-    "effects": {
-        "fog_color": 12638463,
-        "sky_color": 7907327,
-        "water_color": 4159204,
-        "water_fog_color": 329011
-    },
-    "features": [],
-    "has_precipitation": false,
-    "spawn_costs": {},
-    "spawners": {},
-    "temperature": 0.8
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 2965084,
+    "fog_color": 3488581,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "music": {
+      "sound": {
+        "sound_id": "tlhworld:music.hideout"
+      },
+      "min_delay": 4000,
+      "max_delay": 6000,
+      "replace_current_music": false
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
 }

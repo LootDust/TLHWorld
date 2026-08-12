@@ -1,0 +1,39 @@
+{
+    "music.hideout": {
+        "sounds": [
+            {
+                "name": "tlhworld:hideout/dark_horizon",
+                "stream": true
+            },
+            {
+                "name": "tlhworld:hideout/desolated",
+                "stream": true
+            },
+            {
+                "name": "tlhworld:hideout/echoes",
+                "stream": true
+            },
+            {
+                "name": "tlhworld:hideout/eclipse",
+                "stream": true
+            },
+            {
+                "name": "tlhworld:hideout/exfiltration",
+                "stream": true
+            },
+            {
+                "name": "tlhworld:hideout/prepare_for_escape",
+                "stream": true
+            }
+        ],
+        "stream": true
+    },
+    "music_disc.hideout": {
+        "sounds": [
+            {
+                "name": "tlhworld:hideout/wings",
+                "stream": true
+            }
+        ]
+    }
+}

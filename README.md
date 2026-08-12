@@ -109,7 +109,7 @@
 | ✅ | Dragon Survival IAF Integration | 1.2.3 | 龙之生存冰火传说兼容 | 附属-Dragon Survival | 双端需装 | - |
 | ✅ | Elytra Slot | 9.0.2 | 鞘翅槽位 | 附属-Curios | 客需服选 | - |
 | ✅ | EMI | 1.1.24 | EMI物品管理器 | 信息显示 | 客需服选 | - |
-| ✅ | EMI++ | 2.0.0 | - | 附属-EMI | 仅客户端 | - |
+| ✅ | EMI++ | 2.1.0 | - | 附属-EMI | 仅客户端 | - |
 | ✅ | EMI Enchanting | 0.1.2 | EMI附魔查询 | 附属-EMI | 仅客户端 | - |
 | ✅ | EMI Loot | 0.7.9 | EMI战利品表查询 | 附属-EMI | 双端需装 | - |
 | ✅ | End's Delight | 2.6.1 | 末地乐事 | 附属-Farmer's Delight | 双端需装 | - |

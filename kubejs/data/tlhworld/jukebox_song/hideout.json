@@ -1,0 +1,10 @@
+{
+    "description": {
+        "translate": "jukebox_song.tlhworld.hideout"
+    },
+    "comparator_output": 1,
+    "length_in_seconds": 191,
+    "sound_event": {
+        "sound_id": "tlhworld:music_disc.hideout"
+    }
+}

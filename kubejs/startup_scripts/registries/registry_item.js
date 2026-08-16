@@ -62,6 +62,7 @@ StartupEvents.registry("item", event => {
     createMechanism(event, 'nuclear_mechanism', 'tlhworld:item/mechanism/nuclear_mechanism', 'tlhworld:item/mechanism/incomplete/nuclear_mechanism');
     createMechanism(event, 'advanced_precision_mechanism', 'tlhworld:item/mechanism/advanced_precision_mechanism', 'tlhworld:item/mechanism/incomplete/advanced_precision_mechanism');
     createMechanism(event, 'redstone_mechanism', 'tlhworld:item/mechanism/redstone_mechanism', 'tlhworld:item/mechanism/incomplete/redstone_mechanism');
+    createMechanism(event, 'automation_mechanism', 'tlhworld:item/mechanism/automation_mechanism', 'tlhworld:item/mechanism/incomplete/automation_mechanism');
 
     // Music discs
     event.create('tlhworld:music_disc_hideout')
@@ -70,6 +71,12 @@ StartupEvents.registry("item", event => {
         .textures({ 'layer0': 'tlhworld:item/music_disc/hideout' })
         .maxStackSize(1)
         .jukeboxPlayable("tlhworld:hideout", true);
+
+    // Materials
+    event.create('tlhworld:magnet')
+        .displayName({ translate: 'item.tlhworld.magnet' })
+        .parentModel('minecraft:item/generated')
+        .textures({ 'layer0': 'tlhworld:item/magnet' });
 
     // Miscs
     event.create('tlhworld:sale_license')

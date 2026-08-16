@@ -1,0 +1,7 @@
+{
+    "selector": "tlhworld:paradox_levitite",
+    "properties": {
+        "sable:floating_material": "tlhworld:paradox_levitite",
+        "sable:fragile": true
+    }
+}

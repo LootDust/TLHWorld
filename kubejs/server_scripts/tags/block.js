@@ -101,9 +101,6 @@ ServerEvents.tags("block", event => {
         'create:creative_crate',
         'create_enchantment_industry:creative_bookshelf',
         'createaddition:creative_energy',
-        'powergrid:creative_voltage_source',
-        'powergrid:creative_current_source',
-        'powergrid:creative_resistor',
         'create_connected:creative_fluid_vessel',
         'createcasing:creative_cogwheel'
     ])

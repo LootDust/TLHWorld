@@ -83,7 +83,6 @@
 | ✅ | Create : Ratatouille | 1.4.0 | 机械动力：齿轮与麦穗 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Ratatouille Fried Delights | 1.0.4 | 机械动力：齿轮与麦穗的炸物拓展 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Optical | 0.4.2 | 机械动力：光学 | 附属-Create | 双端需装 | - |
-| ✅ | Create : Power Grid | 0.5.5.1 | 机械动力：交错电网 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Protection Pixel | 2.2.1 | 机素防护 | 附属-Create | 双端需装 | - |
 | ✅ | Create : Schematic Checker | 1.21.27 | 机械动力：蓝图校验 | 附属-Create | 双端需装 | - |
 | ⛔ | Create : Shimmer | 1.2.10 | 机械动力：微光 | 附属-Create | 双端需装 | - |

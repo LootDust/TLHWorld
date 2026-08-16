@@ -5,9 +5,12 @@ const $MapColor = Java.loadClass("net.minecraft.world.level.material.MapColor");
 
 StartupEvents.registry("block", event => {
     event.create('tlhworld:hideout_barrier')
-        .hardness(-1).resistance(3600000.75).mapColor($MapColor.COLOR_GRAY).instrument('basedrum').noDrops();
+        .hardness(-1).resistance(3600000.75).mapColor($MapColor.COLOR_GRAY).tagBlock(['tlhworld:hideouts']).instrument('basedrum').noDrops();
     event.create('tlhworld:hideout_light')
-        .hardness(-1).resistance(3600000.75).mapColor($MapColor.COLOR_GRAY).instrument('basedrum').noDrops().lightLevel(1.0);
+        .hardness(-1).resistance(3600000.75).mapColor($MapColor.COLOR_GRAY).tagBlock(['tlhworld:hideouts']).instrument('basedrum').noDrops().lightLevel(1.0);
+
+    event.create('tlhworld:paradox_levitite')
+        .hardness(7).resistance(20).mapColor($MapColor.COLOR_LIGHT_BLUE).tagBlock(['minecraft:mineable/pickaxe']).noDrops();
 
     createCompressedRawOre(event, 'zinc', ['minecraft:needs_iron_tool', 'minecraft:mineable/pickaxe'], $MapColor.GLOW_LICHEN);
     createCompressedRawOre(event, 'tin', ['minecraft:needs_iron_tool', 'minecraft:mineable/pickaxe'], $MapColor.TERRACOTTA_WHITE);
@@ -49,10 +52,10 @@ const createCompressedMetalBlock = (event, name, blockTags, mapColor) => {
  * @param {Registries.Block} event 
  * @param {StringJS} name 
  * @param {"probejs$$tag$$minecraft:block"[]} blockTags 
- * @param {import("net.minecraft.world.level.material.MapColor").$MapColor$$Type} mapColor
+ * @param {$MapColor} mapColor
  * @param {float} hardness 
  * @param {float} resistance 
- * @param {import("net.minecraft.world.level.block.SoundType").$SoundType$$Type} soundType 
+ * @param {import("@package/net/minecraft/world/level/block").$SoundType} soundType 
  * @param {boolean} requiresTool 
  */
 const createCompressedBlock = (event, name, blockTags, mapColor,  hardness, resistance, soundType, requiresTool) => {

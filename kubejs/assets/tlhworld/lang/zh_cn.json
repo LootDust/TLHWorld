@@ -3,6 +3,7 @@
 
     "block.tlhworld.hideout_barrier": "藏身处外墙",
     "block.tlhworld.hideout_light": "藏身处应急灯",
+    "block.tlhworld.paradox_levitite": "悖论浮空水晶",
 
     "container.tlhworld.recipebuilder_craft_shaped": "有序合成配方编辑器",
     "container.tlhworld.recipebuilder_craft_shaped.miss_recipe": "正在编辑：未知配方",
@@ -16,8 +17,8 @@
 
     "item.tlhworld.andesite_mechanism": "安山构件",
     "item.tlhworld.incomplete_andesite_mechanism": "安山构件（半成品）",
-    "item.tlhworld.computing_mechanism": "运算构件",
-    "item.tlhworld.incomplete_computing_mechanism": "运算构件（半成品）",
+    "item.tlhworld.computing_mechanism": "运算组件",
+    "item.tlhworld.incomplete_computing_mechanism": "运算组件（半成品）",
     "item.tlhworld.experience_mechanism": "经验构件",
     "item.tlhworld.incomplete_experience_mechanism": "经验构件（半成品）",
     "item.tlhworld.super_experience_mechanism": "超越经验构件",
@@ -36,17 +37,21 @@
     "item.tlhworld.incomplete_advanced_heat_mechanism": "先进热能构件（半成品）",
     "item.tlhworld.infused_mechanism": "灌注构件",
     "item.tlhworld.incomplete_infused_mechanism": "灌注构件（半成品）",
-    "item.tlhworld.logic_mechanism": "逻辑构件",
-    "item.tlhworld.incomplete_logic_mechanism": "逻辑构件（半成品）",
+    "item.tlhworld.logic_mechanism": "逻辑组件",
+    "item.tlhworld.incomplete_logic_mechanism": "逻辑组件（半成品）",
     "item.tlhworld.nuclear_mechanism": "辐射构件",
     "item.tlhworld.incomplete_nuclear_mechanism": "辐射构件（半成品）",
     "item.tlhworld.advanced_precision_mechanism": "先进精密构件",
     "item.tlhworld.incomplete_advanced_precision_mechanism": "先进精密构件（半成品）",
     "item.tlhworld.redstone_mechanism": "红石构件",
     "item.tlhworld.incomplete_redstone_mechanism": "红石构件（半成品）",
+    "item.tlhworld.automation_mechanism": "智能构件",
+    "item.tlhworld.incomplete_automation_mechanism": "智能构件（半成品）",
+
+    "item.tlhworld.magnet": "磁铁",
 
     "item.tlhworld.music_disc_hideout": "音乐唱片",
-    "jukebox_song.tlhworld.hideout": "Wings - Geneburn",
+    "jukebox_song.tlhworld.hideout": "Geneburn - Wings",
 
     "item.tlhworld.mehvahdjukaars_foolish": "锦致装饰那个没妈傻逼作者的愚蠢行径",
     "item.tlhworld.mehvahdjukaars_foolish.tooltip": "我这辈子头回见把所有物品都变成铜制品的死全家馊主意，",

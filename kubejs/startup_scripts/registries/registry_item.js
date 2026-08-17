@@ -1,29 +1,70 @@
+const $Type = Java.loadClass("net.minecraft.world.item.ArmorItem$Type");
+
 StartupEvents.registry("item", event => {
     // Create : Ironworks
     event.create('create_ironworks:andesite_armor_helmet', 'kubejs:helmet')
-        .displayName({ translate: 'item.create_ironworks.andesite_armor_helmet'})
+        .displayName({ translate: 'item.create_ironworks.andesite_armor_helmet' })
         .parentModel('minecraft:item/generated')
-        .textures({'layer0': 'create_ironworks:item/andesite_armor_helmet'})
+        .textures({ 'layer0': 'create_ironworks:item/andesite_armor_helmet' })
         .material('create_ironworks:andesite_armor')
-        .maxDamage(256);
+        .maxDamage($Type.HELMET.getDurability(19));
     event.create('create_ironworks:andesite_armor_chestplate', 'kubejs:chestplate')
-        .displayName({ translate: 'item.create_ironworks.andesite_armor_chestplate'})
+        .displayName({ translate: 'item.create_ironworks.andesite_armor_chestplate' })
         .parentModel('minecraft:item/generated')
-        .textures({'layer0': 'create_ironworks:item/andesite_armor_chestplate'})
+        .textures({ 'layer0': 'create_ironworks:item/andesite_armor_chestplate' })
         .material('create_ironworks:andesite_armor')
-        .maxDamage(256);
+        .maxDamage($Type.BODY.getDurability(19));
     event.create('create_ironworks:andesite_armor_leggings', 'kubejs:leggings')
-        .displayName({ translate: 'item.create_ironworks.andesite_armor_leggings'})
+        .displayName({ translate: 'item.create_ironworks.andesite_armor_leggings' })
         .parentModel('minecraft:item/generated')
-        .textures({'layer0': 'create_ironworks:item/andesite_armor_leggings'})
+        .textures({ 'layer0': 'create_ironworks:item/andesite_armor_leggings' })
         .material('create_ironworks:andesite_armor')
-        .maxDamage(256);
+        .maxDamage($Type.LEGGINGS.getDurability(19));
     event.create('create_ironworks:andesite_armor_boots', 'kubejs:boots')
-        .displayName({ translate: 'item.create_ironworks.andesite_armor_boots'})
+        .displayName({ translate: 'item.create_ironworks.andesite_armor_boots' })
         .parentModel('minecraft:item/generated')
-        .textures({'layer0': 'create_ironworks:item/andesite_armor_boots'})
+        .textures({ 'layer0': 'create_ironworks:item/andesite_armor_boots' })
         .material('create_ironworks:andesite_armor')
-        .maxDamage(256);
+        .maxDamage($Type.BOOTS.getDurability(19));
+    event.create('create_ironworks:andesite_axe', 'kubejs:axe')
+        .displayName({ translate: 'item.create_ironworks.andesite_axe' })
+        .parentModel('minecraft:item/generated')
+        .textures({ 'layer0': 'create_ironworks:item/andesite_axe' })
+        .tier('create_ironworks:andesite')
+        .attackDamageBaseline(7.0)
+        .speedBaseline(-3.2);
+    event.create('create_ironworks:andesite_hoe', 'kubejs:hoe')
+        .displayName({ translate: 'item.create_ironworks.andesite_hoe' })
+        .parentModel('minecraft:item/generated')
+        .textures({ 'layer0': 'create_ironworks:item/andesite_hoe' })
+        .tier('create_ironworks:andesite')
+        .attackDamageBaseline(-1.0)
+        .speedBaseline(-2.0);
+    event.create('create_ironworks:andesite_sword', 'kubejs:sword')
+        .displayName({ translate: 'item.create_ironworks.andesite_sword' })
+        .parentModel('minecraft:item/generated')
+        .textures({ 'layer0': 'create_ironworks:item/andesite_sword' })
+        .tier('create_ironworks:andesite')
+        .attackDamageBaseline(4.0)
+        .speedBaseline(-2.4);
+    event.create('create_ironworks:andesite_shovel', 'kubejs:shovel')
+        .displayName({ translate: 'item.create_ironworks.andesite_shovel' })
+        .parentModel('minecraft:item/generated')
+        .textures({ 'layer0': 'create_ironworks:item/andesite_shovel' })
+        .tier('create_ironworks:andesite')
+        .attackDamageBaseline(1.5)
+        .speedBaseline(-3.0);
+    event.create('create_ironworks:andesite_hammer')
+        .displayName({ translate: 'item.create_ironworks.andesite_hammer' })
+        .parentModel('minecraft:item/generated')
+        .textures({ 'layer0': 'create_ironworks:item/andesite_hammer' });
+    event.create('create_ironworks:andesite_pickaxe', 'kubejs:pickaxe')
+        .displayName({ translate: 'item.create_ironworks.andesite_pickaxe' })
+        .parentModel('minecraft:item/generated')
+        .textures({ 'layer0': 'create_ironworks:item/andesite_pickaxe' })
+        .tier('create_ironworks:andesite')
+        .attackDamageBaseline(1.0)
+        .speedBaseline(-2.8);
 
     // Create : Sifter
     event.create('createsifter:tin_mesh', 'createsifter:mesh')

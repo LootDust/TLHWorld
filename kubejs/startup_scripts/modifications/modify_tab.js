@@ -22,6 +22,20 @@ StartupEvents.modifyCreativeTab('createcompression:createcompression', event => 
     ])
 })
 
+StartupEvents.modifyCreativeTab('create_ironworks:create_ironworks', event => {
+    addAfter(event, 'create_ironworks:tin_block', [
+        'create_ironworks:andesite_sword',
+        'create_ironworks:andesite_pickaxe',
+        'create_ironworks:andesite_axe',
+        'create_ironworks:andesite_shovel',
+        'create_ironworks:andesite_hoe',
+        'create_ironworks:andesite_armor_helmet',
+        'create_ironworks:andesite_armor_chestplate',
+        'create_ironworks:andesite_armor_leggings',
+        'create_ironworks:andesite_armor_boots'
+    ])
+})
+
 StartupEvents.modifyCreativeTab('createsifter:main', event => {
     event.addAfter('createsifter:string_mesh', 'createsifter:tin_mesh');
     event.addAfter('createsifter:andesite_mesh', 'createsifter:copper_mesh');
@@ -29,59 +43,52 @@ StartupEvents.modifyCreativeTab('createsifter:main', event => {
 })
 
 StartupEvents.modifyCreativeTab('kubejs:tab', event => {
-    event.remove('createcompression:compressed_raw_tin_1x');
-    event.remove('createcompression:compressed_raw_tin_2x');
-    event.remove('createcompression:compressed_raw_tin_3x');
-    event.remove('createcompression:compressed_raw_tin_4x');
-    event.remove('createcompression:compressed_raw_tin_5x');
-    event.remove('createcompression:compressed_raw_tin_6x');
-    event.remove('createcompression:compressed_raw_tin_7x');
-    event.remove('createcompression:compressed_raw_tin_8x');
-    event.remove('createcompression:compressed_raw_tin_9x');
+    removeCopressions(event, 'raw_tin');
+    removeCopressions(event, 'raw_zinc');
+    removeCopressions(event, 'tin');
 
-    event.remove('createcompression:compressed_raw_zinc_1x');
-    event.remove('createcompression:compressed_raw_zinc_2x');
-    event.remove('createcompression:compressed_raw_zinc_3x');
-    event.remove('createcompression:compressed_raw_zinc_4x');
-    event.remove('createcompression:compressed_raw_zinc_5x');
-    event.remove('createcompression:compressed_raw_zinc_6x');
-    event.remove('createcompression:compressed_raw_zinc_7x');
-    event.remove('createcompression:compressed_raw_zinc_8x');
-    event.remove('createcompression:compressed_raw_zinc_9x');
+    remove(event, [
+        'create_ironworks:andesite_sword',
+        'create_ironworks:andesite_pickaxe',
+        'create_ironworks:andesite_axe',
+        'create_ironworks:andesite_shovel',
+        'create_ironworks:andesite_hoe',
+        'create_ironworks:andesite_armor_helmet',
+        'create_ironworks:andesite_armor_chestplate',
+        'create_ironworks:andesite_armor_leggings',
+        'create_ironworks:andesite_armor_boots'
+    ])
 
-    event.remove('createcompression:compressed_tin_1x');
-    event.remove('createcompression:compressed_tin_2x');
-    event.remove('createcompression:compressed_tin_3x');
-    event.remove('createcompression:compressed_tin_4x');
-    event.remove('createcompression:compressed_tin_5x');
-    event.remove('createcompression:compressed_tin_6x');
-    event.remove('createcompression:compressed_tin_7x');
-    event.remove('createcompression:compressed_tin_8x');
-    event.remove('createcompression:compressed_tin_9x');
+    remove(event, [
+        'tlhworld:incomplete_andesite_mechanism',
+        'tlhworld:incomplete_experience_mechanism',
+        'tlhworld:incomplete_super_experience_mechanism',
+        'tlhworld:incomplete_ferrite_mechanism',
+        'tlhworld:incomplete_fluid_mechanism',
+        'tlhworld:incomplete_advanced_fluid_mechanism',
+        'tlhworld:incomplete_low_heat_mechanism',
+        'tlhworld:incomplete_heat_mechanism',
+        'tlhworld:incomplete_advanced_heat_mechanism',
+        'tlhworld:incomplete_infused_mechanism',
+        'tlhworld:incomplete_logic_mechanism',
+        'tlhworld:incomplete_computing_mechanism',
+        'tlhworld:incomplete_nuclear_mechanism',
+        'tlhworld:incomplete_advanced_precision_mechanism',
+        'tlhworld:incomplete_redstone_mechanism',
+        'tlhworld:incomplete_automation_mechanism'
+    ]);
 
-    event.remove('tlhworld:incomplete_andesite_mechanism');
-    event.remove('tlhworld:incomplete_experience_mechanism');
-    event.remove('tlhworld:incomplete_super_experience_mechanism');
-    event.remove('tlhworld:incomplete_ferrite_mechanism');
-    event.remove('tlhworld:incomplete_fluid_mechanism');
-    event.remove('tlhworld:incomplete_advanced_fluid_mechanism');
-    event.remove('tlhworld:incomplete_low_heat_mechanism');
-    event.remove('tlhworld:incomplete_heat_mechanism');
-    event.remove('tlhworld:incomplete_advanced_heat_mechanism');
-    event.remove('tlhworld:incomplete_infused_mechanism');
-    event.remove('tlhworld:incomplete_logic_mechanism');
-    event.remove('tlhworld:incomplete_computing_mechanism');
-    event.remove('tlhworld:incomplete_nuclear_mechanism');
-    event.remove('tlhworld:incomplete_advanced_precision_mechanism');
-    event.remove('tlhworld:incomplete_redstone_mechanism');
-    event.remove('tlhworld:incomplete_automation_mechanism');
+    remove(event, [
+        'createsifter:tin_mesh',
+        'createsifter:copper_mesh',
+        'createsifter:osmium_mesh'
+    ]);
 
-    event.remove('createsifter:tin_mesh');
-    event.remove('createsifter:copper_mesh');
-    event.remove('createsifter:osmium_mesh');
-    event.remove('tlhworld:sale_license');
-    event.remove('tlhworld:purchase_license');
-    event.remove('tlhworld:mehvahdjukaars_foolish');
+    remove(event, [
+        'tlhworld:sale_license',
+        'tlhworld:purchase_license',
+        'tlhworld:mehvahdjukaars_foolish'
+    ]);
 })
 
 /** @import { $CreativeTabKubeEvent } from "@package/dev/latvian/mods/kubejs/item/creativetab";*/
@@ -99,4 +106,32 @@ const addAfter = (event, firstItem, itemList) => {
             event.addAfter(itemList[i - 1], itemList[i]);
         }
     }
+}
+/**
+ * 
+ * @param {$CreativeTabKubeEvent} event 
+ * @param {$ItemStack_[]} itemList 
+ */
+const remove = (event, itemList) => {
+    itemList.forEach(item => {
+        event.remove(item);
+    });
+}
+/**
+ * 
+ * @param {$CreativeTabKubeEvent} event 
+ * @param {String} compressed 
+ */
+const removeCopressions= (event, compressed) => {
+    remove(event, [
+        'createcompression:compressed_' + compressed + '_1x',
+        'createcompression:compressed_' + compressed + '_2x',
+        'createcompression:compressed_' + compressed + '_3x',
+        'createcompression:compressed_' + compressed + '_4x',
+        'createcompression:compressed_' + compressed + '_5x',
+        'createcompression:compressed_' + compressed + '_6x',
+        'createcompression:compressed_' + compressed + '_7x',
+        'createcompression:compressed_' + compressed + '_8x',
+        'createcompression:compressed_' + compressed + '_9x'
+    ])
 }

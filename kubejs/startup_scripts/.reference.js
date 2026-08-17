@@ -32,7 +32,7 @@ const $ResourceLocation = Java.loadClass("net.minecraft.resources.ResourceLocati
 const $ServerPlayer = Java.loadClass("net.minecraft.server.level.ServerPlayer");
 /** @import { $InteractionHand } from "net.minecraft.world.InteractionHand" */
 const $InteractionHand = Java.loadClass("net.minecraft.world.InteractionHand");
-/** @import { $Player } from "net.minecraft.world.entity.player.Player" */
+/** @import { $Player } from "@package/net/minecraft/world/entity/player" */
 const $Player = Java.loadClass("net.minecraft.world.entity.player.Player");
 /** @import { $RecipeHolder } from "net.minecraft.world.item.crafting.RecipeHolder" */
 const $RecipeHolder = Java.loadClass("net.minecraft.world.item.crafting.RecipeHolder");

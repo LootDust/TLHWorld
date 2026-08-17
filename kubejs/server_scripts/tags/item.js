@@ -17,6 +17,17 @@ ServerEvents.tags("item", event => {
         '#c:woods',
         '#c:branches'
     ]);
+    event.add("minecraft:pressure_plates", [
+        '#minecraft:wooden_pressure_plates',
+        'minecraft:stone_pressure_plate',
+        'minecraft:polished_blackstone_pressure_plate',
+        'minecraft:heavy_weighted_pressure_plate',
+        'minecraft:light_weighted_pressure_plate',
+        'born_in_chaos_v1:black_argillitepressureplate',
+        'undergarden:depthrock_pressure_plate',
+        'undergarden:dreadrock_pressure_plate',
+        'undergarden:shiverstone_pressure_plate'
+    ]);
 
 
     // 通用标签
@@ -83,6 +94,10 @@ ServerEvents.tags("item", event => {
         'minecraft:mangrove_log',
         'minecraft:cherry_log',
         'minecraft:pale_oak_log',
+        'ars_nouveau:blue_archwood_log',
+        'ars_nouveau:red_archwood_log',
+        'ars_nouveau:purple_archwood_log',
+        'ars_nouveau:green_archwood_log',
         'biomesoplenty:fir_log',
         'biomesoplenty:pine_log',
         'biomesoplenty:maple_log',
@@ -96,6 +111,7 @@ ServerEvents.tags("item", event => {
         'biomesoplenty:umbran_log',
         'biomesoplenty:hellbark_log',
         'biomesoplenty:empyreal_log',
+        'iceandfire:dreadwood_log',
         'ratatouille_fried_delights:cola_log',
         'regions_unexplored:alpha_log',
         'regions_unexplored:ashen_log',

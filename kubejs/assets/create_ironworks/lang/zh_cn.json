@@ -6,5 +6,15 @@
     "block.create_ironworks.rose_quartz_block": "玫瑰石英块",
     "block.create_ironworks.sturdy_sheet_block": "坚固板块",
 
-    "item.create_ironworks.crushed_raw_tin": "粉碎粗锡"
+    "item.create_ironworks.crushed_raw_tin": "粉碎粗锡",
+
+    "item.create_ironworks.andesite_sword": "安山合金剑",
+    "item.create_ironworks.andesite_pickaxe": "安山合金镐",
+    "item.create_ironworks.andesite_axe": "安山合金斧",
+    "item.create_ironworks.andesite_shovel": "安山合金锹",
+    "item.create_ironworks.andesite_hoe": "安山合金锄",
+    "item.create_ironworks.andesite_armor_helmet": "安山合金头盔",
+    "item.create_ironworks.andesite_armor_chestplate": "安山合金胸甲",
+    "item.create_ironworks.andesite_armor_leggings": "安山合金护腿",
+    "item.create_ironworks.andesite_armor_boots": "安山合金靴子"
 }

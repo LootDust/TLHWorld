@@ -85,3 +85,5 @@ exported/*
 
 kubejs/README.txt
 !kubejs/data/tlhworld/dimension/tlhworld.json
+
+ldlib2/editor_layouts/viscript_recipe.*

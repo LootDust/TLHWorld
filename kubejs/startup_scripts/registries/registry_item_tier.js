@@ -9,3 +9,14 @@ StartupEvents.registry("armor_material", event => {
         .enchantmentValue(4)
         .layers([new $ArmorMaterial$Layer('create_ironworks:andesite_armor')])
 })
+
+ItemEvents.toolTierRegistry(event => {
+    event.add('create_ironworks:andesite', tier => {
+        tier.setIncorrectBlocksForDropsTag('tlhworld:incorrect_for_copper_tool');
+        tier.setUses(190);
+        tier.setSpeed(5.0);
+        tier.setAttackDamageBonus(1.0);
+        tier.setEnchantmentValue(7);
+        tier.setRepairIngredient(Ingredient.of('create:andesite_alloy'));
+    })
+})

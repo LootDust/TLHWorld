@@ -1,0 +1,18 @@
+{
+  "c:stripped_logs": false,
+  "c:unstripped_logs": false,
+  "c:unstripped_woods": false,
+  "c:stripped_woods": false,
+  "twilightforest:hollow_logs": false,
+  "minecraft:planks": false,
+  "c:stones": false,
+  "minecraft:stairs": false,
+  "minecraft:slabs": false,
+  "c:fences/wooden": true,
+  "minecraft:wooden_stairs": true,
+  "c:fences": false,
+  "minecraft:doors": false,
+  "c:fence_gates": false,
+  "minecraft:trapdoors": false,
+  "c:creatives": false
+}

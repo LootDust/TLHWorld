@@ -83,13 +83,16 @@ ServerEvents.recipes(event => {
     // Mod: Create Sifting
     event.shapeless(Item.of('minecraft:cobblestone'), ['createsifter:stone_pebble', 'createsifter:stone_pebble', 'createsifter:stone_pebble', 'createsifter:stone_pebble']);
     event.shapeless(Item.of('minecraft:andesite'), ['createsifter:andesite_pebble', 'createsifter:andesite_pebble', 'createsifter:andesite_pebble', 'createsifter:andesite_pebble']);
+    event.shapeless(Item.of('minecraft:granite'), ['createsifter:stone_pebble', 'createsifter:diorite_pebble', 'createsifter:diorite_pebble', 'createsifter:deepslate_pebble']);
     event.shapeless(Item.of('minecraft:granite'), ['createsifter:granite_pebble', 'createsifter:granite_pebble', 'createsifter:granite_pebble', 'createsifter:granite_pebble']);
     event.shapeless(Item.of('minecraft:diorite'), ['createsifter:diorite_pebble', 'createsifter:diorite_pebble', 'createsifter:diorite_pebble', 'createsifter:diorite_pebble']);
+    event.shapeless(Item.of('minecraft:cobbled_deepslate'), ['createsifter:deepslate_pebble', 'createsifter:deepslate_pebble', 'createsifter:deepslate_pebble', 'createsifter:deepslate_pebble']);
     event.shapeless(Item.of('minecraft:tuff'), ['createsifter:tuff_pebble', 'createsifter:tuff_pebble', 'createsifter:tuff_pebble', 'createsifter:tuff_pebble']);
     event.shapeless(Item.of('minecraft:calcite'), ['createsifter:calcite_pebble', 'createsifter:calcite_pebble', 'createsifter:calcite_pebble', 'createsifter:calcite_pebble']);
     event.shapeless(Item.of('minecraft:basalt'), ['createsifter:basalt_pebble', 'createsifter:basalt_pebble', 'createsifter:basalt_pebble', 'createsifter:basalt_pebble']);
     event.shapeless(Item.of('minecraft:blackstone'), ['createsifter:blackstone_pebble', 'createsifter:blackstone_pebble', 'createsifter:blackstone_pebble', 'createsifter:blackstone_pebble']);
-    
+    event.shapeless(Item.of('create:limestone'), ['createsifter:stone_pebble', 'createsifter:calcite_pebble', 'createsifter:calcite_pebble', 'createsifter:andesite_pebble'])
+
     // Mod: Homeostatic
     event.shapeless(Item.of('homeostatic:water_filter', 2), ['minecraft:paper', 'minecraft:charcoal'])
     event.shapeless(Item.of('homeostatic:water_filter', 3), ['minecraft:paper', 'mekanism:dust_charcoal'])

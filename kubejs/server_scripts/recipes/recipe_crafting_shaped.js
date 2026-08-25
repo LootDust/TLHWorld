@@ -337,7 +337,7 @@ ServerEvents.recipes(event => {
         P: '#minecraft:planks',
         W: '#minecraft:logs'
     });
-    event.shaped(Item.of('tacz:modern_kinetic_gun[custom_data={GunCurrentAmmoCount:0,GunFireMode:"BURST",GunId:"tacz:b93r",HasBulletInBarrel:0b}]'), [
+    event.shaped(Item.of('tacz:modern_kinetic_gun[custom_data={GunFireMode:"BURST",GunId:"tacz:b93r",HasBulletInBarrel:0b}]'), [
         "TTB",
         "AAP"
     ], {
@@ -346,6 +346,13 @@ ServerEvents.recipes(event => {
         A: 'create:andesite_alloy',
         P: '#minecraft:planks'
     });
+    event.shaped(Item.of('tacz:modern_kinetic_gun[custom_data={GunFireMode:"SEMI",GunId:"bf1:kolibri",HasBulletInBarrel:0b}]'), [
+        "TS",
+        " S"
+    ], {
+        T: 'create_ironworks:tin_nugget',
+        S: 'minecraft:stick'
+    })
 
     // Mod: Touhou Little Maid
     event.shaped(Item.of('touhou_little_maid:hakurei_gohei'), [

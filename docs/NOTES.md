@@ -149,6 +149,93 @@
 >参考链接：  
 [中文Minecraft Wiki - 噪声设置](https://zh.minecraft.wiki/w/噪声设置)
 
+引用中文MCW的原话，噪声设置就是用于生成世界的基础地形和表面规则的噪声生成器的定义，更人话一点就是除了地物和结构等内容以外绝大部分地势走向与自然方块放置的规则。
+
+在此，我们会以原版主世界的噪声设置为例逐步拆解每个设置项的作用并分析原版是如何安排噪声设置的。
+
+噪声设置最主要的便是`noise_router`和`surface_rule`这两个部分，前者是实际的密度函数与噪声设置关联方式，是实际的数值提供器；后者则是直接影响各个生物群系不同地表形态的控制器。
+
+下面是原版的`noise_router.initial_density_without_jaggedness`字段解析，这个字段控制含水层和表面规则的放置。
+```JSON
+{
+    "initial_density_without_jaggedness": {
+        "type": "minecraft:add",
+        "argument1": 0.1171875,
+        "argument2": {
+            "type": "minecraft:mul",
+            "argument1": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_value": 0.0,
+                "from_y": -64,
+                "to_value": 1.0,
+                "to_y": -40
+            },
+            "argument2": {
+                "type": "minecraft:add",
+                "argument1": -0.1171875,
+                "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": -0.078125,
+                    "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": {
+                            "type": "minecraft:y_clamped_gradient",
+                            "from_value": 1.0,
+                            "from_y": 240,
+                            "to_value": 0.0,
+                            "to_y": 256
+                        },
+                        "argument2": {
+                            "type": "minecraft:add",
+                            "argument1": 0.078125,
+                            "argument2": {
+                                "type": "minecraft:clamp",
+                                "input": {
+                                    "type": "minecraft:add",
+                                    "argument1": -0.703125,
+                                    "argument2": {
+                                        "type": "minecraft:mul",
+                                        "argument1": 4.0,
+                                        "argument2": {
+                                            "type": "minecraft:quarter_negative",
+                                            "argument": {
+                                                "type": "minecraft:mul",
+                                                "argument1": "minecraft:overworld/depth",
+                                                "argument2": {
+                                                    "type": "minecraft:cache_2d",
+                                                    "argument": "minecraft:overworld/factor"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "max": 64.0,
+                                "min": -64.0
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+不难看出上述密度函数等价于：  
+$IDWJ = 0.1171875 + YClampedGradient(-64,-40,0,1) * f_1$  
+$f_1 = (YClampedGradient(240,256,1,0) * f_2 - 0.078125) - 0.1171875$  
+$f_2 = 0.078125 + Clamp(4 * f_3 - 0.703125,-64,64)$  
+$f_3 = QuarterNegative(OverworldDepth * Cached2D(OverworldFactor))$
+
+结合MCW的密度函数页面内容，我们便能逐步拆解出这些算式的含义。  
+首先是 $IDWJ$ 中的 $YClampedGradient$ 函数，它将Y坐标钳制在 $[-64,-40]$ 的区间上，随后映射到 $[0,1]$ 区间；类似的， $f_1$ 中的 $YClampedGradient$ 函数把Y坐标钳制在 $[240,256]$ 区间，随后反向映射到 $[0,1]$ 区间上。这两者的作用是在世界底部和顶部部分作过渡，它们确保了在基础地形刻画时Y≤-64时必定为岩石而Y≥256时必定为空气。  
+然后是 $f_2$ 中的 $Clamp$ 函数，它将4倍 $f_3$ 减0.703125的值钳制在 $[-64,64]$ ，从而避免极端局部地形。  
+$QuarterNegative$ 函数查阅MCW后可知，若自变量是正数或0返回本身，若是负数返回自变量的1/4，在这里这个函数的主要作用便是让负值区间更小从而降低极端深坑的出现可能性。  
+$Cached2D$ 函数在MCW上的描述不甚清晰，但是也不难看出它的含义便是预先根据XZ坐标计算一个值并缓存，随后对于同XZ坐标不同Y坐标的情况直接进行代入，从而确保一些不涉及高度的数值能稳定输出。  
+$OverworldDepth$ 和 $OverworldFactor$ 是另外两个密度函数。前者简单来说基本等价于 $YClampedGradient(-64,320,1.5,-1.5)$ （与这个函数的差距在于它会乘以一个微小偏移量，但是不相乘对于推断总式原理也无伤大雅），它的作用便是让低处更可能被岩石填充而高处被空气填充。后者是一个复杂的地形因子系数，结合了大陆性、侵蚀度和山脊山谷性，通过三层嵌套的三次样条运算得出结果，但是简单说明就是陆地和山脉附加这个值会更高，而在海洋之中会更低。
+
+综上所述，原版的 $IDWJ$ 这一噪声设置字段提供了一个平滑过渡的，在大尺度下划定了基本的海陆高度分布的初始密度场，其结果为正值的坐标处被填充为岩石等，而负值处则被视作空气或含水层。它为后续更多噪声设置的应用提供了基准。
+
 ---
 
 #### 地物与结构

@@ -1,0 +1,11 @@
+{
+    "type": "tlhworld:worldgentest",
+    "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+            "type": "minecraft:fixed",
+            "biome": "tlhworld:hideout"
+        },
+        "settings": "tlhworld:worldgentest"
+    }
+}

@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
                 "id": "tlhworld:andesite_mechanism"
             }
         ]
-    })
+    });
 
     event.custom({
         "type": "createdieselgenerators:hammering",
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
                 "id": "create_ironworks:tin_sheet"
             }
         ]
-    })
+    });
     
     event.custom({
         "type": "createdieselgenerators:hammering",
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
                 "id": "create:golden_sheet"
             }
         ]
-    })
+    });
 
     event.custom({
         "type": "createdieselgenerators:hammering",
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
                 "id": "createdeco:zinc_sheet"
             }
         ]
-    })
+    });
 
     event.custom({
         "type": "createdieselgenerators:hammering",
@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
                 "id": "create:copper_sheet"
             }
         ]
-    })
+    });
 
     event.custom({
         "type": "createdieselgenerators:hammering",
@@ -89,7 +89,21 @@ ServerEvents.recipes(event => {
                 "id": "createdeco:andesite_sheet"
             }
         ]
-    })
+    });
+
+    event.custom({
+        "type": "createdieselgenerators:hammering",
+        "ingredients": [
+            {
+                "item": "minecraft:cobblestone"
+            }
+        ],
+        "results": [
+            {
+                "id": "minecraft:gravel"
+            }
+        ]
+    });
 
     event.custom({
         "type": "createdieselgenerators:hammering",
@@ -103,7 +117,7 @@ ServerEvents.recipes(event => {
                 "id": "create:cardboard"
             }
         ]
-    })
+    });
 
     event.custom({
         "type": "createdieselgenerators:hammering",
@@ -117,5 +131,5 @@ ServerEvents.recipes(event => {
                 "id": "minecraft:brown_dye"
             }
         ]
-    })
+    });
 })

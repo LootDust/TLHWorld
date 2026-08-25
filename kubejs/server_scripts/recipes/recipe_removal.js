@@ -46,11 +46,14 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:industrial_iron_block_from_ingots_iron_stonecutting' });
 
     // Mod: Homeostatic
-    //event.remove({ id: 'homeostatic:water_filter' })
-    //event.remove({ id: 'homeostatic:campfire_purified_water_bottle' })
-    //event.remove({ id: 'homeostatic:furnace_purified_water_bottle' })
+    //event.remove({ id: 'homeostatic:water_filter' });
+    //event.remove({ id: 'homeostatic:campfire_purified_water_bottle' });
+    //event.remove({ id: 'homeostatic:furnace_purified_water_bottle' });
 
     // Mod: Kaleidoscope Cookery
+    event.remove({ id: 'kaleidoscope_cookery:millstone/polished_andesite_from_andesite' });
+    event.remove({ id: 'kaleidoscope_cookery:millstone/polished_granite_from_granite' });
+    event.remove({ id: 'kaleidoscope_cookery:millstone/polished_diorite_from_diorite' });
     event.remove({ id: 'kaleidoscope_cookery:millstone/smooth_stone_from_cobblestone' });
     event.remove({ id: 'kaleidoscope_cookery:stockpot/udon_noodle_cooked_eggs' })
 
